@@ -16,13 +16,24 @@
     "dataTyp": "equipment",
     "typeZh": "一般",
     "typeSub": "武器種類",
+    "generalZh": "太刀",
+    "generalJa": "太刀",
+    "generalEn": "Longsword",
+    "genNote": ""
+  },
+  {
+    "id": "GLO_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "equipment",
+    "typeZh": "一般",
+    "typeSub": "武器種類",
     "generalZh": "大錘",
     "generalJa": "ハンマー",
     "generalEn": "Hammer",
     "genNote": ""
   },
   {
-    "id": "GLO_0003",
+    "id": "GLO_0004",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -33,7 +44,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0004",
+    "id": "GLO_0005",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -44,7 +55,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0005",
+    "id": "GLO_0006",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -55,7 +66,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0006",
+    "id": "GLO_0007",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -66,7 +77,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0007",
+    "id": "GLO_0008",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -77,7 +88,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0008",
+    "id": "GLO_0009",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -88,7 +99,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0009",
+    "id": "GLO_0010",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -99,7 +110,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0010",
+    "id": "GLO_0011",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -110,7 +121,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0011",
+    "id": "GLO_0012",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -121,7 +132,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0012",
+    "id": "GLO_0013",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -132,7 +143,18 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0013",
+    "id": "GLO_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "equipment",
+    "typeZh": "一般",
+    "typeSub": "武器種類",
+    "generalZh": "重弩槍",
+    "generalJa": "ヘビィボウガン",
+    "generalEn": "Heavy Bowgun",
+    "genNote": ""
+  },
+  {
+    "id": "GLO_0015",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -143,7 +165,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0014",
+    "id": "GLO_0016",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -154,7 +176,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0015",
+    "id": "GLO_0017",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -165,7 +187,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0016",
+    "id": "GLO_0018",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -176,7 +198,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0017",
+    "id": "GLO_0019",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -187,7 +209,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0018",
+    "id": "GLO_0020",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -198,7 +220,7 @@
     "genNote": "Zenny是系列通用貨幣名稱，在遊戲內 UI 通常直接顯示「Zenny」或「z」符號。冷知識﹕「Zenny」是 Capcom 多款遊戲（包括《魔物獵人》系列、《洛克人》系列、《龍息》系列等）共用的虛構貨幣單位。英文和日文是官方使用的叫法，至於中文社群通常直接音譯為「澤尼」。"
   },
   {
-    "id": "GLO_0019",
+    "id": "GLO_0021",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -209,7 +231,7 @@
     "genNote": "提升攻擊力的護符。光是持有就可獲得如鬼人般的力量。"
   },
   {
-    "id": "GLO_0020",
+    "id": "GLO_0022",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -220,7 +242,7 @@
     "genNote": "提升防禦力的護符。光是持有就可使皮膚硬化得如岩石般堅硬。"
   },
   {
-    "id": "GLO_0021",
+    "id": "GLO_0023",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -231,7 +253,7 @@
     "genNote": "荒野主角和艾隸屬的飛鳥隊。"
   },
   {
-    "id": "GLO_0022",
+    "id": "GLO_0024",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -242,18 +264,18 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0023",
+    "id": "GLO_0025",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "地名",
+    "typeSub": "地方",
     "generalZh": "封禁之地",
     "generalJa": "禁足地",
     "generalEn": "The Forbidden Land",
     "genNote": ""
   },
   {
-    "id": "GLO_0024",
+    "id": "GLO_0026",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -264,7 +286,7 @@
     "genNote": "玩家遊戲中操縱的主角。"
   },
   {
-    "id": "GLO_0025",
+    "id": "GLO_0027",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -275,7 +297,7 @@
     "genNote": "負責處理狩獵魔物的請求與許可，以及管理和接待任務的「編輯者」。"
   },
   {
-    "id": "GLO_0026",
+    "id": "GLO_0028",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -286,7 +308,7 @@
     "genNote": "負責生產和加工武器和防具。"
   },
   {
-    "id": "GLO_0027",
+    "id": "GLO_0029",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -297,7 +319,7 @@
     "genNote": "與調查隊同行的神秘少年。"
   },
   {
-    "id": "GLO_0028",
+    "id": "GLO_0030",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -308,7 +330,7 @@
     "genNote": "飛鳥隊的編輯者。"
   },
   {
-    "id": "GLO_0029",
+    "id": "GLO_0031",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -319,7 +341,7 @@
     "genNote": "調查隊工匠NPC。"
   },
   {
-    "id": "GLO_0030",
+    "id": "GLO_0032",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -327,10 +349,10 @@
     "generalZh": "法比烏斯",
     "generalJa": "ファビウス",
     "generalEn": "Fabius",
-    "genNote": "使用長槍的NPC。獵人公會的高層。(玩家﹕巨戟龍面前大家都跟法爺搵食)"
+    "genNote": "使用長槍的NPC。獵人公會的高層。"
   },
   {
-    "id": "GLO_0031",
+    "id": "GLO_0033",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -341,7 +363,7 @@
     "genNote": "遠離家鄉流浪的莫利巴。"
   },
   {
-    "id": "GLO_0032",
+    "id": "GLO_0034",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -352,7 +374,7 @@
     "genNote": "獸人族。"
   },
   {
-    "id": "GLO_0033",
+    "id": "GLO_0035",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -363,7 +385,7 @@
     "genNote": "奧莉維亞、艾力克、維爾納隸屬的星晨隊。"
   },
   {
-    "id": "GLO_0034",
+    "id": "GLO_0036",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -374,7 +396,7 @@
     "genNote": "隸屬星晨隊的大錘NPC。(廣泛被玩家稱神)"
   },
   {
-    "id": "GLO_0035",
+    "id": "GLO_0037",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -385,7 +407,7 @@
     "genNote": "支援奧莉維亞的隨從艾路。"
   },
   {
-    "id": "GLO_0036",
+    "id": "GLO_0038",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -396,7 +418,7 @@
     "genNote": "隸屬星晨隊的編輯者。"
   },
   {
-    "id": "GLO_0037",
+    "id": "GLO_0039",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -407,7 +429,7 @@
     "genNote": "隸屬星晨隊的工匠。"
   },
   {
-    "id": "GLO_0038",
+    "id": "GLO_0040",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -418,7 +440,7 @@
     "genNote": "狩獵笛使用者NPC。"
   },
   {
-    "id": "GLO_0039",
+    "id": "GLO_0041",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -429,7 +451,7 @@
     "genNote": "重弩使用者NPC。"
   },
   {
-    "id": "GLO_0040",
+    "id": "GLO_0042",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -440,7 +462,7 @@
     "genNote": "隸屬白夜隊的輕弩使用者NPC。"
   },
   {
-    "id": "GLO_0041",
+    "id": "GLO_0043",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -451,7 +473,7 @@
     "genNote": "單手劍使用者NPC。"
   },
   {
-    "id": "GLO_0042",
+    "id": "GLO_0044",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -462,7 +484,7 @@
     "genNote": "輕弩使用者NPC。"
   },
   {
-    "id": "GLO_0043",
+    "id": "GLO_0045",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -473,7 +495,7 @@
     "genNote": "長槍使用者NNPC。"
   },
   {
-    "id": "GLO_0044",
+    "id": "GLO_0046",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -484,7 +506,7 @@
     "genNote": "隸屬黑鐵隊的大劍使用者NNPC。"
   },
   {
-    "id": "GLO_0045",
+    "id": "GLO_0047",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -495,7 +517,7 @@
     "genNote": "天塹沙原裡庫納法村村民，完成4-2章節及支線「當心毒怪鳥」後會幫忙採集「天塹沙原」資源。"
   },
   {
-    "id": "GLO_0046",
+    "id": "GLO_0048",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -503,10 +525,10 @@
     "generalZh": "桃圓",
     "generalJa": "モモムックリ",
     "generalEn": "Plumpeach",
-    "genNote": "緋紅森林裡莫利巴之家的獸人，完成4-2章節及支線「來交易吧！蓬鬆毛皮」後會幫忙採集「緋紅森林」　資源。"
+    "genNote": "緋紅森林裡莫利巴之家的獸人，完成4-2章節及支線「來交易吧！蓬鬆毛皮」後會幫忙採集「緋紅森林」資源。"
   },
   {
-    "id": "GLO_0047",
+    "id": "GLO_0049",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -517,7 +539,7 @@
     "genNote": "湧油山谷裡阿茲茲居民，完成4-2章節及支線「阿伊達的憂慮」後會幫忙採集「湧油山谷」資源。"
   },
   {
-    "id": "GLO_0048",
+    "id": "GLO_0050",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -528,7 +550,7 @@
     "genNote": "交匯之峰蘇加的守衛，完成4-2章節及對話後，會幫忙採集「冰霧斷崖」的資源。"
   },
   {
-    "id": "GLO_0049",
+    "id": "GLO_0051",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -539,7 +561,7 @@
     "genNote": "龍都遺跡希爾德的居民。完成4-3章節及支線「適應的方式」後，會幫忙採集「龍都遺跡」資源。"
   },
   {
-    "id": "GLO_0050",
+    "id": "GLO_0052",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -550,7 +572,7 @@
     "genNote": "以主角獵人隨從的身份加入調查隊的艾路。"
   },
   {
-    "id": "GLO_0051",
+    "id": "GLO_0053",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -561,7 +583,7 @@
     "genNote": "本集主要在蘇加出現。"
   },
   {
-    "id": "GLO_0052",
+    "id": "GLO_0054",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -572,7 +594,7 @@
     "genNote": "於庫納法村，會請吃飯的NPC。"
   },
   {
-    "id": "GLO_0053",
+    "id": "GLO_0055",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -583,7 +605,7 @@
     "genNote": "於阿茲茲村，會請吃飯的NPC。"
   },
   {
-    "id": "GLO_0054",
+    "id": "GLO_0056",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -594,7 +616,7 @@
     "genNote": "拿塔父親的朋友。在希爾德會請吃飯的NPC。"
   },
   {
-    "id": "GLO_0055",
+    "id": "GLO_0057",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -605,36 +627,14 @@
     "genNote": "蘇加的龍人領袖。在交匯之峰蘇加會請吃飯的NPC。"
   },
   {
-    "id": "GLO_0056",
-    "gameVersion": "MHWilds",
-    "dataTyp": "misc",
-    "typeZh": "一般",
-    "typeSub": "地名",
-    "generalZh": "天塹沙原",
-    "generalJa": "隔ての砂原",
-    "generalEn": "Windward Plains",
-    "genNote": ""
-  },
-  {
-    "id": "GLO_0057",
-    "gameVersion": "MHWilds",
-    "dataTyp": "misc",
-    "typeZh": "一般",
-    "typeSub": "地名",
-    "generalZh": "緋紅森林",
-    "generalJa": "緋の森",
-    "generalEn": "Scarlet Forest",
-    "genNote": ""
-  },
-  {
     "id": "GLO_0058",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "地名",
-    "generalZh": "湧油山谷",
-    "generalJa": "油涌き谷",
-    "generalEn": "Oilwell Basin",
+    "typeSub": "地方",
+    "generalZh": "天塹沙原",
+    "generalJa": "隔ての砂原",
+    "generalEn": "Windward Plains",
     "genNote": ""
   },
   {
@@ -642,10 +642,10 @@
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "地名",
-    "generalZh": "冰霧斷崖",
-    "generalJa": "氷霧の断崖",
-    "generalEn": "Iceshard Cliffs",
+    "typeSub": "地方",
+    "generalZh": "緋紅森林",
+    "generalJa": "緋の森",
+    "generalEn": "Scarlet Forest",
     "genNote": ""
   },
   {
@@ -653,10 +653,10 @@
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "地名",
-    "generalZh": "龍都遺跡",
-    "generalJa": "竜都の跡形",
-    "generalEn": "Ruins of Wyveria",
+    "typeSub": "地方",
+    "generalZh": "湧油山谷",
+    "generalJa": "油涌き谷",
+    "generalEn": "Oilwell Basin",
     "genNote": ""
   },
   {
@@ -664,10 +664,10 @@
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "地名",
-    "generalZh": "大集會所",
-    "generalJa": "大集会所",
-    "generalEn": "Grand Hub",
+    "typeSub": "地方",
+    "generalZh": "冰霧斷崖",
+    "generalJa": "氷霧の断崖",
+    "generalEn": "Iceshard Cliffs",
     "genNote": ""
   },
   {
@@ -675,10 +675,10 @@
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "地名",
-    "generalZh": "龍谷遺址",
-    "generalJa": "竜谷の跡地",
-    "generalEn": "Wounded Hollow",
+    "typeSub": "地方",
+    "generalZh": "龍都遺跡",
+    "generalJa": "竜都の跡形",
+    "generalEn": "Ruins of Wyveria",
     "genNote": ""
   },
   {
@@ -686,58 +686,80 @@
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "地名",
-    "generalZh": "火窯之村阿茲茲",
-    "generalJa": "火窯の里アズズ",
-    "generalEn": "Azuz, the Everforge",
-    "genNote": "位於湧油山谷，有鎧玉、七彩礦錬金等設備。"
+    "typeSub": "地方",
+    "generalZh": "大集會所",
+    "generalJa": "大集会所",
+    "generalEn": "Grand Hub",
+    "genNote": ""
   },
   {
     "id": "GLO_0064",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "地名",
-    "generalZh": "守護者村莊希爾德",
-    "generalJa": "守人の里シルド",
-    "generalEn": "Sild The Keepers' Vigil",
-    "genNote": "位於龍都遺跡。"
+    "typeSub": "地方",
+    "generalZh": "龍谷遺址",
+    "generalJa": "竜谷の跡地",
+    "generalEn": "Wounded Hollow",
+    "genNote": ""
   },
   {
     "id": "GLO_0065",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "地名",
-    "generalZh": "風音村庫納法",
-    "generalJa": "風音の村クナファ",
-    "generalEn": "Kunafa Windsong Village",
-    "genNote": "位於天塹沙原。"
+    "typeSub": "地方",
+    "generalZh": "火窯之村阿茲茲",
+    "generalJa": "火窯の里アズズ",
+    "generalEn": "Azuz, the Everforge",
+    "genNote": "位於湧油山谷，有鎧玉、七彩礦錬金等設備。"
   },
   {
     "id": "GLO_0066",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "地名",
-    "generalZh": "莫利巴之家",
-    "generalJa": "モリバーのアジト",
-    "generalEn": "Wudwud Hideout",
-    "genNote": "位於緋紅森林﹐有烤肉服務。"
+    "typeSub": "地方",
+    "generalZh": "守護者村莊希爾德",
+    "generalJa": "守人の里シルド",
+    "generalEn": "Sild The Keepers' Vigil",
+    "genNote": "位於龍都遺跡。"
   },
   {
     "id": "GLO_0067",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "地名",
+    "typeSub": "地方",
+    "generalZh": "風音村庫納法",
+    "generalJa": "風音の村クナファ",
+    "generalEn": "Kunafa Windsong Village",
+    "genNote": "位於天塹沙原。"
+  },
+  {
+    "id": "GLO_0068",
+    "gameVersion": "MHWilds",
+    "dataTyp": "misc",
+    "typeZh": "一般",
+    "typeSub": "地方",
+    "generalZh": "莫利巴之家",
+    "generalJa": "モリバーのアジト",
+    "generalEn": "Wudwud Hideout",
+    "genNote": "位於緋紅森林﹐有烤肉服務。"
+  },
+  {
+    "id": "GLO_0069",
+    "gameVersion": "MHWilds",
+    "dataTyp": "misc",
+    "typeZh": "一般",
+    "typeSub": "地方",
     "generalZh": "交匯之峰蘇加",
     "generalJa": "交わりの峰スージャ",
     "generalEn": "Suja, Peaks of Accord",
     "genNote": "位於交匯之峰蘇加，有珠子機械零件、護石等錬金設備。"
   },
   {
-    "id": "GLO_0068",
+    "id": "GLO_0070",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -748,7 +770,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0069",
+    "id": "GLO_0071",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -759,7 +781,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0070",
+    "id": "GLO_0072",
     "gameVersion": "MHWilds",
     "dataTyp": "Meal",
     "typeZh": "一般",
@@ -770,7 +792,7 @@
     "genNote": "庫納法快遞餐券 /伊塞請客。"
   },
   {
-    "id": "GLO_0071",
+    "id": "GLO_0073",
     "gameVersion": "MHWilds",
     "dataTyp": "Meal",
     "typeZh": "一般",
@@ -781,7 +803,7 @@
     "genNote": "阿茲茲快遞餐券/ 瑪奇請客。"
   },
   {
-    "id": "GLO_0072",
+    "id": "GLO_0074",
     "gameVersion": "MHWilds",
     "dataTyp": "Meal",
     "typeZh": "一般",
@@ -792,7 +814,7 @@
     "genNote": "希爾德快遞餐券/ 塔辛請客。"
   },
   {
-    "id": "GLO_0073",
+    "id": "GLO_0075",
     "gameVersion": "MHWilds",
     "dataTyp": "Meal",
     "typeZh": "一般",
@@ -803,7 +825,7 @@
     "genNote": "蘇加快遞餐券 /長耳智者請客。"
   },
   {
-    "id": "GLO_0074",
+    "id": "GLO_0076",
     "gameVersion": "MHWilds",
     "dataTyp": "Meal",
     "typeZh": "一般",
@@ -811,10 +833,10 @@
     "generalZh": "天然豚骨拉麵",
     "generalJa": "天然とんこつラーメン（創業以来）",
     "generalEn": "Classic Tonkotsu Raman",
-    "genNote": "【一蘭】點餐用紙」(由集會所的艾路伊蘭派發)"
+    "genNote": "使用【一蘭】點餐用紙(由集會所的艾路伊蘭派發)"
   },
   {
-    "id": "GLO_0075",
+    "id": "GLO_0077",
     "gameVersion": "MHWilds",
     "dataTyp": "Meal",
     "typeZh": "一般",
@@ -822,10 +844,10 @@
     "generalZh": "100%不含豚骨的拉麵",
     "generalJa": "100%とんこつ不使用ラーメン",
     "generalEn": "100% Tonkotsu-free Ramen",
-    "genNote": "【一蘭】點餐用紙」(由集會所的艾路伊蘭派發)"
+    "genNote": "使用【一蘭】點餐用紙(由集會所的艾路伊蘭派發)"
   },
   {
-    "id": "GLO_0076",
+    "id": "GLO_0078",
     "gameVersion": "MHWilds",
     "dataTyp": "equipment",
     "typeZh": "一般",
@@ -836,7 +858,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0077",
+    "id": "GLO_0079",
     "gameVersion": "MHWilds",
     "dataTyp": "variant",
     "typeZh": "一般",
@@ -847,7 +869,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0078",
+    "id": "GLO_0080",
     "gameVersion": "MHWilds",
     "dataTyp": "variant",
     "typeZh": "一般",
@@ -858,7 +880,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0079",
+    "id": "GLO_0081",
     "gameVersion": "MHWilds",
     "dataTyp": "variant",
     "typeZh": "一般",
@@ -869,7 +891,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0080",
+    "id": "GLO_0082",
     "gameVersion": "MHWilds",
     "dataTyp": "Reacciona al calor de forma única. Fúndela con armadura para mejorarla ligeramente.",
     "typeZh": "一般",
@@ -880,7 +902,7 @@
     "genNote": "用來強化防具的素材。(Rare:4)"
   },
   {
-    "id": "GLO_0081",
+    "id": "GLO_0083",
     "gameVersion": "MHWilds",
     "dataTyp": "Reacciona al calor de forma única. Fúndela con armadura para mejorarla un poco.",
     "typeZh": "一般",
@@ -891,7 +913,7 @@
     "genNote": "用來強化防具的素材。(Rare:5)"
   },
   {
-    "id": "GLO_0082",
+    "id": "GLO_0084",
     "gameVersion": "MHWilds",
     "dataTyp": "Reacciona al calor de forma única. Fúndela con armadura para mejorarla.",
     "typeZh": "一般",
@@ -902,7 +924,7 @@
     "genNote": "用來強化防具的素材。(Rare:6)"
   },
   {
-    "id": "GLO_0083",
+    "id": "GLO_0085",
     "gameVersion": "MHWilds",
     "dataTyp": "Una esfera armadura rígida y de alta densidad. Fusiónala con armaduras para mejorarlas ligeramente.",
     "typeZh": "一般",
@@ -913,7 +935,7 @@
     "genNote": "用來強化防具的素材。(Rare:7)"
   },
   {
-    "id": "GLO_0084",
+    "id": "GLO_0086",
     "gameVersion": "MHWilds",
     "dataTyp": "Una esfera armadura sólida y de alta densidad. Fusiónala con armaduras para mejorarlas ligeramente.",
     "typeZh": "一般",
@@ -924,7 +946,7 @@
     "genNote": "用來強化防具的素材。(Rare:8)"
   },
   {
-    "id": "GLO_0085",
+    "id": "GLO_0087",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -935,7 +957,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0086",
+    "id": "GLO_0088",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -946,7 +968,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0087",
+    "id": "GLO_0089",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -957,7 +979,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0088",
+    "id": "GLO_0090",
     "gameVersion": "MHWilds",
     "dataTyp": "melt",
     "typeZh": "礦石",
@@ -968,7 +990,7 @@
     "genNote": "煉金/任務報酬 (Rare:4物品)"
   },
   {
-    "id": "GLO_0089",
+    "id": "GLO_0091",
     "gameVersion": "MHWilds",
     "dataTyp": "melt",
     "typeZh": "礦石",
@@ -979,7 +1001,7 @@
     "genNote": "煉金/任務報酬 (Rare:5物品)"
   },
   {
-    "id": "GLO_0090",
+    "id": "GLO_0092",
     "gameVersion": "MHWilds",
     "dataTyp": "melt",
     "typeZh": "礦石",
@@ -990,7 +1012,7 @@
     "genNote": "煉金/任務報酬 (Rare:5物品)"
   },
   {
-    "id": "GLO_0091",
+    "id": "GLO_0093",
     "gameVersion": "MHWilds",
     "dataTyp": "melt",
     "typeZh": "礦石",
@@ -1001,7 +1023,7 @@
     "genNote": "鍊金/任務報酬 (Rare:6物品)"
   },
   {
-    "id": "GLO_0092",
+    "id": "GLO_0094",
     "gameVersion": "MHWilds",
     "dataTyp": "mantle",
     "typeZh": "一般",
@@ -1012,7 +1034,7 @@
     "genNote": "裝備後可在一段時間內隱身，躲避魔物。一旦攻擊或受傷害，隱身效果會立即消失。※遊戲一開始就取得"
   },
   {
-    "id": "GLO_0093",
+    "id": "GLO_0095",
     "gameVersion": "MHWilds",
     "dataTyp": "mantle",
     "typeZh": "一般",
@@ -1023,7 +1045,7 @@
     "genNote": "減少所受傷害，消除受傷時的反應， 並獲得風壓無效、聽覺保護及耐震效果。※需完成第二章工匹委託的狩獵焰獄鱆任務。"
   },
   {
-    "id": "GLO_0094",
+    "id": "GLO_0096",
     "gameVersion": "MHWilds",
     "dataTyp": "mantle",
     "typeZh": "一般",
@@ -1034,7 +1056,7 @@
     "genNote": "裝備時體力在一定時間內持續回復。※需完成第三章工匹委託的狩獵暗器鱆任務。"
   },
   {
-    "id": "GLO_0095",
+    "id": "GLO_0097",
     "gameVersion": "MHWilds",
     "dataTyp": "mantle",
     "typeZh": "一般",
@@ -1045,7 +1067,7 @@
     "genNote": "抓準魔物攻擊的時機前迴避，就會觸發特殊的迴避行動，使攻擊力暫時上升，動作衍生也會變化。※需完成第四章工匹委託的狩獵狂化影蜘蛛任務。"
   },
   {
-    "id": "GLO_0096",
+    "id": "GLO_0098",
     "gameVersion": "MHWilds",
     "dataTyp": "mantle",
     "typeZh": "一般",
@@ -1056,7 +1078,7 @@
     "genNote": "裝備時體力會逐漸減少，但會心率和各種武器性能會獲強化。滿足特定條 件後，攻擊力和會心率進一步上升。※需成功狩獵黑蝕龍。"
   },
   {
-    "id": "GLO_0097",
+    "id": "GLO_0099",
     "gameVersion": "MHWilds",
     "dataTyp": "tool",
     "typeZh": "工具",
@@ -1067,7 +1089,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0098",
+    "id": "GLO_0100",
     "gameVersion": "MHWilds",
     "dataTyp": "tool",
     "typeZh": "工具",
@@ -1078,7 +1100,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0099",
+    "id": "GLO_0101",
     "gameVersion": "MHWilds",
     "dataTyp": "tool",
     "typeZh": "工具",
@@ -1089,7 +1111,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0100",
+    "id": "GLO_0102",
     "gameVersion": "MHWilds",
     "dataTyp": "tool",
     "typeZh": "工具",
@@ -5247,7 +5269,7 @@
     "genNote": "體力上限暫時下降的狀態。HP狀態異常的累積數增加，體力上限就會進一步下降。"
   },
   {
-    "id": "GLO_0101",
+    "id": "GLO_0103",
     "gameVersion": "MHWilds",
     "dataTyp": "jargon",
     "typeZh": "其他",
@@ -5258,7 +5280,7 @@
     "genNote": "非官方﹕覇體為玩為帶來動作中後仰無效的效果，出招途中遇上魔物的一些弱小攻擊，玩家攻擊不被打斷。"
   },
   {
-    "id": "GLO_0102",
+    "id": "GLO_0104",
     "gameVersion": "MHWilds",
     "dataTyp": "jargon",
     "typeZh": "其他",
@@ -5269,7 +5291,7 @@
     "genNote": "非官方﹕真覇體為使出動作時，玩家完全不會被打斷，更會有耳塞和動作期間減傷的效果。"
   },
   {
-    "id": "GLO_0103",
+    "id": "GLO_0105",
     "gameVersion": "MHWilds",
     "dataTyp": "jargon",
     "typeZh": "其他",
@@ -5280,7 +5302,7 @@
     "genNote": "遊戲內把武器的基礎攻擊力乘以各個武器種類特有係數的數值。(俗稱Bloat Value)"
   },
   {
-    "id": "GLO_0104",
+    "id": "GLO_0106",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -5291,7 +5313,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0105",
+    "id": "GLO_0107",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -7683,24 +7705,13 @@
     "dataTyp": "motion",
     "typeZh": "動作",
     "typeSub": "動作．輕弩槍",
-    "generalZh": "重弩槍",
-    "generalJa": "ヘビィボウガン",
-    "generalEn": "Heavy Bowgun",
-    "genNote": ""
-  },
-  {
-    "id": "MOT_0218",
-    "gameVersion": "MHWilds",
-    "dataTyp": "motion",
-    "typeZh": "動作",
-    "typeSub": "動作．輕弩槍",
     "generalZh": "起爆龍彈",
     "generalJa": "起爆竜弾",
     "generalEn": "Wyvernblast",
     "genNote": "輕弩特有。"
   },
   {
-    "id": "MOT_0219",
+    "id": "MOT_0218",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7711,7 +7722,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0220",
+    "id": "MOT_0219",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7722,7 +7733,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0221",
+    "id": "MOT_0220",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7733,7 +7744,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0222",
+    "id": "MOT_0221",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7744,7 +7755,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0223",
+    "id": "MOT_0222",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7755,7 +7766,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0224",
+    "id": "MOT_0223",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7766,7 +7777,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0225",
+    "id": "MOT_0224",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7777,7 +7788,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0226",
+    "id": "MOT_0225",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7788,7 +7799,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0227",
+    "id": "MOT_0226",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7799,7 +7810,7 @@
     "genNote": "輕弩特有。"
   },
   {
-    "id": "MOT_0228",
+    "id": "MOT_0227",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7810,7 +7821,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0229",
+    "id": "MOT_0228",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7821,7 +7832,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0230",
+    "id": "MOT_0229",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7832,7 +7843,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0231",
+    "id": "MOT_0230",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7843,7 +7854,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0232",
+    "id": "MOT_0231",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7854,7 +7865,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0233",
+    "id": "MOT_0232",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7865,7 +7876,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0234",
+    "id": "MOT_0233",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7876,7 +7887,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0235",
+    "id": "MOT_0234",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7887,7 +7898,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0236",
+    "id": "MOT_0235",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7898,7 +7909,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0237",
+    "id": "MOT_0236",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7909,7 +7920,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0238",
+    "id": "MOT_0237",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7920,7 +7931,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0239",
+    "id": "MOT_0238",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7931,7 +7942,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0240",
+    "id": "MOT_0239",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7942,7 +7953,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0241",
+    "id": "MOT_0240",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7953,7 +7964,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0242",
+    "id": "MOT_0241",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7964,7 +7975,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0243",
+    "id": "MOT_0242",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7975,7 +7986,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0244",
+    "id": "MOT_0243",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7986,7 +7997,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0245",
+    "id": "MOT_0244",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -7997,7 +8008,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0246",
+    "id": "MOT_0245",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8008,7 +8019,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0247",
+    "id": "MOT_0246",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8019,7 +8030,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0248",
+    "id": "MOT_0247",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8030,7 +8041,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0249",
+    "id": "MOT_0248",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8041,7 +8052,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0250",
+    "id": "MOT_0249",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8052,7 +8063,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0251",
+    "id": "MOT_0250",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8063,7 +8074,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0252",
+    "id": "MOT_0251",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8074,7 +8085,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0253",
+    "id": "MOT_0252",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8085,7 +8096,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0254",
+    "id": "MOT_0253",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8096,7 +8107,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0255",
+    "id": "MOT_0254",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8107,7 +8118,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0256",
+    "id": "MOT_0255",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8118,7 +8129,7 @@
     "genNote": ""
   },
   {
-    "id": "MOT_0257",
+    "id": "MOT_0256",
     "gameVersion": "MHWilds",
     "dataTyp": "motion",
     "typeZh": "動作",
@@ -8822,7 +8833,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0106",
+    "id": "GLO_0108",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -8833,7 +8844,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0107",
+    "id": "GLO_0109",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -8844,7 +8855,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0108",
+    "id": "GLO_0110",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8855,7 +8866,7 @@
     "genNote": "增加通常彈的裝填數。"
   },
   {
-    "id": "GLO_0109",
+    "id": "GLO_0111",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8866,7 +8877,7 @@
     "genNote": "增加貫通彈的裝填數。"
   },
   {
-    "id": "GLO_0110",
+    "id": "GLO_0112",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8877,7 +8888,7 @@
     "genNote": "增加散彈的裝填數。"
   },
   {
-    "id": "GLO_0111",
+    "id": "GLO_0113",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8888,7 +8899,7 @@
     "genNote": "增加火炎彈、水冷彈、電擊彈、冰結彈舄滅龍彈的可裝填數量。"
   },
   {
-    "id": "GLO_0112",
+    "id": "GLO_0114",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8899,7 +8910,7 @@
     "genNote": "強化通常彈等級。"
   },
   {
-    "id": "GLO_0113",
+    "id": "GLO_0115",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8910,7 +8921,7 @@
     "genNote": "強化貫通彈等級。"
   },
   {
-    "id": "GLO_0114",
+    "id": "GLO_0116",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8921,7 +8932,7 @@
     "genNote": "強化散彈等級。"
   },
   {
-    "id": "GLO_0115",
+    "id": "GLO_0117",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8932,7 +8943,7 @@
     "genNote": "強化火炎彈、流水彈、電擊彈、冰結彈的等級。"
   },
   {
-    "id": "GLO_0116",
+    "id": "GLO_0118",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8943,7 +8954,7 @@
     "genNote": "輕弩特有。 增加可發射特殊彈藥的裝填數。"
   },
   {
-    "id": "GLO_0117",
+    "id": "GLO_0119",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8954,7 +8965,7 @@
     "genNote": "輕弩特有。 提升速射模式時可發射彈藥的裝埴數。"
   },
   {
-    "id": "GLO_0118",
+    "id": "GLO_0120",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8965,7 +8976,7 @@
     "genNote": "輕弩特有。增加速射計量表的回復速度。"
   },
   {
-    "id": "GLO_0119",
+    "id": "GLO_0121",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8976,7 +8987,7 @@
     "genNote": "輕弩特有。減少再次裝埴殊彈藥所需的時間。"
   },
   {
-    "id": "GLO_0120",
+    "id": "GLO_0122",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8987,7 +8998,7 @@
     "genNote": "重弩特有。使弩槍的性能變為一般模式特化型。若已屬此類型，則強化其等級。"
   },
   {
-    "id": "GLO_0121",
+    "id": "GLO_0123",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -8998,7 +9009,7 @@
     "genNote": "重弩特有。使弩槍的性能變為龍熱模式特化型。若已屬此類型，則強化其等級。"
   },
   {
-    "id": "GLO_0122",
+    "id": "GLO_0124",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "弩槍",
@@ -9009,7 +9020,7 @@
     "genNote": "重弩特有。增加龍熱計量表的回復速度。"
   },
   {
-    "id": "GLO_0123",
+    "id": "GLO_0125",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9020,7 +9031,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0124",
+    "id": "GLO_0126",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9031,7 +9042,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0125",
+    "id": "GLO_0127",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9042,7 +9053,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0126",
+    "id": "GLO_0128",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9053,7 +9064,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0127",
+    "id": "GLO_0129",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9064,7 +9075,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0128",
+    "id": "GLO_0130",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9075,7 +9086,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0129",
+    "id": "GLO_0131",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9086,7 +9097,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0130",
+    "id": "GLO_0132",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9097,7 +9108,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0131",
+    "id": "GLO_0133",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9108,7 +9119,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0132",
+    "id": "GLO_0134",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9119,7 +9130,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0133",
+    "id": "GLO_0135",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9130,7 +9141,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0134",
+    "id": "GLO_0136",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9141,7 +9152,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0135",
+    "id": "GLO_0137",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9152,7 +9163,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0136",
+    "id": "GLO_0138",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9163,7 +9174,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0137",
+    "id": "GLO_0139",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9174,7 +9185,7 @@
     "genNote": "位於蘇加，給你使用神秘鍊金的婆婆。"
   },
   {
-    "id": "GLO_0138",
+    "id": "GLO_0140",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9185,7 +9196,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0139",
+    "id": "GLO_0141",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9196,7 +9207,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0140",
+    "id": "GLO_0142",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9207,7 +9218,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0141",
+    "id": "GLO_0143",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9218,7 +9229,7 @@
     "genNote": "位於阿茲茲，給你使用精煉火窯的大叔。"
   },
   {
-    "id": "GLO_0142",
+    "id": "GLO_0144",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9229,7 +9240,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0143",
+    "id": "GLO_0145",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9240,7 +9251,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0144",
+    "id": "GLO_0146",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -9416,7 +9427,7 @@
     "genNote": "在東部地區發現的特產品。硬幣上刻有細緻的浮雕，據說是古代曾經使用的貨幣……註﹕各處從魔物身上跌落的掉落品。 (Rare:5物品)(售價﹕200z)"
   },
   {
-    "id": "GLO_0145",
+    "id": "GLO_0147",
     "gameVersion": "MHWilds",
     "dataTyp": "species",
     "typeZh": "一般",
@@ -9644,17 +9655,6 @@
     "generalZh": "???",
     "generalJa": "????",
     "generalEn": "???",
-    "genNote": ""
-  },
-  {
-    "id": "GLO_0146",
-    "gameVersion": "MHWilds",
-    "dataTyp": "misc",
-    "typeZh": "一般",
-    "typeSub": "其他",
-    "generalZh": "隨從裝備",
-    "generalJa": "オトモ装備",
-    "generalEn": "Palico Sets",
     "genNote": ""
   },
   {
@@ -10032,7 +10032,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0147",
+    "id": "GLO_0148",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10043,7 +10043,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0148",
+    "id": "GLO_0149",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10054,7 +10054,7 @@
     "genNote": "打理滾滾木桶挑戰的艾路。"
   },
   {
-    "id": "GLO_0149",
+    "id": "GLO_0150",
     "gameVersion": "MHWilds",
     "dataTyp": "jargon",
     "typeZh": "一般",
@@ -10109,7 +10109,7 @@
     "genNote": "(HR)R10任務報酬。"
   },
   {
-    "id": "GLO_0150",
+    "id": "GLO_0151",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10120,7 +10120,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0151",
+    "id": "GLO_0152",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10131,7 +10131,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0152",
+    "id": "GLO_0153",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10142,7 +10142,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0153",
+    "id": "GLO_0154",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10153,7 +10153,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0154",
+    "id": "GLO_0155",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10164,7 +10164,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0155",
+    "id": "GLO_0156",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10175,7 +10175,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0156",
+    "id": "GLO_0157",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10186,7 +10186,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0157",
+    "id": "GLO_0158",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10197,7 +10197,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0158",
+    "id": "GLO_0159",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10208,7 +10208,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0159",
+    "id": "GLO_0160",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10219,7 +10219,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0160",
+    "id": "GLO_0161",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10230,7 +10230,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0161",
+    "id": "GLO_0162",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10241,7 +10241,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0162",
+    "id": "GLO_0163",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10252,7 +10252,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0163",
+    "id": "GLO_0164",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10263,7 +10263,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0164",
+    "id": "GLO_0165",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10274,7 +10274,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0165",
+    "id": "GLO_0166",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10285,7 +10285,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0166",
+    "id": "GLO_0167",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10296,7 +10296,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0167",
+    "id": "GLO_0168",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10307,7 +10307,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0168",
+    "id": "GLO_0169",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10318,7 +10318,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0169",
+    "id": "GLO_0170",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10329,7 +10329,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0170",
+    "id": "GLO_0171",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10340,7 +10340,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0171",
+    "id": "GLO_0172",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10351,7 +10351,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0172",
+    "id": "GLO_0173",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10362,7 +10362,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0173",
+    "id": "GLO_0174",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10373,7 +10373,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0174",
+    "id": "GLO_0175",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10384,7 +10384,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0175",
+    "id": "GLO_0176",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10395,7 +10395,7 @@
     "genNote": ""
   },
   {
-    "id": "GLO_0176",
+    "id": "GLO_0177",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
@@ -10404,5 +10404,3932 @@
     "generalJa": "クエストカウンター",
     "generalEn": "Quest Counter",
     "genNote": ""
+  },
+  {
+    "id": "GLO_0178",
+    "gameVersion": "MHWilds",
+    "dataTyp": "misc",
+    "typeZh": "一般",
+    "typeSub": "其他",
+    "generalZh": "隨從裝備",
+    "generalJa": "オトモ装備",
+    "generalEn": "Palico Sets",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "齊格琳德王后",
+    "generalJa": "ジークリンデ",
+    "generalEn": "Sieglinde",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "斬首刀【軍雞】",
+    "generalJa": "ザンシュトウ【軍鶏】",
+    "generalEn": "Rooster Decapitator Decapitator",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "暗大劍普魯加夫洛",
+    "generalJa": "暗大剣プルガヴル",
+    "generalEn": "Prinvrilo's Dissolution Dissolution",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "炎尾打火機大劍",
+    "generalJa": "炎尾大剣ブレイズデル",
+    "generalEn": "Firetrail Blaisdell Blaisdell",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "叛斷刀參宿七",
+    "generalJa": "叛断刀アルザバル",
+    "generalEn": "Impudent Cheda Cheda",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "藏鉤大劍",
+    "generalJa": "ブレイズブレイド",
+    "generalEn": "Ravager Blade Blade",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "斷崖金屬劍",
+    "generalJa": "断崖のミダラム",
+    "generalEn": "Precipice Metallam Metallam",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "白炎劍護火龍",
+    "generalJa": "白炎剣リオガルディア",
+    "generalEn": "Whitefire Rathguard Rathguard",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "火龍大劍",
+    "generalJa": "炎剣リオレウス",
+    "generalEn": "Rathalos Firesword Firesword",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "寬銳劍",
+    "generalJa": "ブロードブレイダー",
+    "generalEn": "Immolator Blade Blade",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "自尊of暗闇",
+    "generalJa": "プライドofダーク",
+    "generalEn": "Düsterstolz",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "斬骨劍",
+    "generalJa": "ボーンスラッシャー",
+    "generalEn": "Bone Slasher Slasher",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "獄焰魔鱆大劍",
+    "generalJa": "獄焔大剣ポリュプ",
+    "generalEn": "Abaddonian Krake Krake",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "毒王",
+    "generalJa": "毒ノ王",
+    "generalEn": "Poison King King",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "檀君護闢豪劍",
+    "generalJa": "護闢豪剣ガルグマコム",
+    "generalEn": "Grimslayer Urgeom Urgeom",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "護雷大劍守衛之鋒",
+    "generalJa": "護雷大剣ヘレヴガルデ",
+    "generalEn": "Fulgurcleaver Guardiana Guardiana",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "護鎖刃大劍蘭馬洛克",
+    "generalJa": "護鎖刃大剣ガルラック",
+    "generalEn": "G. Stalwart Lamorak Stalwart Lamorak",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "冷凍四鰭旗魚",
+    "generalJa": "レイトウ真カジキ",
+    "generalEn": "Freezer Speartuna Speartuna",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "黑痺大劍",
+    "generalJa": "黒痺大剣パクサガート",
+    "generalEn": "Destructive Torpor Torpor",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "英勇變形大劍",
+    "generalJa": "ヴァリアンツァ",
+    "generalEn": "Varianza",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "祈望大劍",
+    "generalJa": "エスペラブレイド",
+    "generalEn": "Esperanza Blade Blade",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "紅光紫劍之朝斬",
+    "generalJa": "あかねさす紫剣の朝斬",
+    "generalEn": "Akanesasu",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "檀君闢豪劍",
+    "generalJa": "闢豪剣タンガンコム",
+    "generalEn": "Fellslayer Dangeom Dangeom",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "鎖刃大劍蘭馬洛克",
+    "generalJa": "鎖刃大剣ラモラック",
+    "generalEn": "Stalwart Lamorak Lamorak",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "超海龍大劍",
+    "generalJa": "ハイラギアブレイド",
+    "generalEn": "High Lagia Blade Lagia Blade",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0026",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "真・暗影使者",
+    "generalJa": "シャドウブリンガー・真",
+    "generalEn": "TRUE Shadowbringer Shadowbringer",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0027",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "大獸顎",
+    "generalJa": "オオアギト",
+    "generalEn": "Giant Jawblade Jawblade",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0028",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "遺忘刻印英勇大劍",
+    "generalJa": "忘却のオストランツァ",
+    "generalEn": "Ostrak Oblivion Oblivion",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0029",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "破碎封鏡之劍【龍窩】",
+    "generalJa": "砕ケシ封鏡ノ剣【竜窩】",
+    "generalEn": "Shatterseal Drakesnest Drakesnest",
+    "genNote": ""
+  },
+  {
+    "id": "GGS_0030",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大劍",
+    "generalZh": "熾光維烏亞",
+    "generalJa": "熾光たるヴィヤー",
+    "generalEn": "Blazing Veiah Veiah",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "煌雷霹靂刀",
+    "generalJa": "煌雷刀トニトゥラ",
+    "generalEn": "Tonitrus Clairblade",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "叛刃參宿五",
+    "generalJa": "叛刃アルナジト",
+    "generalEn": "Khanga Rebellion",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "鋼鐵of律法",
+    "generalJa": "スティールofロウ",
+    "generalEn": "Stahlrecht",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "狂瀾波濤刀",
+    "generalJa": "波濤刀クルンダ",
+    "generalEn": "Khlunda-of-the-Waves",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "風鉤切蝕刀",
+    "generalJa": "風鉤刀キリバミ",
+    "generalEn": "Windclaw Kiribami",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "炎尾鈰鐵鑢",
+    "generalJa": "炎尾鑢フェロセラ",
+    "generalEn": "Firetrail Ferrocere",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "鐵鋸刀",
+    "generalJa": "鉄鋸刀",
+    "generalEn": "Keen Edge",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "飛龍刀【百合】",
+    "generalJa": "飛竜刀【百合】",
+    "generalEn": "Wyvern Blade Lily",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "飛龍刀【楓】",
+    "generalJa": "飛竜刀【楓】",
+    "generalEn": "Wyvern Blade Maple",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "飛龍刀【葵】",
+    "generalJa": "飛竜刀【葵】",
+    "generalEn": "Wyvern Blade Holly",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "樹老虎刺花刀",
+    "generalJa": "刺花刀オルニトクス",
+    "generalEn": "Lala Ornithocton",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "血之悲鳴",
+    "generalJa": "スクリームブラッド",
+    "generalEn": "Blood Scream",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "硬骨彎刀",
+    "generalJa": "ハードボーンショテル",
+    "generalEn": "Hard Bone Shotel",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "護雷牙刀守衛之噬",
+    "generalJa": "護雷牙刀モルダガルデ",
+    "generalEn": "Fulgurblade Guardiana",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "刺尾鯛毒沼噴鋸",
+    "generalJa": "ププロ鋸マイトト",
+    "generalEn": "Rompo Mytoxin",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "雪獅王波形劍",
+    "generalJa": "ドドブランベルジュ",
+    "generalEn": "Blangongaberge",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "山神護闢蠻刀",
+    "generalJa": "護闢蛮刀ガルグマムシ",
+    "generalEn": "Gravecleaver Urkemush",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "護鎖刃刀蘭斯洛特",
+    "generalJa": "護鎖刃刀ガルシュロー",
+    "generalEn": "G. Righteous Lancelot",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "次元刀",
+    "generalJa": "ディメンシオ",
+    "generalEn": "Dimensius",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "熾光拉斐爾",
+    "generalJa": "熾光たるラフィル",
+    "generalEn": "Blazing Rafel",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "祈望銳刀",
+    "generalJa": "エスペラエッジ",
+    "generalEn": "Esperanza Edge",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "山神闢蠻刀",
+    "generalJa": "闢蛮刀キムカエムシ",
+    "generalEn": "Fatecleaver Kimkemush",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "鎖刃刀蘭斯洛特",
+    "generalJa": "鎖刃刀ランスロー",
+    "generalEn": "Righteous Lancelot",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "玉環絕刀之揮斬",
+    "generalJa": "たまのをの絶刀の斬振",
+    "generalEn": "Tamonowo",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "神雷斬破刀",
+    "generalJa": "神雷斬破刀",
+    "generalEn": "Heaven's Thunder",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0026",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "斬首武具次元刀",
+    "generalJa": "斬罪のエルガンシオ",
+    "generalEn": "Headsman's Hamus",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0027",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "蒼星的太刀【舞龍】",
+    "generalJa": "蒼星ノ太刀【舞龍】",
+    "generalEn": "Azure Star Dragon Dance",
+    "genNote": ""
+  },
+  {
+    "id": "GLS_0028",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．太刀",
+    "generalZh": "鋼鐵十字鎬【採掘狂】",
+    "generalJa": "鋼鉄ピッケル【採掘狂】",
+    "generalEn": "Mad Scavenger Pickaxe",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "狂野戰斧",
+    "generalJa": "ワイルドハチェット",
+    "generalEn": "Wild Hatchets",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "雙戰爪",
+    "generalJa": "デュアルハーケン",
+    "generalEn": "Dual Cleavers",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "炎尾鎂棒雙刃",
+    "generalJa": "炎尾双刃マグネシア",
+    "generalEn": "Firetrail Magnesiae",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "盜蛛刺花雙鐮",
+    "generalJa": "刺花双鎌ハルパクティ",
+    "generalEn": "Lala Harpactirs",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "古怪雙球錘",
+    "generalJa": "ファンキーボンボン",
+    "generalEn": "Funky Maracas",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "狂瀾波濤雙棍",
+    "generalJa": "波濤双棍ヌガルパツ",
+    "generalEn": "Ngarpatu-of-the-Waves",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "赫炎雙刃半託迦",
+    "generalJa": "赫炎双刃パンタカ",
+    "generalEn": "Ajara-Panthaka",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "閻婆梵護闢亂刃",
+    "generalJa": "護闢乱刃ガルグマトラ",
+    "generalEn": "Guardflayers Urbastra",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "守護雙龍劍",
+    "generalJa": "双剣リュウノマモリテ",
+    "generalEn": "Wyvern Sentinels",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "斷崖金屬雙劍",
+    "generalJa": "断崖のウルグァム",
+    "generalEn": "Precipice Ulokiem",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "遺卻",
+    "generalJa": "遺却【オブリビオン】",
+    "generalEn": "Bequeathed Oblivion",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "護鎖刃雙劍歐文",
+    "generalJa": "護鎖刃双剣ガルウェン",
+    "generalEn": "G. Inspired Ywain",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "怪鳥雙刃",
+    "generalJa": "双刃イャンクック",
+    "generalEn": "Dual Kut-Ku",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "終極戰斧",
+    "generalJa": "ラストタバルジン",
+    "generalEn": "Final Battleaxes",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "護雷爪守衛旋風",
+    "generalJa": "護雷爪トルネガルデ",
+    "generalEn": "Fulgurtwins Guardiana",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "白猿釵【王】",
+    "generalJa": "白猿釵【ドド】",
+    "generalEn": "Blango Trishula",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "鎧龍勇士",
+    "generalJa": "グラビドブレイヴァー",
+    "generalEn": "Gravios Conquerors",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "叛爪軒轅十二",
+    "generalJa": "叛爪アルギエバ",
+    "generalEn": "Terrible Twins",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "雌雄雙龍劍",
+    "generalJa": "双剣リュウノツガイ",
+    "generalEn": "Wyvern Lovers",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "烏鴉of垂吊者",
+    "generalJa": "クロウofハンガー",
+    "generalEn": "Hungerklauen",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "大師軍刀",
+    "generalJa": "マスターセーバー",
+    "generalEn": "Master Sabers",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "祈望小刀",
+    "generalJa": "エスペラダガー",
+    "generalEn": "Esperanza Daggers",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "破鏡雙劍",
+    "generalJa": "ティルトクライス",
+    "generalEn": "Tiltkreise",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "閻婆梵闢亂刃",
+    "generalJa": "闢乱刃ザンバストラ",
+    "generalEn": "Fastflayers Jambastra",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "鎖刃雙劍歐文",
+    "generalJa": "鎖刃双剣イウェイン",
+    "generalEn": "Inspired Ywain",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0026",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "熾光耶莉尤",
+    "generalJa": "熾光たるイェリア",
+    "generalEn": "Blazing Liel",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0027",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "磨刀研刃之切耶",
+    "generalJa": "つるぎたち研刃の切耶",
+    "generalEn": "Evening Dusk",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0028",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "全熟雙劍",
+    "generalJa": "双剣ウェル＝断",
+    "generalEn": "Well-done Blades",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0029",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "雷雙劍雙海龍",
+    "generalJa": "雷双剣ツインクルス",
+    "generalEn": "Levin Acrus",
+    "genNote": ""
+  },
+  {
+    "id": "GDB_0030",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．雙刀",
+    "generalZh": "永別破鏡之鑰",
+    "generalJa": "永訣のクラウクライス",
+    "generalEn": "Eternal Cusp",
+    "genNote": ""
+  },
+  {
+    "id": "GSA_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "粉身碎骨",
+    "generalJa": "ボーンスマッシャー",
+    "generalEn": "Bone Smasher",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "鉻鋼迅斧",
+    "generalJa": "クロムアクセル",
+    "generalEn": "Chrome Accelerator",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "棒刺蛛刺花劍斧",
+    "generalJa": "刺花剣斧セレノスミア",
+    "generalEn": "Lala Selenocosmi",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "巨猿惡臭斧",
+    "generalJa": "グンダババンダール",
+    "generalEn": "Gundava Vandal",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "狂瀾波濤劍斧",
+    "generalJa": "波濤剣斧オラアチャ",
+    "generalEn": "Olacha-of-the-Waves",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "風戟裂蝕劍斧",
+    "generalJa": "風戟剣斧サキバミ",
+    "generalEn": "Windsunder Sakibami",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "獄焰邪鱆劍斧",
+    "generalJa": "獄焔剣斧ザンユ",
+    "generalEn": "Abaddonian Zhangyu",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "北風戰熊護闢暴斧",
+    "generalJa": "護闢暴斧ガルグマケン",
+    "generalEn": "Gorehacker Urgahaac",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "潔白火龍斬擊斧",
+    "generalJa": "リオヴァイスグレイブ",
+    "generalEn": "Albirath Blaze Splitter",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "暗斧布魯圖斯",
+    "generalJa": "暗斧ブルトゥクス",
+    "generalEn": "Brutus's Abolishment",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "護鎖刃劍斧珀西瓦里",
+    "generalJa": "護鎖刃剣斧ガルヴァル",
+    "generalEn": "G. Indomitable Perceval",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "怪鳥巨啄斧",
+    "generalJa": "ビークックアックス",
+    "generalEn": "Sawbill Axe",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "破盾者",
+    "generalJa": "ランドグリーズ",
+    "generalEn": "Gríðr's Landmaker",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "護雷劍斧守衛之斧",
+    "generalJa": "護雷剣斧シスカガルデ",
+    "generalEn": "Fulgurswitch Guardiana",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "叛伐斧畢宿五",
+    "generalJa": "叛伐斧アルダバラン",
+    "generalEn": "Baran Defiance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "火龍紅蓮斬擊斧",
+    "generalJa": "リオヴェルグレイブ",
+    "generalEn": "Rath Blaze Splitter",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "意志of心靈",
+    "generalJa": "ウィルofマインド",
+    "generalEn": "Eisengeist",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "典雅鋸刃",
+    "generalJa": "アルトエレガン",
+    "generalEn": "Mundus Altus",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "祈望斧",
+    "generalJa": "エスペラアックス",
+    "generalEn": "Esperanza Axe",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "北風戰熊闢暴斧",
+    "generalJa": "闢暴斧ヤオガルケン",
+    "generalEn": "Fleshhacker Yaogahaac",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "鎖刃劍斧珀西瓦里",
+    "generalJa": "鎖刃剣斧ペルスヴァル",
+    "generalEn": "Indomitable Perceval",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "熾光馬哈希亞",
+    "generalJa": "熾光たるマハーヤ",
+    "generalEn": "Blazing Mahaiah",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "雨落流水斧之雕字",
+    "generalJa": "にはたづみ流斧の彫字",
+    "generalEn": "Parting Slice",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "高壓雷光戰斧",
+    "generalJa": "ハイボルトアックス",
+    "generalEn": "High Bolt Axe",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSA_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．斬擊斧",
+    "generalZh": "邪念征服鋸刀",
+    "generalJa": "邪執のコンキエレガン",
+    "generalEn": "Wicked Regnum",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "舞空長刃",
+    "generalJa": "エアリアルグレイブ",
+    "generalEn": "Aerial Glaive",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "鉻鋼疾風",
+    "generalJa": "クロムゲイル",
+    "generalEn": "Chrome Gale",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "羽毛腳巴布刺花棍",
+    "generalJa": "刺花棍ストルペルマ",
+    "generalEn": "Lala Stromatopelm",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "沙海棍躍動者",
+    "generalJa": "沙海棍ウスラティエ",
+    "generalEn": "Sandsea Uchaltiya",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "煌雷閃電棍",
+    "generalJa": "煌雷棍ハリリンタル",
+    "generalEn": "Halilintar Clairglaive",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "高級潛行蟲棍",
+    "generalJa": "ハイスニークロッド",
+    "generalEn": "Stealth Glaive Redux",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "赫炎叉戟跋陀羅",
+    "generalJa": "赫炎叉戟バドラ",
+    "generalEn": "Ajara-Bhadra",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "護火龍棍【白妙】",
+    "generalJa": "護火竜棍【白妙】",
+    "generalEn": "Alabaster Rathmaul",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "斷崖金屬棒",
+    "generalJa": "断崖のグムゲル",
+    "generalEn": "Precipice Geumgel",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "遺戒",
+    "generalJa": "遺戒【テスタメント】",
+    "generalEn": "Bequeathed Testament",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "護鎖刃戟托爾",
+    "generalJa": "護鎖刃戟ガルシュトア",
+    "generalEn": "G. Enduring Tor",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "赤甲大嘴怪鳥矛",
+    "generalJa": "赤甲大嘴の怪鳥矛",
+    "generalEn": "Toucan Pike",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "女王權杖",
+    "generalJa": "クイーンレガリア",
+    "generalEn": "Queen Regalia",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "護雷棍守衛之杖",
+    "generalJa": "護雷棍カラムガルデ",
+    "generalEn": "Fulgurglaive Guardiana",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "碧雪棍",
+    "generalJa": "サフィードブリザード",
+    "generalEn": "Immaculate Blizzard",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "重力突進棍",
+    "generalJa": "グラビアルティーダ",
+    "generalEn": "Gravordius",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "叛棍河鼓二",
+    "generalJa": "叛棍アルティール",
+    "generalEn": "Alteal",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "火龍棍【炎舞】",
+    "generalJa": "火竜棍【炎舞】",
+    "generalEn": "Firedance Rathmaul",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "狙擊of變幻",
+    "generalJa": "エイムofイリューズ",
+    "generalEn": "Leumundsgift",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "雙重螺旋刃棍",
+    "generalJa": "ディプリエリカ",
+    "generalEn": "Diprielcha",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "祈望棍",
+    "generalJa": "エスペラロッド",
+    "generalEn": "Esperanza Glaive",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "纏蛙強躍棍",
+    "generalJa": "纏棍ラーフポーカ",
+    "generalEn": "Shrouded Laphoka",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "鎖刃戟托爾",
+    "generalJa": "鎖刃戟トーア",
+    "generalEn": "Enduring Tor",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "熾光卡赫特爾",
+    "generalJa": "熾光たるカティラ",
+    "generalEn": "Blazing Katir",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "如薹草根之漩渦",
+    "generalJa": "すがのねの長薙の巴",
+    "generalEn": "Curved Naganagi",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0026",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "真・歐米茄之杖",
+    "generalJa": "ロッドオブオメガ・真",
+    "generalEn": "TRUE Omega's Rod",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0027",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "雷叉棍雷電海龍",
+    "generalJa": "雷叉棍ヴォルトラギア",
+    "generalEn": "Fractal Glaive Boltlagia",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0028",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "墮世之淚雙重螺旋",
+    "generalJa": "堕在のラクリエリカ",
+    "generalEn": "Limbo Llor",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GIG_0029",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．操蟲棍",
+    "generalZh": "衝鋒隊長杖【真傳】",
+    "generalJa": "先駆け衆の長杖【皆伝】",
+    "generalEn": "Vanguard's Pride",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "暗弓布斯威爾",
+    "generalJa": "暗弓ブースウィル",
+    "generalEn": "Bookwilthe's Punisher",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "煌雷霹靂弓",
+    "generalJa": "煌雷弓ペルコンス",
+    "generalEn": "Perkonis Clairbow",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "叛弓箕宿一",
+    "generalJa": "叛弓アルナスル",
+    "generalEn": "Insurgent Bow",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "風甲射蝕弓",
+    "generalJa": "風甲弓イバミ",
+    "generalEn": "Windbrace Ibami",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "炎尾引火弓",
+    "generalJa": "炎尾弓リビオラ",
+    "generalEn": "Firetrail Leviora",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "真・龍穿弓",
+    "generalJa": "真・竜穿弓",
+    "generalEn": "TRUE Dragon Perforator",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "陽刺弓",
+    "generalJa": "エスピキュラ",
+    "generalEn": "Solar Spicule",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "日珥強弓",
+    "generalJa": "ダークフィラメント",
+    "generalEn": "Dark Filament",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "女王旋律",
+    "generalJa": "クイーンエテノルク",
+    "generalEn": "Queen's Melody",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "骸蜘蛛影弓",
+    "generalJa": "ネルスルペレザ",
+    "generalEn": "Nershock",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "卡利斯托護闢虐弓",
+    "generalJa": "護闢虐弓ガルグマクス",
+    "generalEn": "Griefbringer Urstox",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "能量獵弓",
+    "generalJa": "パワーハンターボウ",
+    "generalEn": "Hunter's Stoutbow",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "護雷弓守衛之電",
+    "generalJa": "護雷弓レラガルデ",
+    "generalEn": "Fulgurbow Guardiana",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "狂瀾波濤弓",
+    "generalJa": "波濤弓フイリャク",
+    "generalEn": "Khviluk-of-the-Waves",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "視野of絕望",
+    "generalJa": "ビジョンofディスペア",
+    "generalEn": "Verzweiflung",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "密林惡臭毛皮弓",
+    "generalJa": "密林のカルファード",
+    "generalEn": "Wildwood Kalifa",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "獅王角制弓",
+    "generalJa": "シンハ＝シャルガ",
+    "generalEn": "Singha Sharanga",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "怪鳥幣弓",
+    "generalJa": "怪鳥幣弓",
+    "generalEn": "Strange Kut-Ku Stave",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "護鎖刃弓崔斯坦",
+    "generalJa": "護鎖刃弓ガルストラム",
+    "generalEn": "G. Renowned Tristram",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "天使之足",
+    "generalJa": "アンギルバイン",
+    "generalEn": "Angelbein",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "熾光薩麥爾",
+    "generalJa": "熾光たるサミーラ",
+    "generalEn": "Blazing Samira",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "祈望大弓",
+    "generalJa": "エスペラボウ",
+    "generalEn": "Esperanza Bow",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "卡利斯托闢虐弓",
+    "generalJa": "闢虐弓カリステクス",
+    "generalEn": "Fearbringer Callistox",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "鎖刃弓崔斯坦",
+    "generalJa": "鎖刃弓トリストラム",
+    "generalEn": "Renowned Tristram",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "投箭遠弓之真弦",
+    "generalJa": "なぐるやの遠弓の真弦",
+    "generalEn": "Heaven's Manna",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0026",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "高壓雷光弓",
+    "generalJa": "ハイボルトアロー",
+    "generalEn": "High Voltsender",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0027",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "亡國丘比特之足",
+    "generalJa": "亡国のクピドバイン",
+    "generalEn": "Calamitous Angel",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GBW_0028",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．弓",
+    "generalZh": "蒼世龍弓【天翔】",
+    "generalJa": "蒼世ノ龍弓【天翔】",
+    "generalEn": "Azure Era Soaring Dragon",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "硬骨兵裝",
+    "generalJa": "ハードボーンアームズ",
+    "generalEn": "Hard Bone Strongarm",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "合金充能斧",
+    "generalJa": "レーガスピーダ",
+    "generalEn": "Regas Hyper",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "捕鳥蛛刺花盾斧",
+    "generalJa": "刺花盾斧エウメノス",
+    "generalEn": "Lala Eumenophor",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "狂瀾波濤盾斧",
+    "generalJa": "波濤盾斧ヴァレロヤ",
+    "generalEn": "Valeroje-of-the-Waves",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "曼巴蛇毒沼噴盾斧",
+    "generalJa": "ププロ盾斧デンドーラ",
+    "generalEn": "Rompo Dendrotox",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "煌雷閃電盾斧",
+    "generalJa": "煌雷盾斧アストラペ",
+    "generalEn": "Astrapi Clairaxe",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "阿剌克涅之鐮",
+    "generalJa": "アラクネサイズ",
+    "generalEn": "Arachnoscythe",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "風爪蓄蝕盾斧",
+    "generalJa": "風爪盾斧タメバミ",
+    "generalEn": "Windthrash Tamebami",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "獄焰惡鱆盾斧",
+    "generalJa": "獄焔盾斧プウェザ",
+    "generalEn": "Abaddonian Pweza",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "灰滅火龍斧",
+    "generalJa": "灰滅斧ガルデリオス",
+    "generalEn": "Guardian Albathos",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "遺恨",
+    "generalJa": "遺恨【エンミティ】",
+    "generalEn": "Bequeathed Enmity",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "護鎖刃充能斧高文",
+    "generalJa": "護鎖刃盾斧ガルヴァン",
+    "generalEn": "G. Abiding Gawain",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "劇毒盾斧",
+    "generalJa": "ヴェノムシルベルテ",
+    "generalEn": "Venom's Kiss",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "雌火盾斧",
+    "generalJa": "ディア＝ルテミア",
+    "generalEn": "Dear Lutemia",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "叛充能斧觜宿一",
+    "generalJa": "叛盾斧アルマイサ",
+    "generalEn": "Rebellious Charger",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "紅蓮斧俄里翁",
+    "generalJa": "紅蓮斧ユニオリオン",
+    "generalEn": "Bardichion Blade",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "力量of破壞",
+    "generalJa": "フォースofルイン",
+    "generalEn": "Leidenskraft",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "時間齒輪",
+    "generalJa": "テンプス・ギア",
+    "generalEn": "Chrono Gear",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "祈望兵裝",
+    "generalJa": "エスペラアームズ",
+    "generalEn": "Esperanza Strongarm",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "纏蛙強蓄盾斧",
+    "generalJa": "纏盾斧ジャマカクタル",
+    "generalEn": "Shrouded Kutharja",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "鎖刃充能斧高文",
+    "generalJa": "鎖刃盾斧ゴーヴァン",
+    "generalEn": "Abiding Gawain",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "熾光耶利米",
+    "generalJa": "熾光たるエレーム",
+    "generalEn": "Blazing Yirmiya",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "潔白衣斧之御帝",
+    "generalJa": "しろたへの衣斧の御帝",
+    "generalEn": "Final Fieldblade",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "雷盾斧勝者漩渦",
+    "generalJa": "雷盾斧ヴァンクロム",
+    "generalEn": "Vankrom Blade",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GCB_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．充能斧",
+    "generalZh": "代價深淵齒輪",
+    "generalJa": "代償のネイディ・ギア",
+    "generalEn": "Promised Abyss",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "煌雷霹靂劍",
+    "generalJa": "煌雷剣グクルトス",
+    "generalEn": "Kuara Clairsword",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "叛牙星宿一",
+    "generalJa": "叛牙アルファルド",
+    "generalEn": "Feral Fangs",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "生命of探索者",
+    "generalJa": "アンクofサーチャー",
+    "generalEn": "Jäger-Ankh",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "巴布蜘蛛刺花劍",
+    "generalJa": "刺花剣アカトペルマ",
+    "generalEn": "Lala Acanthopelm",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "炎尾火爐劍",
+    "generalJa": "炎尾剣フォルナクス",
+    "generalEn": "Firetrail Fornax",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "重劍泰坦",
+    "generalJa": "重剣タイタン",
+    "generalEn": "Titan's Armament",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "花開重鐵劍",
+    "generalJa": "重鉄剣フロシオン",
+    "generalEn": "Smithy's Pride",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "斷崖金屬杖",
+    "generalJa": "断崖のマテプトロ",
+    "generalEn": "Precipice Mateptro",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "熾熔銳劍",
+    "generalJa": "メルト",
+    "generalEn": "Melting Point",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "日冕短劍",
+    "generalJa": "コロナ",
+    "generalEn": "Corona",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "女王細劍",
+    "generalJa": "クイーンレイピア",
+    "generalEn": "Queen Rapier",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "影蜘蛛盾刃",
+    "generalJa": "ネルスパーダ",
+    "generalEn": "Nerskiller",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "沙海劍刀光劍影",
+    "generalJa": "沙海剣カトヌカドゥ",
+    "generalEn": "Sandsea Katduva",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "酋長曲刀",
+    "generalJa": "チーフククリ",
+    "generalEn": "Chief Kukri",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "護雷劍守衛之刃",
+    "generalJa": "護雷剣シーカガルデ",
+    "generalEn": "Fulgursword Guardiana",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "致命劇毒軍刀",
+    "generalJa": "デスヴェノムサーベル",
+    "generalEn": "Viperine Saber",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "赫炎護劍蘇頻陀",
+    "generalJa": "赫炎護剣スヴィンダ",
+    "generalEn": "Ajara-Subinda",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "獅子雙刃彎刀",
+    "generalJa": "獅子のジャンビーヤ",
+    "generalEn": "Snow Lion Jambiya",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "暗彎刀科黛",
+    "generalJa": "暗彎刀コルディアル",
+    "generalEn": "Cordayle's Revocation",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "護鎖刃劍亞瑟",
+    "generalJa": "護鎖刃剣ガルトリウス",
+    "generalEn": "G. Guiding Artorius",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "真實之鑿",
+    "generalJa": "ヴェルドロート",
+    "generalEn": "Verdoloto",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "熾光米迦勒",
+    "generalJa": "熾光たるミハーラ",
+    "generalEn": "Blazing Mikal",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "祈望劍",
+    "generalJa": "エスペラソード",
+    "generalEn": "Esperanza Sword",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "纏蛙強劈劍",
+    "generalJa": "纏剣カータトルァ",
+    "generalEn": "Shrouded Katalo",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "鎖刃劍亞瑟",
+    "generalJa": "鎖刃剣アルトリウス",
+    "generalEn": "Guiding Artorius",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0026",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "深紅彩扇之薄重",
+    "generalJa": "くれなゐの色扇の薄重",
+    "generalEn": "Kurenawi Ougi",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0027",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "十字鎬劍挖不停",
+    "generalJa": "鶴嘴剣ディグモア",
+    "generalEn": "Digmore War Pick",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0028",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "高等海龍劍",
+    "generalJa": "ハイラギアソード",
+    "generalEn": "High Lagia Sword",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0029",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "真・歐米茄之劍",
+    "generalJa": "ブレードオブオメガ・真",
+    "generalEn": "True Omega's Sword",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0030",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "喵喵棒",
+    "generalJa": "にゃんにゃんぼう",
+    "generalEn": "Catburglar",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GSS_0031",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．單手劍",
+    "generalZh": "破滅憐憫頌之鑿",
+    "generalJa": "破滅のキリエヴェルド",
+    "generalEn": "Kyrie Verd",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "重岩骨錘",
+    "generalJa": "ヘヴィロックボーン",
+    "generalEn": "Heavy Bone Bludgeon",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "鬼鐵",
+    "generalJa": "鬼鉄",
+    "generalEn": "Iron Devil",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "沙海錘重擊",
+    "generalJa": "沙海鎚シヤミティエ",
+    "generalEn": "Sandsea Siamitiya",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "林鵙鶲毒沼噴錘",
+    "generalJa": "ププロ鎚ホムパトラ",
+    "generalEn": "Rompo Robustox",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "影蜘蛛群球錘",
+    "generalJa": "ネルスクラスター",
+    "generalEn": "Nerscrapper",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "獄焰鬼鱆錘",
+    "generalJa": "獄焔槌プルポ",
+    "generalEn": "Abaddonian Pulpo",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "白炎碎吉比爾",
+    "generalJa": "白炎砕ギビル",
+    "generalEn": "Gibil Hammer",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "斷崖金屬錘",
+    "generalJa": "断崖のロガマルト",
+    "generalEn": "Precipice Logamtu",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "暗錘羅倫札奇",
+    "generalJa": "暗鎚ロルザッチ",
+    "generalEn": "Zaccio's Execution",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "護鎖刃錘貝德維爾",
+    "generalJa": "護鎖刃鎚ガルヴィエル",
+    "generalEn": "G. Exultant Bedivere",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "怪鳥碰碰",
+    "generalJa": "クックザップ",
+    "generalEn": "Kut-Ku Thwap",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "致命劇毒錘",
+    "generalJa": "デスヴェノムハンマー",
+    "generalEn": "Death Venom Hammer",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "護雷錘守衛之鳴",
+    "generalJa": "護雷鎚ドンナガルデ",
+    "generalEn": "Fulgurhammer Guardiana",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "獅王哈奴曼錘",
+    "generalJa": "シンハ＝ガダ",
+    "generalEn": "Singha Gada",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "鎧龍重錘",
+    "generalJa": "グラビィトンハンマー",
+    "generalEn": "Graviton Hammer",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "叛錘大陵五",
+    "generalJa": "叛鎚アルグル",
+    "generalEn": "Argyl Hammer",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "火龍碎胡拉坎",
+    "generalJa": "火竜砕フラカン",
+    "generalEn": "Huracan Hammer",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "權力of恐怖",
+    "generalJa": "パワーofテラー",
+    "generalEn": "Grimmblick",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "束縛方塊錘",
+    "generalJa": "バインドキューブ",
+    "generalEn": "Binder Mace",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "汪克爾引擎",
+    "generalJa": "モートヴァンケル",
+    "generalEn": "Moteurvankel",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "祈望大錘",
+    "generalJa": "エスペラハンマー",
+    "generalEn": "Esperanza Hammer",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "纏蛙強擊錘",
+    "generalJa": "纏槌ハシャハトゥリ",
+    "generalEn": "Shrouded Aghaturi",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "鎖刃錘貝德維爾",
+    "generalJa": "鎖刃鎚ベディヴィエル",
+    "generalEn": "Exultant Bedivere",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "熾光烏列爾",
+    "generalJa": "熾光たるウーリア",
+    "generalEn": "Blazing Uria",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "波濤撓錘之華石",
+    "generalJa": "おきつなみ撓鎚の華石",
+    "generalEn": "Sinter Hammer",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0026",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "高電壓錘",
+    "generalJa": "ハイボルテック",
+    "generalEn": "High Vortex Hammer",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHM_0027",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．大錘",
+    "generalZh": "禁戒牢獄汪克爾",
+    "generalJa": "禁戒のデスヴァンケル",
+    "generalEn": "Bound Admonition",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "硬骨號角",
+    "generalJa": "ハードボーンホルン",
+    "generalEn": "Hardened Bone Horn",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "巨型風笛",
+    "generalJa": "グレートバグパイプ",
+    "generalEn": "Great Bagpipe",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "桃毛戰鼓",
+    "generalJa": "ウォーコンガ",
+    "generalEn": "War Conga",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "沙海笛鳴笛者",
+    "generalJa": "沙海笛ガントヴィジ",
+    "generalEn": "Sandsea Ghantisil",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "煌雷閃電鼓",
+    "generalJa": "煌雷鼓ブリスビッツァ",
+    "generalEn": "Perun Clairhorn",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "赫炎笛戍博迦",
+    "generalJa": "赫炎笛ジーヴァカ",
+    "generalEn": "Ajara-Jivaka",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "母熊神護闢轟笛",
+    "generalJa": "護闢轟笛ガルグマピリ",
+    "generalEn": "Grudgesounder Urga",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "白炎笛鼓舞",
+    "generalJa": "白炎笛アリエント",
+    "generalEn": "G. Rathalos Feroce",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "斷崖金屬風琴",
+    "generalJa": "断崖のコーヴィラ",
+    "generalEn": "Precipice Kovira",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "暗琴荊軻",
+    "generalJa": "暗琴クージン",
+    "generalEn": "Kae-Jin's Lament",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "護鎖刃笛加拉哈德",
+    "generalJa": "護鎖刃笛ガルシュハド",
+    "generalEn": "G. Resounding Galahad",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "怪鳥美聲",
+    "generalJa": "クックカンタービレ",
+    "generalEn": "Kut-Ku Cantabile",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "毒笛狂想曲【狂奏】",
+    "generalJa": "毒笛カプリ【狂奏】",
+    "generalEn": "Crazed Melody",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "女王之笛",
+    "generalJa": "クイーンリコーダー",
+    "generalEn": "Queen Chordmaker",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "護雷笛守衛之號",
+    "generalJa": "護雷笛ホーンガルデ",
+    "generalEn": "Fulgurhowl Guardiana",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "叛笛參宿七",
+    "generalJa": "叛笛アルリジル",
+    "generalEn": "Allysyl Muse",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "火龍笛展翅高飛",
+    "generalJa": "火竜笛アンビシオン",
+    "generalEn": "Rathalos Feroce",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "音色of悲痛",
+    "generalJa": "サウンドofソロウ",
+    "generalEn": "Gramklang",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "皇家琉璃鈴",
+    "generalJa": "ロイヤルビードロー",
+    "generalEn": "Glass Royale",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "太古之音",
+    "generalJa": "オミリティカ",
+    "generalEn": "Omiltika",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "祈望號角",
+    "generalJa": "エスペラホルン",
+    "generalEn": "Esperanza Horn",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "母熊神闢轟笛",
+    "generalJa": "闢轟笛ホンガタピリ",
+    "generalEn": "Farsounder Honga",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "鎖刃笛加拉哈德",
+    "generalJa": "鎖刃笛ギャラハッド",
+    "generalEn": "Resounding Galahad",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "熾光加百列",
+    "generalJa": "熾光たるガヴリア",
+    "generalEn": "Blazing Gariel",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "鳴神音鈴之乙鳴",
+    "generalJa": "なるかみの音鈴の乙鳴",
+    "generalEn": "Summoning Bell",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0026",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "雷笛雷電角",
+    "generalJa": "雷笛ヴォルトホーン",
+    "generalEn": "Lagia Thunderpeal",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLB_0027",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．狩獵笛",
+    "generalZh": "暗黑舞姬之音",
+    "generalJa": "闇黒のテルプリティカ",
+    "generalEn": "Onyx Choros",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "硬骨長槍",
+    "generalJa": "ハードボーンランス",
+    "generalEn": "Hard Bone Lance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "鉻鋼長槍",
+    "generalJa": "クロムランツェ",
+    "generalEn": "Chrome Lance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "炎尾噴燈槍",
+    "generalJa": "炎尾槍カミネートー",
+    "generalEn": "Firetrail Kaminet",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "巨狼蛛刺花槍",
+    "generalJa": "刺花槍アヴィクリア",
+    "generalEn": "Lala Aviculari",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "沙海槍穿刺之矛",
+    "generalJa": "沙海槍プラハヒレヤ",
+    "generalEn": "Sandsea Prallaya",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "河魨毒沼噴槍",
+    "generalJa": "ププロ槍テトロドクス",
+    "generalEn": "Rompo Tetrotox",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "煌雷霹靂槍",
+    "generalJa": "煌雷槍ガルガラハト",
+    "generalEn": "Indra Clairlance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "風月突蝕牙槍",
+    "generalJa": "風月牙槍ツキバミ",
+    "generalEn": "Windpierce Tsukibami",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "獄焰八腳槍",
+    "generalJa": "獄焔槍アシミノク",
+    "generalEn": "Abaddonian Osminog",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "德別爾護闢荒槍",
+    "generalJa": "護闢荒槍ガルグマニト",
+    "generalEn": "Gloomborer Urshanith",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "閃耀之柱",
+    "generalJa": "シャイニングピラー",
+    "generalEn": "Shining Pillar",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "遺憾",
+    "generalJa": "遺憾【リグレット】",
+    "generalEn": "Bequeathed Regret",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "護鎖刃槍加雷斯",
+    "generalJa": "護鎖刃槍ガルシュマン",
+    "generalEn": "G. Purifying Beaumains",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "鎧龍激槍",
+    "generalJa": "激槍グラビモス",
+    "generalEn": "Gravios Lance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "叛槍天囷一",
+    "generalJa": "叛槍アルメンカル",
+    "generalEn": "Turbulent Lance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "日珥刺矛",
+    "generalJa": "プロミネンスピラー",
+    "generalEn": "Spear of Prominence",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "護盾of酷熱",
+    "generalJa": "シールドofヒート",
+    "generalEn": "Fieberschild",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "摩天樓",
+    "generalJa": "マテンロウ",
+    "generalEn": "Skyscraper",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "祈望長槍",
+    "generalJa": "エスペラランス",
+    "generalEn": "Esperanza Lance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "德別爾闢荒槍",
+    "generalJa": "闢荒槍ドビエラニト",
+    "generalEn": "Fierceborer Dubhanith",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "鎖刃槍加雷斯",
+    "generalJa": "鎖刃槍ボーマン",
+    "generalEn": "Purifying Beaumains",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "熾光席塔爾",
+    "generalJa": "熾光たるシタール",
+    "generalEn": "Blazing Sital",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "君著笠槍之突刺",
+    "generalJa": "きみがきる笠槍の突刺",
+    "generalEn": "Kimi Ga Kiru",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "高級海龍長槍",
+    "generalJa": "ハイクルスランス",
+    "generalEn": "High Acrus Lance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "天涯聖槍摩天樓",
+    "generalJa": "天涯のゲガルンロウ",
+    "generalEn": "Aether Pike",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GLA_0026",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．長槍",
+    "generalZh": "巴別塔",
+    "generalJa": "バベル",
+    "generalEn": "Babel Spear",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "大骨銃槍",
+    "generalJa": "大骨銃槍",
+    "generalEn": "Great Bone Gunlance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "三叉鋒刃",
+    "generalJa": "トライエッジ",
+    "generalEn": "Triumvirate Edge",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "炎尾噴火銃槍",
+    "generalJa": "炎尾銃槍ケマドーラ",
+    "generalEn": "Firetrail Quemador",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "沙海銃槍爆發加農砲",
+    "generalJa": "沙海銃槍ヴィスキャノ",
+    "generalEn": "Sandsea Visponan",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "狂瀾波濤銃槍",
+    "generalJa": "波濤銃槍ファルマタ",
+    "generalEn": "Falarmata-of-the-Waves",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "堅實砲彈銃槍",
+    "generalJa": "ソリッドガンバード",
+    "generalEn": "Solid Gunberd",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "赫炎銃槍迦理迦",
+    "generalJa": "赫炎銃槍カーリカ",
+    "generalEn": "Ajara-Kalika",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "閃耀戰車",
+    "generalJa": "シャイニングルーク",
+    "generalEn": "Shining Rook",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "斷崖金屬砲",
+    "generalJa": "断崖のロハルマ",
+    "generalEn": "Precipice Lohamata",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "護鎖刃銃槍鮑斯",
+    "generalJa": "護鎖刃銃槍ガルホート",
+    "generalEn": "G. Lawful Bors",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "猛打者",
+    "generalJa": "ビッグスラッガー",
+    "generalEn": "Big Slugger",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "奧特琳德",
+    "generalJa": "オルトリンデ",
+    "generalEn": "Ortlinde",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "護雷銃槍守衛戰車",
+    "generalJa": "護雷銃槍ハルマガルデ",
+    "generalEn": "Fulgurcannon Guardiana",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "白色加農砲",
+    "generalJa": "ホワイトキャノン",
+    "generalEn": "White Cannon",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "叛銃槍敗臼一",
+    "generalJa": "叛銃槍アルダナブ",
+    "generalEn": "Riotous Gunlance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "深紅城塔",
+    "generalJa": "クリムゾンルーク",
+    "generalEn": "Crimson Rook",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "手腕of叛逆",
+    "generalJa": "アームofトリーズ",
+    "generalEn": "Verräterarm",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "黑痺銃槍",
+    "generalJa": "黒痺銃槍インペディア",
+    "generalEn": "Debilitating Torpor",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "原初創世紀",
+    "generalJa": "アル＝ジェネシス",
+    "generalEn": "Argenesis",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "祈望銃槍",
+    "generalJa": "エスペラガンランス",
+    "generalEn": "Esperanza Gunlance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "鎖刃銃槍鮑斯",
+    "generalJa": "鎖刃銃槍ボゥホート",
+    "generalEn": "Lawful Bors",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "熾光歷拉赫",
+    "generalJa": "熾光たるラエル",
+    "generalEn": "Blazing Lael",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "如蠅荒槍之水守",
+    "generalJa": "さばへなす荒槍の水守",
+    "generalEn": "Mizumori",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "玉米大砲",
+    "generalJa": "大砲モロコシ",
+    "generalEn": "Mighty Cornpopper",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "雷銃槍海龍",
+    "generalJa": "雷銃槍エクスラギア",
+    "generalEn": "Exlagia Gunlance",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GGL_0026",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．銃槍",
+    "generalZh": "預兆先知創世紀",
+    "generalJa": "前兆のプロフェネシス",
+    "generalEn": "Auguring Omen",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "狂野放臭者",
+    "generalJa": "ワイルドスティンカー",
+    "generalEn": "Wild Stinger",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "狂瀾波濤砲弩",
+    "generalJa": "波濤砲ダルガプ",
+    "generalEn": "Dalgap-of-the-Waves",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "黑寡婦毒沼噴銃",
+    "generalJa": "ププロ銃ラトロトカ",
+    "generalEn": "Rompo Latrotox",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "破壞者獵弩",
+    "generalJa": "バスターブラスター",
+    "generalEn": "Buster Blaster",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "獄焰八帶砲",
+    "generalJa": "獄焔砲ムンオ",
+    "generalEn": "Abaddonian Muneo",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "斷崖金屬弩",
+    "generalJa": "断崖のマルミリア",
+    "generalEn": "Precipice Malmiam",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "鋼鐵突擊弩",
+    "generalJa": "スティールアサルト",
+    "generalEn": "Steel Assault",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "堅骨發射器",
+    "generalJa": "ヘビィシューター",
+    "generalEn": "Heavy Shooter",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "怪鳥大砲",
+    "generalJa": "イャンクック大砲",
+    "generalEn": "Super Kut-Ku Cannon",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "戰車黑法師",
+    "generalJa": "タンクソーサラー",
+    "generalEn": "Tanksorcerer",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "妃龍砲【飛擊】",
+    "generalJa": "妃竜砲【飛撃】",
+    "generalEn": "Queen's Farflier",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "護雷重弩守衛導彈",
+    "generalJa": "護雷重弩テルマガルデ",
+    "generalEn": "Fulgurblast Guardiana",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "叛砲天倉一",
+    "generalJa": "叛砲アルシャマリ",
+    "generalEn": "Insurrection Cannon",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "鎧龍終極怒吼",
+    "generalJa": "グラビドギガハウル",
+    "generalEn": "Gravios Gigahowl",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "觸發of滅絕",
+    "generalJa": "トリガーofデマイズ",
+    "generalEn": "Ableben Abzug",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "護鎖刃砲帕拉米迪斯",
+    "generalJa": "護鎖刃砲ガルシュデス",
+    "generalEn": "G. Aeternal Palamedes",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "抓取者",
+    "generalJa": "グライフェン",
+    "generalEn": "Greifen",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "熾光梅塔特隆",
+    "generalJa": "熾光たるミトラン",
+    "generalEn": "Blazing Mitran",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "祈望加農砲",
+    "generalJa": "エスペラキャノン",
+    "generalEn": "Esperanza Cannon",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "纏蛙鳴放砲",
+    "generalJa": "纏砲モッティカマン",
+    "generalEn": "Shrouded Muktana",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "鎖刃砲帕拉米迪斯",
+    "generalJa": "鎖刃砲パラメデス",
+    "generalEn": "Aeternal Palamedes",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "卻步山砲之御車",
+    "generalJa": "あしひきの山砲の御車",
+    "generalEn": "Mountainous Roar",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "雷砲海龍電擊",
+    "generalJa": "雷砲ラギアブリッツ",
+    "generalEn": "Thunderblitz Cannon",
+    "genNote": "(R8武器)"
+  },
+  {
+    "id": "GHB_0024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "weaponname",
+    "typeZh": "武器名",
+    "typeSub": "武器名．重弩",
+    "generalZh": "戰慄霸權抓取者",
+    "generalJa": "戦慄のヘルシャフェン",
+    "generalEn": "Trembling Hels",
+    "genNote": "(R8武器)"
   }
 ]
