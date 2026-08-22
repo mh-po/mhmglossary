@@ -1268,6 +1268,7 @@ hr {
         .portal-card.crown .portal-icon { color: #ffdc16; font-variation-settings: 'FILL' 1; }
         .portal-card.events .portal-icon { color: #056e9e; }
         .portal-card.recipe .portal-icon { color: #059e8a; }
+        .portal-card.credits .portal-icon { color: #c9a402; }
 
         @media (max-width: 480px) {
             .portal-grid {
