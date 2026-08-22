@@ -1,5 +1,7 @@
 # mhmglossary
 A mini glossary for Monster Hunter Wilds in Chinese, English and Japanese.
+https://mh-po.github.io/mhmglossary/
+
 
 MHWilds Mini Glossary & Notes
 This repository is a personal project: a Monster Hunter Wilds glossary and notes database.
