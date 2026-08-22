@@ -26,7 +26,7 @@ Please report serious errors or issues that affect fair use.
 
 Vocabulary suggestions are welcome, but updates depend on time and consideration.
 
-I don’t answer general hunting or coding questions — this is just a personal effort.
+I cannot answer general hunting or coding questions.
 
 Feedback (positive or negative) will be read, but replies are not guaranteed.
 
