@@ -1175,21 +1175,21 @@ hr {
         text-align: center;
         padding: 60px 20px; /* 可適度增加高度讓背景更完整呈現 */
         
-        /* 核心背景設定：半透明遮罩 + 背景圖片 */
-        background-image: 
-            linear-gradient(rgba(247, 236, 236, 0.45), rgba(0, 0, 0, 0.45)), /* 半透明遮罩，確保文字清晰 */
-            url("https://mh-po.github.io/mhmglossary/siteicon/bannerbg.jpg");* 替換為圖片網址或檔案路徑 */
-        background-size: cover;          /* 等比例放大填滿 100% 區域，裁切多餘部分 */
-        background-position: center;     /* 保持圖片居中 */
-        background-repeat: no-repeat;    /* 禁止圖片重複拼貼 */
-        
-        /* 原有外框與陰影樣式 */
-        border-radius: 12px;
-        margin-bottom: 24px;
-        border: 0px solid rgba(255, 255, 255, 0.2);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.562);
-        color: #ffffff; /* 確保文字在深色/圖片背景下為白色 */
-    }
+/* 核心背景設定：半透明遮罩 + 背景圖片 */
+    background-image: 
+        linear-gradient(rgba(247, 236, 236, 0.45), rgba(0, 0, 0, 0.45)), /* 半透明遮罩，確保文字清晰 */
+        url("https://mh-po.github.io/mhmglossary/siteicon/bannerbg.jpg"); /* 替換為圖片網址或檔案路徑 */
+    background-size: cover;          /* 等比例放大填滿 100% 區域，裁切多餘部分 */
+    background-position: center;     /* 保持圖片居中 */
+    background-repeat: no-repeat;    /* 禁止圖片重複拼貼 */
+    
+    /* 原有外框與陰影樣式 */
+    border-radius: 12px;
+    margin-bottom: 24px;
+    border: 0px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.562);
+    color: #ffffff; /* 確保文字在深色/圖片背景下為白色 */
+}
 
     /* 強化標題文字可讀性 */
     .hero-title {
