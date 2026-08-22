@@ -173,7 +173,8 @@
         "armor_ammo":"Armor Ammo",
         "recover_ammo":"Recover Ammo",
         "tranq_ammo":"Tranq Ammo",
-        "exhaust_ammo":"Exhaust Ammo"
+        "exhaust_ammo":"Exhaust Ammo",
+        "first-aid_med+":"First Aid Med+"
     },
 
     "ja":{
@@ -350,7 +351,8 @@
         "armor_ammo":"硬化弾",
         "recover_ammo":"回復弾",
         "tranq_ammo":"捕獲用麻酔弾",
-        "exhaust_ammo":"減気弾"
+        "exhaust_ammo":"減気弾",
+        "first-aid_med+":"応急薬グレート"
     },
 
     "zh_TW":{
@@ -527,7 +529,8 @@
         "armor_ammo":"硬化彈",
         "recover_ammo":"回復彈",
         "tranq_ammo":"捕獲用麻醉彈",
-        "exhaust_ammo":"減氣彈"
+        "exhaust_ammo":"減氣彈",
+        "first-aid_med+":"應急藥・大"
     }
 
 }
