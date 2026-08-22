@@ -1,0 +1,837 @@
+[
+    {
+    "item_id": "max_potion",
+    "take_slot": true,
+    "limit": 2,
+    "out_box": false,
+    "kind": "potion"
+  },
+  {
+    "item_id": "ancient_potion",
+    "take_slot": true,
+    "limit": 1,
+    "out_box": false,
+    "kind": "potion"
+  },
+
+  {
+    "item_id": "mega_potion",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "potion"
+  },
+  {
+    "item_id": "potion",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "potion"
+  },
+  {
+    "item_id": "antidote",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "curative"
+  },
+  
+  {
+    "item_id": "energy_drink",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "curative"
+  },
+  {
+    "item_id": "cool_drink",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "curative"
+  },
+  {
+    "item_id": "hot_drink",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "curative"
+  },
+  {
+    "item_id": "cleanser",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "curative"
+  },
+  {
+    "item_id": "nulberry",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "seed_mushroom"
+  },
+  {
+    "item_id": "ration",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "ration"
+  },
+  {
+    "item_id": "well-done_steak",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "ration"
+  },
+  {
+    "item_id": "rare_steak",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "ration"
+  },
+  {
+    "item_id": "burnt_meat",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "ration"
+  },
+  {
+    "item_id": "lifepowder",
+    "take_slot": true,
+    "limit": 3,
+    "out_box": false,
+    "kind": "potion"
+  },
+  {
+    "item_id": "raw_meat",
+    "take_slot": false,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "barrel_bomb",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": true,
+    "kind": "trap_bomb"
+  },
+  {
+    "item_id": "large_barrel_bomb",
+    "take_slot": true,
+    "limit": 2,
+    "out_box": true,
+    "kind": "trap_bomb"
+  },
+  {
+    "item_id": "flash_pod",
+    "take_slot": true,
+    "limit": 3,
+    "out_box": true,
+    "kind": "slinger"
+  },
+  {
+    "item_id": "pitfall_trap",
+    "take_slot": true,
+    "limit": 1,
+    "out_box": false,
+    "kind": "trap_bomb"
+  },
+  {
+    "item_id": "shock_trap",
+    "take_slot": true,
+    "limit": 1,
+    "out_box": false,
+    "kind": "trap_bomb"
+  },
+  {
+    "item_id": "dash_juice",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "drug"
+  },
+  {
+    "item_id": "immunizer",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "drug"
+  },
+  {
+    "item_id": "demondrug",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "drug"
+  },
+  {
+    "item_id": "mega_demondrug",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "drug"
+  },
+  {
+    "item_id": "armorskin",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "drug"
+  },
+  {
+    "item_id": "mega_armorskin",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "drug"
+  },
+   {
+    "item_id": "mandragora",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "seed_mushroom"
+  },
+  {
+    "item_id": "blue_mushroom",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "seed_mushroom"
+  },
+  {
+    "item_id": "exciteshroom",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "seed_mushroom"
+  },
+  {
+    "item_id": "toadstool",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "seed_mushroom"
+  },
+  {
+    "item_id": "parashroom",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "seed_mushroom"
+  },
+  
+  {
+    "item_id": "nitroshroom",
+    "take_slot": true,
+    "limit": 20,
+    "out_box": false,
+    "kind": "seed_mushroom"
+  },
+  {
+    "item_id": "devil's_blight",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "seed_mushroom"
+  },
+  {
+    "item_id": "might_seed",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "seed_mushroom"
+  },
+  {
+    "item_id": "adamant_seed",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "seed_mushroom"
+  },
+  {
+    "item_id": "chillshroom",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "seed_mushroom"
+  },
+  {
+    "item_id": "screamer_pod",
+    "take_slot": true,
+    "limit": 3,
+    "out_box": true,
+    "kind": "slinger"
+  },
+  {
+    "item_id": "dung_pod",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": true,
+    "kind": "slinger"
+  },
+  {
+    "item_id": "farcaster",
+    "take_slot": true,
+    "limit": 1,
+    "out_box": false,
+    "kind": "item"
+  },
+  
+  {
+    "item_id": "bitterbug_broth",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "flashbug_phosphor",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "godbug_essence",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "trap_tool",
+    "take_slot": true,
+    "limit": 2,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "thunderbug_capacitor",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "smokenut",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "nourishing_extract",
+    "take_slot": true,
+    "limit": 20,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "dash_extract",
+    "take_slot": true,
+    "limit": 20,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "honey",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "fresh_honey",
+    "take_slot": true,
+    "limit": 3,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+ 
+  {
+    "item_id": "dragonfell_berry",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "blastnut",
+    "take_slot": true,
+    "limit": 30,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "slashberry",
+    "take_slot": true,
+    "limit": 30,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "dragonstrike_nut",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "smoke_bomb",
+    "take_slot": true,
+    "limit": 3,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "powercharm",
+    "take_slot": true,
+    "limit": 1,
+    "out_box": false,
+    "kind": "item"
+  },
+  {
+    "item_id": "armorcharm",
+    "take_slot": true,
+    "limit": 1,
+    "out_box": false,
+    "kind": "item"
+  },
+  {
+    "item_id": "bomberry",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+
+  {
+    "item_id": "might_pill",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "drug"
+  },
+  {
+    "item_id": "adamant_pill",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "drug"
+  },
+  {
+    "item_id": "herbal_medicine",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "curative"
+  },
+  {
+    "item_id": "herb",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "antidote_herb",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "ivy",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "sleep_herb",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "fire_herb",
+    "take_slot": true,
+    "limit": 20,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "herbal_powder",
+    "take_slot": true,
+    "limit": 3,
+    "out_box": false,
+    "kind": "curative"
+  },
+  {
+    "item_id": "demon_powder",
+    "take_slot": true,
+    "limit": 3,
+    "out_box": false,
+    "kind": "drug"
+  },
+  {
+    "item_id": "hardshell_powder",
+    "take_slot": true,
+    "limit": 3,
+    "out_box": false,
+    "kind": "drug"
+  },
+  {
+    "item_id": "dust_of_life",
+    "take_slot": true,
+    "limit": 2,
+    "out_box": false,
+    "kind": "potion"
+  },
+  {
+    "item_id": "flowfern",
+    "take_slot": true,
+    "limit": 20,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "poison_smoke_bomb",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "trap_bomb"
+  },
+  {
+    "item_id": "tranq_bomb",
+    "take_slot": true,
+    "limit": 8,
+    "out_box": false,
+    "kind": "trap_bomb"
+  },
+  
+  {
+    "item_id": "luring_pod",
+    "take_slot": true,
+    "limit": 3,
+    "out_box": true,
+    "kind": "slinger"
+  },
+  {
+    "item_id": "mega_barrel_bomb",
+    "take_slot": true,
+    "limit": 2,
+    "out_box": true,
+    "kind": "trap_bomb"
+  },
+  {
+    "item_id": "snow_herb",
+    "take_slot": true,
+    "limit": 20,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "gloamgrass_bud",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "deodorant",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "curative"
+  },
+  {
+    "item_id": "whetfish_fin",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "item"
+  },
+  {
+    "item_id": "sushifish_scale",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "curative"
+  },
+  {
+    "item_id": "hot_pepper",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "dung",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "rolled-up_dung",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  
+  {
+    "item_id": "large_dung_pod",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": true,
+    "kind": "slinger"
+  },
+  
+  {
+    "item_id": "charred_lizard",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "curative"
+  },
+  {
+    "item_id": "wild_jerky",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "curative"
+  },
+  {
+    "item_id": "catalyst",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "gunpowder",
+    "take_slot": true,
+    "limit": 20,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "small_barrel",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "large_barrel",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "spider_web",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "net",
+    "take_slot": true,
+    "limit": 10,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "gunpowderfish_scale",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "burst_arowana_scale",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "bomb_arowana_scale",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "whetfish_fin_plus",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "raw_material"
+  },
+  {
+    "item_id": "great_sushifish_scale",
+    "take_slot": true,
+    "limit": 5,
+    "out_box": false,
+    "kind": "curative"
+  },
+  {
+    "item_id": "soul_of_the_pictomancer",
+    "take_slot": true,
+    "limit": 1,
+    "out_box": false,
+    "kind": "item"
+  },
+  {
+    "item_id": "normal_ammo",
+    "take_slot": false,
+    "limit": 99,
+    "out_box": true,
+    "kind": "common-ammo"
+  },
+  {
+    "item_id": "pierce_ammo",
+    "take_slot": false,
+    "limit": 99,
+    "out_box": true,
+    "kind": "common-ammo"
+  },
+  {
+    "item_id": "spread_ammo",
+    "take_slot": false,
+    "limit": 99,
+    "out_box": true,
+    "kind": "common-ammo"
+  },
+  {
+    "item_id": "sticky_ammo",
+    "take_slot": false,
+    "limit": 9,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "cluster_bomb",
+    "take_slot": false,
+    "limit": 3,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "flaming_ammo",
+    "take_slot": false,
+    "limit": 60,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "water_ammo",
+    "take_slot": false,
+    "limit": 60,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "thunder_ammo",
+    "take_slot": false,
+    "limit": 60,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "freeze_ammo",
+    "take_slot": false,
+    "limit": 60,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "dragon_ammo",
+    "take_slot": false,
+    "limit": 4,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "poison_ammo",
+    "take_slot": false,
+    "limit": 12,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "paralysis_ammo",
+    "take_slot": false,
+    "limit": 12,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "sleep_ammo",
+    "take_slot": false,
+    "limit": 12,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "slicing_ammo",
+    "take_slot": false,
+    "limit": 12,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "wyvern_ammo",
+    "take_slot": false,
+    "limit": 5,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "demon_ammo",
+    "take_slot": false,
+    "limit": 3,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "armor_ammo",
+    "take_slot": false,
+    "limit": 3,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "recover_ammo",
+    "take_slot": false,
+    "limit": 3,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "tranq_ammo",
+    "take_slot": false,
+    "limit": 8,
+    "out_box": false,
+    "kind": "ammo"
+  },
+  {
+    "item_id": "exhaust_ammo",
+    "take_slot": false,
+    "limit": 12,
+    "out_box": false,
+    "kind": "ammo"
+  }
+]

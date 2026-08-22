@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>首頁 - MHWilds Mini Glossary 小詞庫</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="/siteicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="shortcut icon" href="/siteicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/siteicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/siteicon/site.webmanifest" />
+</head>
+<body>
+    <div class="app-layout">
+        <!-- 動態載入的 nav.html (側邊欄/頂部列) -->
+        <div id="nav-placeholder"></div>
+
+        <!-- 頁面主要內容區塊 -->
+        <main class="app-main">
+            
+            <!-- 歡迎橫幅 -->
+            <section class="hero-section">
+                <h1 class="hero-title"> MH Wilds 小詞庫</h1>
+                <p class="hero-subtitle">🚨部份數值和描述並非與官方資料一致。<br>或有錯漏，敬請精明的獵人自行查證一下。</p>
+            </section>
+
+            <!-- 區域標題 -->
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px;">
+                <span class="material-symbols-outlined" style="color: var(--primary-color);">explore</span>
+                <h2 style="font-size: 1.2rem; margin: 0; color: var(--text-main);">快速導覽</h2>
+            </div>
+
+            <!-- 快捷導覽網格 (Portal Grid) -->
+            <div class="portal-grid">
+                <a href="general.html" class="portal-card general">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">menu_book</span></div>
+                    <div class="portal-title">綜合速查</div>
+                    <div class="portal-desc">一般詞彙對照</div>
+                </a>
+                <a href="monsters.html" class="portal-card monsters">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">pets</span></div>
+                    <div class="portal-title">魔物資料</div>
+                    <div class="portal-desc">弱點與防具字首</div>
+                </a>
+                <a href="events.html" class="portal-card events">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">event_available</span></div>
+                    <div class="portal-title">活動任務</div>
+                    <div class="portal-desc">今天要狩獵的是哪隻魔物喵？</div>
+                </a>
+
+                <a href="skills.html" class="portal-card skills">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">swords</span></div>
+                    <div class="portal-title">裝備技能</div>
+                    <div class="portal-desc">技能效果與等級</div>
+                </a>
+
+                <a href="jewels.html" class="portal-card jewels">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">diamond</span></div>
+                    <div class="portal-title">飾品珠</div>
+                    <div class="portal-desc">分類與對應技能</div>
+                </a>
+
+                <a href="charms.html" class="portal-card charms">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">magic_button</span></div>
+                    <div class="portal-title">護石</div>
+                    <div class="portal-desc">護石技能與升級</div>
+                </a>
+
+                <a href="mealskills.html" class="portal-card mealskills">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">restaurant</span></div>
+                    <div class="portal-title">貓飯技能</div>
+                    <div class="portal-desc">餐點效果一覽</div>
+                </a>
+
+                <a href="huntinghorns.html" class="portal-card huntinghorn">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">music_note</span></div>
+                    <div class="portal-title">狩獵笛</div>
+                    <div class="portal-desc">旋律譜面與響玉</div>
+                </a>
+
+                <a href="kinsects.html" class="portal-card kinsects">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">bug_report</span></div>
+                    <div class="portal-title">獵蟲</div>
+                    <div class="portal-desc">能力數值與進化</div>
+                </a>
+                  <a href="recipe.html" class="portal-card recipe">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">grocery</span></div>
+                    <div class="portal-title">調合配方</div>
+                    <div class="portal-desc">配方參考</div>
+                </a>
+                <a href="pouch.html" class="portal-card pouch">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">money_bag</span></div>
+                    <div class="portal-title">背包小幫手</div>
+                    <div class="portal-desc">背包空間管理大師</div>
+                </a>
+                 <a href="crown.html" class="portal-card crown">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">crown</span></div>
+                    <div class="portal-title">大小金記錄</div>
+                    <div class="portal-desc">你就是皇冠收藏家!</div>
+                </a>
+                
+                <a href="favorite.html" class="portal-card favorite">
+                    <div class="portal-icon"><span class="material-symbols-outlined" style="font-size: inherit;">favorite</span></div>
+                    <div class="portal-title">我的最愛</div>
+                    <div class="portal-desc">已收藏的專屬清單</div>
+                </a>
+                
+
+            </div>
+
+            <!-- 預留區塊：未來可放更新日誌或公告 -->
+            <div style="background: rgba(0,0,0,0.15); border: 1px solid var(--border-color); border-radius: 12px; padding: 20px;">
+                <h3 style="font-size: 1rem; color: var(--text-main); margin-top: 0; margin-bottom: 12px; display: flex; align-items: center; gap: 6px;">
+                    <span class="material-symbols-outlined" style="font-size: 18px; color: #38bdf8;">info</span>
+                    網站指南
+                </h3>
+                <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin: 0;">
+                    點擊上方的圖示進入各分類資料庫。你可以利用各頁面的搜尋功能快速尋找特定項目，並點擊卡片右上角的愛心圖示將其加入「我的最愛」，方便日後隨時查閱。所有最愛資料僅會儲存在您目前的設備中。
+                </p>
+            </div>
+            
+        </main>
+        
+    </div>
+ <!-- 動態載入的 footer.html -->
+    <div id="footer-placeholder"></div>
+   
+
+    <!-- JS 腳本載入 -->
+    <script src="script/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>狩獵笛資料及篩選 - MHWilds Mini Glossary 小詞庫</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/fab.css">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="icon" type="image/png" href="/siteicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/siteicon/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/siteicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/siteicon/site.webmanifest" />
+</head>
+<body>
+   <div class="app-layout">
+        <!-- 這裡放動態載入的 nav.html (側邊欄/頂部列) -->
+        <div id="nav-placeholder"></div>
+
+
+    <main class="main-container">
+        <div class="page-header">
+            <h1 class="page-title"><span class="material-symbols-outlined" style="font-size: inherit;">music_note</span>狩獵笛資料及篩選</h1>
+            <hr class="title">
+        </div>
+
+       <!-- 搜尋與按鈕篩選區 -->
+               <section class="filter-section">
+            <!-- 關鍵字搜尋框 -->
+            <div style="display: flex; gap: 8px; margin-bottom: 12px; align-items: stretch;">
+    <input type="search" id="searchInput" class="search-box" style="flex: 1; margin-bottom: 0;" placeholder="搜尋名稱 (中/日/英)或技能..." />
+    
+    <!-- 重置按鈕 -->
+    <button id="btnResetSearch" class="btn-filter" style="display: inline-flex; align-items: center; justify-content: center; gap: 4px; padding: 0 16px; cursor: pointer; white-space: nowrap;">
+        <span class="material-symbols-outlined" style="font-size: 18px;">restart_alt</span>重置
+    </button>
+
+    <!-- 我的最愛過濾按鈕 -->
+    <button id="btnFavFilter" class="btn-filter btn-fav-filter" style="display: inline-flex; align-items: center; justify-content: center; gap: 4px; padding: 0 16px; cursor: pointer; white-space: nowrap;">
+        <span class="material-symbols-outlined" style="font-size: 18px;">favorite</span>我的最愛
+    </button>
+</div>
+            <div class="filter-group">
+                <span class="filter-title">遊戲版本：</span>
+                <div class="filter-buttons" id="gameVersionButtons">
+                    <button class="btn-filter active" data-ver="ALL">全部</button>
+                    <button class="btn-filter" data-ver="MHWilds">MHWilds</button>
+                </div>
+            </div>
+
+            <!-- 2. 屬性按鈕篩選 -->
+            <div class="filter-group">
+                <span class="filter-title">屬性：</span>
+                <div class="filter-buttons" id="elementButtons">
+                    <button class="btn-filter active" data-elm="ALL">全部</button>
+                    <button class="btn-filter" data-elm="無">無</button>
+                    <button class="btn-filter" data-elm="火">火</button>
+                    <button class="btn-filter" data-elm="水">水</button>
+                    <button class="btn-filter" data-elm="雷">雷</button>
+                    <button class="btn-filter" data-elm="冰">冰</button>
+                    <button class="btn-filter" data-elm="龍">龍</button>
+                    <button class="btn-filter" data-elm="毒">毒</button>
+                    <button class="btn-filter" data-elm="麻痺">麻痺</button>
+                    <button class="btn-filter" data-elm="睡眠">睡眠</button>
+                    <button class="btn-filter" data-elm="爆破">爆破</button>
+                </div>
+            </div>
+
+            <!-- 3. 熱門旋律快捷鍵 -->
+            <div class="filter-group">
+                <span class="filter-title">常用旋律：</span>
+                <div class="filter-buttons" id="melodyButtons">
+                    <button class="btn-filter active" data-melody="ALL">全部</button>
+                    <button class="btn-filter" data-melody="體力回復">體力回復</button>
+                    <button class="btn-filter" data-melody="攻擊力上升">攻擊力上升</button>
+                    <button class="btn-filter" data-melody="會心率上升">會心率上升</button>
+                    <button class="btn-filter" data-melody="防禦力上升">防禦力上升</button>
+                    <button class="btn-filter" data-melody="精靈王加護">精靈王加護</button>
+                    <button class="btn-filter" data-melody="音之屏障">音之屏障</button>
+                    <button class="btn-filter" data-melody="聽覺保護">聽覺保護</button>
+                    <button class="btn-filter" data-melody="節省耐力">節省耐力</button>
+                    <button class="btn-filter" data-melody="屬性攻擊力上升">屬性攻擊力上升</button>
+                    <button class="btn-filter" data-melody="適應水域/油泥">適應水域/油泥</button>
+                </div>
+            </div>
+
+            <!-- 4. 常用響玉快捷鍵 -->
+            <div class="filter-group">
+                <span class="filter-title">常用響玉：</span>
+                <div class="filter-buttons" id="echoButtons">
+                    <button class="btn-filter active" data-echo="ALL">全部</button>
+                    <button class="btn-filter" data-echo="攻擊力及會心率上升">攻擊力及會心率上升</button>
+                    <button class="btn-filter" data-echo="狀態異常及屬性異常無效">狀態異常及屬性異常無效</button>
+                    <button class="btn-filter" data-echo="體力持續回復">體力持續回復</button>
+                    <button class="btn-filter" data-echo="耐力持續回復">耐力持續回復</button>
+                    <button class="btn-filter" data-echo="防禦力及屬性耐性上升">防禦力及屬性耐性上升</button>
+                    <button class="btn-filter" data-echo="迴避性能及移動速度上升">迴避性能及移動速度上升</button>
+                </div>
+            </div>
+
+            <!-- 5. 特殊演奏快捷鍵 -->
+            <div class="filter-group">
+                <span class="filter-title">特殊演奏：</span>
+                <div class="filter-buttons" id="specialButtons">
+                    <button class="btn-filter active" data-special="ALL">全部</button>
+                    <button class="btn-filter" data-special="連消帶打之曲">連消帶打之曲</button>
+                    <button class="btn-filter" data-special="響鳴之曲">響鳴之曲</button>
+                    <button class="btn-filter" data-special="生命之曲">生命之曲</button>
+                </div>
+                
+            </div>
+             <!-- 稀有度 (Rare) 篩選 -->
+            <div class="filter-group">
+                <label class="filter-label">稀有度：</label>
+                <div id="rareButtons" class="btn-group">
+                    <button class="btn-filter active" data-rare="ALL">全部</button>
+                    <button class="btn-filter" data-rare="7">R7</button>
+                    <button class="btn-filter" data-rare="8">R8</button>
+                 </div>
+             
+        </section>
+        
+        <!-- 統計與卡片網格 -->
+        <div id="resultStats" class="result-stats"></div>
+        <div id="cardsContainer" class="cards-grid">
+            <div class="loading-state">載入資料中...</div>
+        </div>
+        <div id="paginationContainer" class="pagination-container"></div>
+        
+
+
+        <!-- === 第一個可伸展區塊：技能效果 === -->
+
+        <details class="fav-tips-details">
+  <summary class="fav-tips-summary">
+ <span>💡旋律圖示表（點擊展開 / 收合）</span>
+    <span class="material-symbols-outlined icon-arrow">expand_more</span>
+  </summary>
+  <div class="fav-tips-content">
+    <p class="tip-heading">內容以Mhwilds的版本為本，資料人手整合或有錯漏。
+    <h3>效果 🚨※數值非官方資料。</h3>
+        <!--for enlarge image part 1-->
+ <div class="gallery">
+  <div><img src="img/mhwilds_melody.png" alt="Melodies"></div>
+   </div>
+
+<!-- for enloarge image part 2 Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="imgLarge">
+</div>
+</details>
+
+<details class="fav-tips-details">
+    <summary class="fav-tips-summary">
+        <!-- 這裡可以放標題與箭頭圖示 -->
+        <span class="icon-bulb">💡</span> 旋律一覽 (文字版)
+        <span class="icon-arrow material-symbols-outlined">expand_more</span>
+    </summary>
+    
+    <div class="fav-tips-content">
+        <p class="tip-heading">效果 🚨※數值非官方資料。</p>
+        <h3>內容以Mhwilds的版本為本，資料人手整合或有錯漏。</h3>
+       <table>
+    <tr>
+        <td>自我強化</td>
+        <td>提升移動速度。疉加旋律效果後會提升攻擊力，攻擊亦不會被彈開。</td>
+    </tr>
+    <tr>
+        <td>風壓無效</td>
+        <td>獲得對風壓的耐性。</td>
+    </tr>
+    <tr>
+        <td>完全風壓無效</td>
+        <td>獲得對風壓的耐性。</td>
+    </tr>
+    <tr>
+        <td>昏厥無效</td>
+        <td>不會昏厥。</td>
+    </tr>
+    <tr>
+        <td>麻痺無效</td>
+        <td>不會麻痺。</td>
+    </tr>
+    <tr>
+        <td>聽覺保護[小]</td>
+        <td>獲得對咆哮的耐性。※等於耳塞2</td>
+    </tr>
+    <tr>
+        <td>聽覺保護[大]</td>
+        <td>獲得對咆哮的耐性。※等於耳塞3</td>
+    </tr>
+    <tr>
+        <td>震動無效</td>
+        <td>獲得對地面震動的耐性。</td>
+    </tr>
+    <tr>
+        <td>後仰無效</td>
+        <td>受到攻擊時不會後仰。</td>
+    </tr>
+    <tr>
+        <td>地型傷害無效</td>
+        <td>不會受炎熱，寒冷的厡野環境影響。亦不會受溶岩或尖刺等地形帶來的傷害。然而，此技能無法使「深淵溶岩」的傷害無效，只能將其減輕。</td>
+    </tr>
+    <tr>
+        <td>適應域油泥</td>
+        <td>在水堿或油泥區時移動不會變慢，亦不受魔物造成的波浪影響。然而此技能無法完全使「重油」造成的移動速度下降無效，只能將其減輕。</td>
+    </tr>
+    <tr>
+        <td>全狀熊異常無效</td>
+        <td>不會陷入任何狀態異常(無法使FFXIV的體力上限下降狀態無效)</td>
+    </tr>
+    <tr>
+        <td>精露王加護</td>
+        <td>有一定機率減少所受傷害。※ 有1/3機會減50%傷害，與「精靈加護」不疊加。</td>
+    </tr>
+    <tr>
+        <td>屬性攻擊力上升</td>
+        <td>武器的屬性值上升。※ 約+10%屬值</td>
+    </tr>
+    <tr>
+        <td>狀態異常攻擊上升</td>
+        <td>對魔物造成的狀態異常累積值上升。</td>
+    </tr>
+    <tr>
+        <td>全屬性異常無效</td>
+        <td>使所有屬性異常無效。</td>
+    </tr>
+    <tr>
+        <td>體力回復加速[小]</td>
+        <td>體力計量表紅色部分的自然恢復速度上升。</td>
+    </tr>
+    <tr>
+        <td>體力回復加速[大]</td>
+        <td>體力計量表紅色部分的自然恢復速度上升。</td>
+    </tr>
+    <tr>
+        <td>節省耐力[短/長]</td>
+        <td>耐力消耗量減少。</td>
+    </tr>
+    <tr>
+        <td>攻擊力上升小</td>
+        <td>攻擊力上升。※小: +4.5%攻</td>
+    </tr>
+    <tr>
+        <td>攻擊力上升大</td>
+        <td>攻擊力上升。※大: +10%攻</td>
+    </tr>
+    <tr>
+        <td>防禦力上升小</td>
+        <td>防禦力上升。※小:約+15%防</td>
+    </tr>
+    <tr>
+        <td>防禦力上升大</td>
+        <td>防禦力上升。※大:約+20%防</td>
+    </tr>
+    <tr>
+        <td>體力回復[小/中/大]</td>
+        <td>發動旋律時會回復體力。</td>
+    </tr>
+    <tr>
+        <td>火屬性防禦強化</td>
+        <td>火耐性值上升，並使火屬性異常無效。※小﹕屬耐+5 ※大﹕屬耐+7</td>
+    </tr>
+    <tr>
+        <td>水屬性防禦強化</td>
+        <td>水耐性值上升，並使水屬性異常無效。※小﹕屬耐+5 ※大﹕屬耐+7</td>
+    </tr>
+    <tr>
+        <td>雷屬性防禦強化[大]</td>
+        <td>雷耐性值上升，並使雷屬性異常無效。※小﹕屬耐+5 ※大﹕屬耐+7</td>
+    </tr>
+    <tr>
+        <td>冰屬性防禦強化</td>
+        <td>冰耐性值上升，並使冰屬性異常無效。※小﹕屬耐+5 ※大﹕屬耐+7</td>
+    </tr>
+    <tr>
+        <td>龍屬性防禦強化</td>
+        <td>龍耐性值上升，並使龍屬性異常無效。※小﹕屬耐+5 ※大﹕屬耐+7</td>
+    </tr>
+    <tr>
+        <td>體力回復[小/中]&amp;解毒</td>
+        <td>發動旋律效果時回復少量體力，並解除毒狀態。</td>
+    </tr>
+    <tr>
+        <td>音之屏障</td>
+        <td>減少所受傷害一次，並使風壓、震動或咆哮無效化一次。</td>
+    </tr>
+    <tr>
+        <td>攻擊&amp;防禦強化小</td>
+        <td>攻擊力和防禦力上升。</td>
+    </tr>
+    <tr>
+        <td>會心率上升&amp;體力回復</td>
+        <td>會心率上升，發動旋律效果時回復少量體力。※ +15% 會心率</td>
+    </tr>
+    <tr>
+        <td>高周波</td>
+        <td>對四周產生投射器音爆彈的效果。</td>
+    </tr>
+    <tr>
+        <td>延長全旋律效果</td>
+        <td>延長所有旋律效果的時間。</td>
+    </tr>
+    <tr>
+        <td>銳利度回復</td>
+        <td>觸發旋律效果時會回復銳利度計量表。</td>
+    </tr>
+    <tr>
+        <td>響周波</td>
+        <td>會對魔物造成傷的旋律效果，有打、斬、各種屬性和狀態異常等種類，按武器不同。</td>
+    </tr>
+    <tr>
+        <td>連消帶打之曲</td>
+        <td>可抵消魔物攻擊的特殊演奏攻擊。亦可用作威力較高的普通攻擊。</td>
+    </tr>
+    <tr>
+        <td>生命之曲</td>
+        <td>威力較高的多段特殊演奏攻擊。攻擊命中魔物時會釋放出具貫通效果的音波造成更大傷害。</td>
+    </tr>
+    <tr>
+        <td>響鳴之曲</td>
+        <td>大幅回復體力的特殊演奏。效果強大，但破綻亦大，要看準時機使用。</td>
+    </tr>
+</table>
+    </div>
+</details>
+
+<!-- === 第二個可伸展區塊：機械笛-旋律概要 === -->
+<details class="fav-tips-details">
+    <summary class="fav-tips-summary">
+        <span class="icon-bulb">💡</span> 機械/巨戟笛-旋律概要 
+        <span class="icon-arrow material-symbols-outlined">expand_more</span>
+    </summary>
+    
+    <div class="fav-tips-content">
+   <table>
+    <tr>
+        <td colspan="3">※機械笛-旋律概要※</td>
+    
+    </tr>
+    <tr>
+        <td>無屬</td>
+        <td>火水冰雷龍</td>
+        <td>麻毒眠爆</td>
+    </tr>
+    <tr>
+        <td>自我強化</td>
+        <td>自我強化</td>
+        <td>自我強化</td>
+    </tr>
+    <tr>
+        <td>節省耐力長</td>
+        <td>屬性攻擊力上升</td>
+        <td>狀態異常攻擊力上升</td>
+    </tr>
+    <tr>
+        <td>防禦力上升大</td>
+        <td>全屬性異常無效</td>
+        <td>精靈王加護</td>
+    </tr>
+    <tr>
+        <td>風壓完全無效</td>
+        <td>高周波</td>
+        <td>全狀態異常無效</td>
+    </tr>
+    <tr>
+        <td>攻擊&amp;防禦強化小</td>
+        <td>銳利度回復</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>響周波 [斬]</td>
+        <td>響周波 [屬]</td>
+        <td>響周波 [異常]</td>
+    </tr>
+    <tr>
+        <td>連消帶打之曲</td>
+        <td>響鳴之曲</td>
+        <td>連消帶打之曲</td>
+    </tr>
+    <tr>
+        <td>響玉﹕狀熊異常及屬性異常無效</td>
+        <td>響玉﹕狀熊異常及<br>屬性異常無效</td>
+        <td>響玉﹕防禦力及<br>屬性耐性上升</td>
+    </tr>
+    <tr>
+        <td colspan="3">※巨戟-激化種類對響玉種類的改變:※</td>
+    </tr>
+    <tr>
+        <td>攻擊激化<br>(攻+10, 會-15%)</td>
+        <td>會心激化 (會+10%,<br> 屬+20, 攻&amp;斬-10)</td>
+        <td>屬性激化<br> (屬+80, 會-5%)</td>
+    </tr>
+    <tr>
+        <td>狀熊異常及屬性異常無效</td>
+        <td>耐力持續回復</td>
+        <td>防禦力及屬性耐性上升</td>
+    </tr>
+</table>
+    </div>
+</details>
+
+   <div class="fab-container">
+    <button class="fab" onclick="scrollToTop()" title="去頂">keyboard_arrow_up</button>
+    <button class="fab" onclick="scrollToBottom()" title="去底">keyboard_arrow_down</button>
+  </div>
+
+        <div id="footer-placeholder"></div>    
+    </main>
+
+
+</div>
+  
+    <script src="script/common.js"></script>
+    <script src="script/commonfav.js"></script>
+    <script src="script/huntinghorns.js"></script>
+  
+</body>
+</html>

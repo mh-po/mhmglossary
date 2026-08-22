@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>大型魔物圖鑑 - MHWilds Mini Glossary 小詞庫</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/png" href="/siteicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="shortcut icon" href="/siteicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/siteicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/siteicon/site.webmanifest" />
+</head>
+<body>
+    <div class="app-layout">
+        <!-- 動態載入的 nav.html -->
+        <div id="nav-placeholder"></div>
+
+        <!-- 頁面主要內容區塊 -->
+        <main class="app-main">
+            <header class="page-header">
+                <h1 class="page-title"><span class="material-symbols-outlined">pets</span> 大型魔物資料</h1>
+                <hr class="title">
+            </header>
+
+            <!-- 搜尋與按鈕篩選區 -->  <section class="filter-section">
+            <!-- 關鍵字搜尋框 -->
+            <div style="display: flex; gap: 8px; margin-bottom: 12px; align-items: stretch;">
+    <input type="text" id="searchInput" class="search-box" style="flex: 1; margin-bottom: 0;" placeholder="搜尋大型魔物名稱 (中/日/英)" />
+    
+    <!-- 重置按鈕 -->
+    <button id="btnResetSearch" class="btn-filter" style="display: inline-flex; align-items: center; justify-content: center; gap: 4px; padding: 0 16px; cursor: pointer; white-space: nowrap;">
+        <span class="material-symbols-outlined" style="font-size: 18px;">restart_alt</span>重置
+    </button>
+
+    <!-- 我的最愛過濾按鈕 -->
+    <button id="btnFavFilter" class="btn-filter btn-fav-filter" style="display: inline-flex; align-items: center; justify-content: center; gap: 4px; padding: 0 16px; cursor: pointer; white-space: nowrap;">
+        <span class="material-symbols-outlined" style="font-size: 18px;">favorite</span>我的最愛
+    </button>
+</div>
+
+
+                <!-- 1. 遊戲版本篩選 -->
+                <div class="filter-group">
+                    <span class="filter-title">遊戲版本：</span>
+                    <div class="filter-buttons" id="gameVersionButtons">
+                        <button class="btn-filter active" data-ver="ALL">全部</button>
+                        <button class="btn-filter" data-ver="MHWilds">MHWilds</button>
+                    </div>
+                </div>
+
+                <!-- 2. 魔物種族 (mSpecies) 篩選 -->
+                <div class="filter-group">
+                    <span class="filter-title">魔物種族：</span>
+                    <div class="filter-buttons" id="speciesButtons">
+                        <button class="btn-filter active" data-species="ALL">全部</button>
+                        <button class="btn-filter" data-species="海龍種">海龍</button>
+                        <button class="btn-filter" data-species="鉗角種">鉗角</button>
+                        <button class="btn-filter" data-species="兩棲種">兩棲</button>
+                        <button class="btn-filter" data-species="牙獸種">牙獸</button>
+                        <button class="btn-filter" data-species="鳥龍種">鳥龍</button>
+                        <button class="btn-filter" data-species="飛龍種">飛龍</button>
+                        <button class="btn-filter" data-species="獸龍種">獸龍</button>
+                        <button class="btn-filter" data-species="造龍種">造龍</button>
+                        <button class="btn-filter" data-species="頭足種">頭足</button>
+                        <button class="btn-filter" data-species="亞龍種">亞龍</button>
+                        <button class="btn-filter" data-species="古龍種">古龍</button>
+                        <button class="btn-filter" data-species="???">???</button>
+                    </div>
+                </div>
+
+                <!-- 3. 防具 Rare 級別篩選 -->
+                <div class="filter-group">
+                    <span class="filter-title">防具 Rare：</span>
+                    <div class="filter-buttons" id="rareButtons">
+                        <button class="btn-filter active" data-rare="ALL">全部</button>
+                        <button class="btn-filter" data-rare="8">R8</button>
+                        <button class="btn-filter" data-rare="7">R7</button>
+                        <button class="btn-filter" data-rare="6">R6</button>
+                        <button class="btn-filter" data-rare="5">R5</button>
+                    </div>
+                </div>
+    
+            </section>
+
+            <!-- 統計與卡片展示區 -->
+            <div id="resultStats" class="result-stats"></div>
+            <div id="cardsContainer" class="cards-grid">
+                <div class="loading-state">載入魔物資料中...</div>
+            </div>
+            <div id="paginationContainer" class="pagination-container"></div>
+            
+    <details class="fav-tips-details">
+  <summary class="fav-tips-summary">
+    <span class="material-symbols-outlined icon-bulb">lightbulb</span>
+    <span>魔物速查一覽（點擊展開 / 收合）</span>
+    <span class="material-symbols-outlined icon-arrow">expand_more</span>
+  </summary>
+  <div class="fav-tips-content">
+    <p class="tip-heading">內容以Mhwilds的版本為本，資料人手整合或有錯漏。
+    <h3>屬性弱點只顯示相對比較適合的一種主屬性</h3>
+        <!--for enlarge image part 1-->
+ <div class="gallery">
+  <div><img src="img/mhwilds_monsters_weakness_1.png" alt="Monsters R5&R6"></div>
+  <div><img src="img/mhwilds_monsters_weakness_2.png" alt="Monsters R7&R8"></div>
+ </div>
+
+<!-- for enloarge image part 2 Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="imgLarge">
+</div>
+</details>
+
+   <div class="fab-container">
+    <button class="fab" onclick="scrollToTop()" title="去頂">keyboard_arrow_up</button>
+    <button class="fab" onclick="scrollToBottom()" title="去底">keyboard_arrow_down</button>
+  </div>
+            <div id="footer-placeholder"></div>
+        </main>
+    </div>
+ 
+    <script src="script/commonfav.js"></script>
+    <script src="script/common.js"></script>
+    <script src="script/monsters.js"></script>
+</body>
+</html>

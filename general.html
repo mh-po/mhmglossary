@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title> MHWilds Mini Glossary 小詞庫 </title>
+
+    <!-- Google Material Symbols & Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="/siteicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/siteicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/siteicon/site.webmanifest" />
+</head>
+<body>
+
+    <div class="app-layout">
+        <!-- 動態載入的 nav.html -->
+        <div id="nav-placeholder"></div>
+
+        <!-- 頁面主要內容區塊 -->
+        <main class="app-main">
+            <header class="page-header">
+                <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                    <h1 class="page-title"> 📖 綜合詞彙庫</h1>
+                     </div>
+                      <hr class="title">
+            </header>
+
+            <!-- 搜尋與按鈕篩選區 (無標籤 Filter 版本) -->
+            <section class="filter-section">
+                
+                <!-- 關鍵字搜尋框 + 重置 + 我的最愛 -->
+                <div style="display: flex; gap: 8px; margin-bottom: 0; align-items: stretch; flex-wrap: nowrap;">
+                    <input type="search" id="searchInput" class="search-box" style="flex: 1; margin-bottom: 0;" placeholder="搜尋詞彙 (中/日/英) 或 分類..." />
+                    
+                    <!-- 重置按鈕 -->
+                    <button id="btnResetSearch" class="btn-filter" style="display: inline-flex; align-items: center; justify-content: center; gap: 4px; padding: 0 14px; cursor: pointer; white-space: nowrap;">
+                        <span class="material-symbols-outlined" style="font-size: 18px;">restart_alt</span>重置
+                    </button>
+
+                    <!-- 我的最愛過濾按鈕 -->
+                    <button id="btnFavFilter" class="btn-filter btn-fav-filter" style="display: inline-flex; align-items: center; justify-content: center; gap: 4px; padding: 0 14px; cursor: pointer; white-space: nowrap;">
+                        <span class="material-symbols-outlined" style="font-size: 18px;">favorite</span>我的最愛
+                    </button>
+                    
+                </div>
+                <div style="font-size: 0.85rem">溫馨提示﹕非官方語集，包含一些玩家碎碎念。<br>點擊卡片內的標籤，立即可作分類篩選資料。<br>另外，有些分類資料只能在分類頁面找到。</div>
+            </section>
+
+            <!-- 數據統計與資訊列 -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin: 14px 0 10px 0; font-size: 0.88rem; color: var(--text-muted, #94a3b8);">
+                <div id="resultStats">共 <strong>0</strong> 筆資料</div>
+                <div id="pageIndicator">頁數 0 / 0</div>
+            </div>
+
+            <!-- 卡片 Grid 網格容器 -->
+            <div id="cardsContainer" class="cards-grid">
+                <!-- 由 general.js 動態渲染 -->
+            </div>
+
+            <!-- 分頁按鈕列 -->
+            <div id="paginationContainer" class="pagination-wrapper" style="display: flex; justify-content: center; align-items: center; gap: 6px; margin: 24px 0 40px 0; flex-wrap: wrap;">
+            </div>
+        </main>
+    </div>
+<div class="fab-container">
+    <button class="fab" onclick="scrollToTop()" title="去頂">keyboard_arrow_up</button>
+    <button class="fab" onclick="scrollToBottom()" title="去底">keyboard_arrow_down</button>
+  </div>
+    <!-- 動態載入的 footer.html -->
+    <div id="footer-placeholder"></div>
+
+    <!-- JS 腳本載入 -->
+    <script src="script/common.js"></script>
+     <script src="script/commonfav.js"></script>
+    <script src="script/general.js"></script>
+</body>
+</html>

@@ -1,0 +1,298 @@
+[
+  {
+    "id": "MEA_0001",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點防禦術【小】",
+    "mealSkillJa": "お食事防御術【小】",
+    "mealSkillEn": "Defender Meal (Lo)",
+    "mealSkillDes": "低機率減少角色受到的傷害。※網上攻略測試約體術2效果。"
+  },
+  {
+    "id": "MEA_0002",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點防禦術【大】",
+    "mealSkillJa": "お食事防御術【大】",
+    "mealSkillEn": "Defender Meal (Hi)",
+    "mealSkillDes": "高機率減少角色受到的傷害。※網上攻略測試約體術3效果。"
+  },
+  {
+    "id": "MEA_0003",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點體術【小】",
+    "mealSkillJa": "お食事体術【小】",
+    "mealSkillEn": "Black Belt Meal (Lo)",
+    "mealSkillDes": "消耗定量耐力的行動（例如迴避）所需的耐力消耗量減少。"
+  },
+  {
+    "id": "MEA_0004",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點體術【大】",
+    "mealSkillJa": "お食事体術【大】",
+    "mealSkillEn": "Black Belt Meal (Hi)",
+    "mealSkillDes": "消耗定量耐力的行動（例如迴避）所需的耐力消耗量大幅減少。"
+  },
+  {
+    "id": "MEA_0005",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點迴避術【小】",
+    "mealSkillJa": "お食事回避術【小】",
+    "mealSkillEn": "Tumbler Meal (Lo)",
+    "mealSkillDes": "小幅延長迴避時的無敵時間。※網上攻略測試約迴避性能2效果。"
+  },
+  {
+    "id": "MEA_0006",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點迴避術【大】",
+    "mealSkillJa": "お食事回避術【大】",
+    "mealSkillEn": "Tumbler Meal (Hi)",
+    "mealSkillDes": "延長迴避時的無敵時間。※網上攻略測試約迴避性能3效果。"
+  },
+  {
+    "id": "MEA_0007",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點毅力【小】",
+    "mealSkillJa": "お食事ド根性【小】",
+    "mealSkillEn": "Moxie Meal (Lo)",
+    "mealSkillDes": "體力在一定程度以上時，即使承受超過體力的傷害亦不會力竭倒下（任務中僅限1次）。"
+  },
+  {
+    "id": "MEA_0008",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點毅力【大】",
+    "mealSkillJa": "お食事ド根性【大】",
+    "mealSkillEn": "Moxie Meal (Hi)",
+    "mealSkillDes": "體力在一定程度以上時，即使承受超過體力的傷害亦不會力竭倒下，並回復體力（任務中僅限1次）。"
+  },
+  {
+    "id": "MEA_0009",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點飄忽術【小】",
+    "mealSkillJa": "お食事ムラ気術【小】",
+    "mealSkillEn": "Caprice Meal (Lo)",
+    "mealSkillDes": "攻擊力於一定時間內上升。效果會依隨機時間間隔反覆發生。※玩家測試攻擊力+7，持續10秒，有頗久的CD。"
+  },
+  {
+    "id": "MEA_0010",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點飄忽術【大】",
+    "mealSkillJa": "お食事ムラ気術【大】",
+    "mealSkillEn": "Caprice Meal (Hi)",
+    "mealSkillDes": "攻擊力於一定時間內大幅上升。效果會依隨機時間間隔反覆發生。※玩家測試攻擊力+15，持續10秒，有頗久的CD。"
+  },
+  {
+    "id": "MEA_0011",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點免疫術",
+    "mealSkillJa": "お食事免疫術",
+    "mealSkillEn": "Immunizer Meal",
+    "mealSkillDes": "減輕各種狀態異常的影響。※ 玩家測試減輕約狀態異常耐性等級1。"
+  },
+  {
+    "id": "MEA_0012",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點醫療術",
+    "mealSkillJa": "お食事医療術",
+    "mealSkillEn": "Medic Meal",
+    "mealSkillDes": "增加體力回復時的回復量。"
+  },
+  {
+    "id": "MEA_0013",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點發熱術",
+    "mealSkillJa": "お食事火照り術",
+    "mealSkillEn": "Sizzling Meal",
+    "mealSkillDes": "身處炎熱或寒冷區域時防禦力上升，且不受環境氣溫影響。※玩家測試防禦力+5。"
+  },
+  {
+    "id": "MEA_0014",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點擅泳術",
+    "mealSkillJa": "お食事水心術",
+    "mealSkillEn": "Swimmer Meal",
+    "mealSkillDes": "身體濕透時攻擊力上升。※玩家測試攻擊力+3。"
+  },
+  {
+    "id": "MEA_0015",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點特殊攻擊術",
+    "mealSkillJa": "お食事特殊攻撃術",
+    "mealSkillEn": "Specialist Meal",
+    "mealSkillDes": "增強狀態異常攻擊的性能。"
+  },
+  {
+    "id": "MEA_0016",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點採集術",
+    "mealSkillJa": "お食事採取術",
+    "mealSkillEn": "Gatherer Meal",
+    "mealSkillDes": "有機會增加骨塚、礦脈的採集量，以及藥草等消耗道具的取得數。"
+  },
+  {
+    "id": "MEA_0017",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點生命保險",
+    "mealSkillJa": "お食事生命保険",
+    "mealSkillEn": "Insurance Meal",
+    "mealSkillDes": "任何任務成員的第一次力竭倒下均不算數。※實測﹕每場只發動一次。誰先倒下先消耗誰的飯，不消耗其他人的。如果倒下的玩家身上吃保險金，沒有才消耗其他的。"
+  },
+  {
+    "id": "MEA_0018",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點幸運術",
+    "mealSkillJa": "お食事幸運術",
+    "mealSkillEn": "Lucky Meal",
+    "mealSkillDes": "完成任務獲得的報酬變多。"
+  },
+  {
+    "id": "MEA_0019",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點解體術",
+    "mealSkillJa": "お食事解体術",
+    "mealSkillEn": "Carver Meal",
+    "mealSkillDes": "剝取次數增加。"
+  },
+  {
+    "id": "MEA_0020",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點捕獲好手",
+    "mealSkillJa": "お食事捕獲上手",
+    "mealSkillEn": "Capture Pro Meal",
+    "mealSkillDes": "捕獲成功時獲得的報酬變多。"
+  },
+  {
+    "id": "MEA_0021",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點破壞好手",
+    "mealSkillJa": "お食事破壊上手",
+    "mealSkillEn": "Exploiter Meal",
+    "mealSkillDes": "破壞傷口的報酬有時會變多。"
+  },
+  {
+    "id": "MEA_0022",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點騎乘好手",
+    "mealSkillJa": "お食事乗り上手",
+    "mealSkillEn": "Rider Meal",
+    "mealSkillDes": "騎乘魔物變得容易。"
+  },
+  {
+    "id": "MEA_0023",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點起身術",
+    "mealSkillJa": "お食事起き上がり術",
+    "mealSkillEn": "Riser Meal",
+    "mealSkillDes": "延長從倒地後爬起時的無敵時間。"
+  },
+  {
+    "id": "MEA_0024",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點解體鐵人",
+    "mealSkillJa": "お食事解体の鉄人",
+    "mealSkillEn": "Iron Carver Meal",
+    "mealSkillDes": "剝取中即使遭受攻擊也不會後仰。"
+  },
+  {
+    "id": "MEA_0025",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點逃走術",
+    "mealSkillJa": "お食事逃走術",
+    "mealSkillEn": "Escape Artist Meal",
+    "mealSkillDes": "逃離大型魔物時的耐力消耗量減少。"
+  },
+  {
+    "id": "MEA_0026",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點堅定不移術",
+    "mealSkillJa": "お食事ふんばり術",
+    "mealSkillEn": "Balanced Meal",
+    "mealSkillDes": "不會坐倒在地。"
+  },
+  {
+    "id": "MEA_0027",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點隨從指導術",
+    "mealSkillJa": "お食事オトモ指導術",
+    "mealSkillEn": "Trainer Meal",
+    "mealSkillDes": "使隨從的成長加快。"
+  },
+  {
+    "id": "MEA_0028",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點蠻幹術",
+    "mealSkillJa": "お食事ゴリ押し術",
+    "mealSkillEn": "Bulldozer Meal",
+    "mealSkillDes": "攻擊被彈開後，攻擊力在短時間內上升。"
+  },
+  {
+    "id": "MEA_0029",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點長靴術",
+    "mealSkillJa": "お食事長靴術",
+    "mealSkillEn": "Hardy Meal",
+    "mealSkillDes": "使地形造成的傷害和狀態異常無效。"
+  },
+  {
+    "id": "MEA_0030",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點火場怪力",
+    "mealSkillJa": "お食事火事場力",
+    "mealSkillEn": "Piping-Hot Meal",
+    "mealSkillDes": "只剩極少量體力時，攻擊力大幅上升。"
+  },
+  {
+    "id": "MEA_0031",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點休息術",
+    "mealSkillJa": "お食事休憩術",
+    "mealSkillEn": "Break-time Meal",
+    "mealSkillDes": "執行動作「坐下」一段時間後，於一定時間內增加攻擊力。※攻略指是攻擊力+15，持續30秒。"
+  },
+  {
+    "id": "MEA_0032",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點財運術",
+    "mealSkillJa": "お食事金運術",
+    "mealSkillEn": "Fortune Hunter Meal",
+    "mealSkillDes": "增加任務完成時的報酬金額。※玩家測試機率﹕1.5倍或1.75倍或2倍"
+  },
+  {
+    "id": "MEA_0033",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點釣魚好手",
+    "mealSkillJa": "お食事釣り上手",
+    "mealSkillEn": "Fisher Meal",
+    "mealSkillDes": "釣魚較容易成功。"
+  },
+  {
+    "id": "MEA_0034",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點指示術",
+    "mealSkillJa": "お食事采配術",
+    "mealSkillEn": "Top Cat Meal",
+    "mealSkillDes": "增加隨從的攻擊力與防禦力。"
+  },
+  {
+    "id": "MEA_0035",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點加麵術",
+    "mealSkillJa": "お食事替玉術",
+    "mealSkillEn": "Extra Noodles Meal",
+    "mealSkillDes": "使用飲食道具後，可在一定時間內更容易破壞魔物的部位，並增加在集中弱點攻擊下破壞傷口時造成的傷害。※【一蘭】點餐用紙餐點"
+  },
+  {
+    "id": "MEA_0036",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點赤紅秘製術【擊】",
+    "mealSkillJa": "お食事赤い秘伝の術【撃】",
+    "mealSkillEn": "Spicy Red Meal (Attack)",
+    "mealSkillDes": "任務中使用的前兩次飲食道具，可以額外使用一次。※【一蘭】點餐用紙餐點"
+  },
+  {
+    "id": "MEA_0037",
+    "gameVersion": "MHWilds",
+    "mealSkillZh": "餐點赤紅秘製術【耐】",
+    "mealSkillJa": "お食事赤い秘伝の術【活】",
+    "mealSkillEn": "Spicy Red Meal (Energy)",
+    "mealSkillDes": "使用飲食道具後，會在一定時間內加快耐力的回復速度。※【一蘭】點餐用紙餐點 ※網上攻略測試約為耐力急速回復2效果可和裝備技能疊加至上限耐力急速回復3。"
+  }
+]

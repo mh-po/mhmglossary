@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>💎 飾品珠資料 - MHWilds Mini Glossary 小詞庫</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/svg+xml" href="/siteicon/favicon.svg" />
+    <link rel="shortcut icon" href="/siteicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/siteicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/siteicon/site.webmanifest" />
+</head>
+<body>
+
+    <div class="app-layout">
+        <!-- 動態載入的 nav.html -->
+        <div id="nav-placeholder"></div>
+
+        <!-- 頁面主要內容區塊 -->
+        <main class="app-main">
+            <header class="page-header">
+                <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                    <h1 class="page-title"> <span class="material-symbols-outlined">diamond</span> 飾品珠資料庫</h1>
+                </div>
+                <hr class="title">
+            </header>
+
+            <!-- 搜尋與按鈕篩選區 -->
+            <section class="filter-section">
+                <!-- 關鍵字搜尋框 + 重置 + 我的最愛 -->
+                <div style="display: flex; gap: 8px; margin-bottom: 12px; align-items: stretch; flex-wrap: nowrap;">
+                    <input type="text" id="searchInput" class="search-box" style="flex: 1; margin-bottom: 0;" placeholder="搜尋飾品珠名稱 (中/日/英)..." />
+                    
+                    <!-- 重置按鈕 -->
+                    <button id="btnResetSearch" class="btn-filter" style="display: inline-flex; align-items: center; justify-content: center; gap: 4px; padding: 0 14px; cursor: pointer; white-space: nowrap;">
+                        <span class="material-symbols-outlined" style="font-size: 18px;">restart_alt</span>重置
+                    </button>
+
+                    <!-- 我的最愛過濾按鈕 -->
+                    <button id="btnFavFilter" class="btn-filter btn-fav-filter" style="display: inline-flex; align-items: center; justify-content: center; gap: 4px; padding: 0 14px; cursor: pointer; white-space: nowrap;">
+                        <span class="material-symbols-outlined" style="font-size: 18px;">favorite</span>我的最愛
+                    </button>
+                </div>
+
+               <!-- 篩選按鈕列容器 -->
+                <div class="filter-groups-wrapper" style="display: flex; flex-direction: column; gap: 10px;">
+                    
+                    <!-- 遊戲版本 Filter (對應 JSON 裡的 gameInfo) -->
+                    <div class="filter-row" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+                        <span class="filter-label" style="font-size: 0.85rem; color: var(--text-muted, #94a3b8); min-width: 70px;">遊戲版本：</span>
+                        <div id="gameVersionFilter" class="btn-group-filter" style="display: flex; gap: 6px; flex-wrap: wrap;">
+                            <button class="btn-filter active" data-value="ALL">全部</button>
+                            <button class="btn-filter" data-value="MHWilds">MHWilds</button>
+                        </div>
+                    </div>
+
+                    <!-- 飾品珠類型 Filter -->
+                    <div class="filter-row" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+                        <span class="filter-label" style="font-size: 0.85rem; color: var(--text-muted, #94a3b8); min-width: 70px;">飾品珠類型：</span>
+                        <div id="jewelTypeFilter" class="btn-group-filter" style="display: flex; gap: 6px; flex-wrap: wrap;">
+                            <button class="btn-filter active" data-value="ALL">全部</button>
+                            <!-- JS 動態生成 -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 數據統計與資訊列 -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin: 14px 0 10px 0; font-size: 0.88rem; color: var(--text-muted, #94a3b8);">
+                <div id="resultStats">共 <strong>0</strong> 顆飾品珠</div>
+                <div id="pageIndicator">頁數 0 / 0</div>
+            </div>
+
+            <!-- 卡片 Grid 網格容器 -->
+            <div id="cardsContainer" class="cards-grid">
+                <!-- 由 jewels.js 動態渲染 -->
+            </div>
+
+            <!-- 分頁按鈕列 -->
+            <div id="paginationContainer" class="pagination-wrapper" style="display: flex; justify-content: center; align-items: center; gap: 6px; margin: 24px 0 40px 0; flex-wrap: wrap;">
+            </div>
+        </main>
+    </div>
+
+    <!-- 動態載入的 footer.html -->
+    <div id="footer-placeholder"></div>
+   <!-- 技能詳情彈出視窗 (Modal) -->
+    <div id="skillModalOverlay" class="modal-overlay" style="display: none;">
+        <div class="modal-content data-card">
+            <div class="modal-header" style="display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; margin-bottom: 10px;">
+                <div>
+                    <h3 id="modalSkillTitle" style="color: #f59e0b; margin: 0 0 4px 0; font-size: 1.2rem;">技能名稱</h3>
+                    <div id="modalSkillSub" style="font-size: 0.8rem; color: var(--text-muted);">日文 | 英文</div>
+                </div>
+                <button class="btn-close-modal" onclick="closeSkillModal()" style="background: transparent; border: none; color: var(--text-muted); cursor: pointer; padding: 4px;">
+                    <span class="material-symbols-outlined" style="font-size: 24px;">close</span>
+                </button>
+            </div>
+            <div id="modalSkillDesc" style="font-size: 0.9rem; color: var(--text-main); margin-bottom: 12px; line-height: 1.5;">
+                技能描述...
+            </div>
+            <div style="font-weight: bold; font-size: 0.82rem; color: var(--primary-color, #10b981); margin-bottom: 6px; display: flex; align-items: center; gap: 4px;">
+                <span class="material-symbols-outlined" style="font-size: 16px;">format_list_bulleted</span> 各等級效果：
+            </div>
+            <div id="modalSkillLevels" style="display: flex; flex-direction: column; gap: 4px; background: rgba(0,0,0,0.15); padding: 8px; border-radius: 6px; max-height: 40vh; overflow-y: auto;">
+                <!-- 動態注入等級效果 -->
+            </div>
+        </div>
+    </div>
+       <div class="fab-container">
+    <button class="fab" onclick="scrollToTop()" title="去頂">keyboard_arrow_up</button>
+    <button class="fab" onclick="scrollToBottom()" title="去底">keyboard_arrow_down</button>
+  </div>
+    <!-- JS 腳本載入 -->
+    <script src="script/common.js"></script>
+    <script src="script/commonfav.js"></script>
+    <script src="script/jewels.js"></script>
+</body>
+</html>

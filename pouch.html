@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背包小幫手 - MHWilds Mini Glossary小詞庫</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="/siteicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="shortcut icon" href="/siteicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/siteicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/siteicon/site.webmanifest" />
+</head>
+<body>
+    <div class="app-layout">
+        <div id="nav-placeholder"></div>
+
+        <main class="app-main">
+            <!-- 標題與說明按鈕 -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                <h1 class="page-title" style="margin-bottom: 0;">
+                    <span class="material-symbols-outlined">money_bag</span>
+                    背包小幫手</h1>
+                <button class="btn-filter" onclick="openHelp()" style="display: flex; align-items: center; gap: 4px;">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem;">help</span> 說明
+                </button>
+                
+            </div>
+            <hr class="title">
+            <div class="container">
+                <!-- 左側：物品目錄區 -->
+                <section id="catalog-section" class="panel">
+                    <div class="card-header">
+                        Pouch Helper﹕點擊「+」即可加入物品。
+                    </div>
+                    <div><p>手機版本的結算目錄請滑到在最下方瀏覽。</p><hr class="title">
+                    </div> 
+                    <div id="item-list" class="grid-list">
+                        <p style="color: var(--text-muted);">資料載入中...</p>
+                        
+                    </div>
+                    
+                </section>
+
+                <!-- 右側：清單與結算區 -->
+                <aside id="summary-section" class="panel">
+                    
+                    <!-- 目標需求清單 + 重設按鈕 -->
+                    <div id="cart-container">
+                        <div class="card-header">
+                            <h2 class="card-title">🎯 已加入清單</h2>
+                            <button class="btn-filter" onclick="clearCart()" style="font-size: 0.8rem; padding: 4px 8px; background: rgba(239, 68, 68, 0.1); border-color: #ef4444; color: #ef4444;">
+                                🗑️ 重設
+                            </button>
+                        </div>
+                        <ul id="cart-list" style="margin-top: 10px;"></ul>
+                    </div>
+
+                    <hr>
+
+                    <!-- 最終背包結算 -->
+                    <div id="inventory-container">
+                        <div class="card-header">
+                            <h2 class="card-title">📦 實際背包佔用</h2>
+                        </div>
+                        <p class="slot-status">
+                            使用空間：<span id="used-slots">0</span> / <span id="max-slots">25</span> 格
+                        </p>
+                        <ul id="inventory-list" style="margin-top: 10px;"></ul>
+                    </div>
+                </aside>
+            </div>
+             <div id="footer-placeholder"></div>
+        </main>
+        
+    </div>
+
+   
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- 說明視窗 (Help Modal) -->
+    <div id="help-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <div class="card-header" style="border-bottom: 1px solid var(--border-color); padding-bottom: 10px; margin-bottom: 10px;">
+                <h3 class="card-title">📖 使用說明</h3>
+                <button class="btn-fav" onclick="closeHelp()" style="font-size: 1.2rem;">✖</button>
+            </div>
+            <div class="card-body" style="line-height: 1.6;">
+                <p><strong>1. 基礎操作：</strong>點擊左側物品的「 <code>+</code> 或 <code>-</code>」即可設定本次狩獵中 欲攜帶的數量。 </p>
+                <p><strong>2. 智能調合：</strong>當成品超過攜帶上限，系統會自動拆解為基礎素材並放入背包。</p>
+                <p><strong>3. 防爆倉機制：</strong>當背包 25 格已滿，或共用素材（如蜂蜜）達到上限時，系統將阻止繼續添加。</p>
+                <p><strong>4. 彈藥與空間：</strong>子彈不佔背包格數，但調合所需的素材（如火藥草、果實）仍需佔用 1 格。</p>
+                <p><strong>5. 二次調合提示：</strong>部分物品需先合成中間材料才能繼續使用。<br>
+                例如：秘藥用完後，系統會先消耗袋口的「增強劑 + 苦風茄」合成；當增強劑耗盡時，玩家需手動以「蜂蜜 + 苦蟲汁」合成新的增強劑，才能再合成秘藥。</p>
+                <p><strong>6. 懶人包組合：</strong>一鍵加入本站推薦的懶人包配置再慢慢修改至合你心意。</p>
+                <p><strong>7. 一鍵加滿：</strong>按下 MAX 後，系統會依照加入順序，推滿同類物品的最大可攜帶與調合數量。</p>
+                <p><strong>8. 切換語言：</strong>可以在下拉選單中選擇切換語言。</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="fab-container">
+    <button class="fab" onclick="scrollToTop()" title="去頂">keyboard_arrow_up</button>
+    <button class="fab" onclick="scrollToBottom()" title="去底">keyboard_arrow_down</button>
+  </div>
+  
+    <script src="script/common.js"></script>
+    <script src="script/pouchapp.js"></script>
+    
+    <!-- Modal 控制腳本 -->
+    <script>
+        function openHelp() { document.getElementById('help-modal').style.display = 'flex'; }
+        function closeHelp() { document.getElementById('help-modal').style.display = 'none'; }
+    </script>
+</body>
+</html>

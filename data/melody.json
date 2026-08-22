@@ -1,0 +1,356 @@
+[
+  {
+    "id": "MEL_0001",
+    "melodyZh": "自我強化",
+    "melodyJa": "自分強化",
+    "melodyEn": "Self-Improvement"
+  },
+  {
+    "id": "MEL_0002",
+    "melodyZh": "攻擊力上升【小】",
+    "melodyJa": "攻撃力UP【小】",
+    "melodyEn": "Attack Up (S)"
+  },
+  {
+    "id": "MEL_0003",
+    "melodyZh": "攻擊力上升【大】",
+    "melodyJa": "攻撃力UP【大】",
+    "melodyEn": "Attack Up (L)"
+  },
+  {
+    "id": "MEL_0004",
+    "melodyZh": "防禦力上升【大】",
+    "melodyJa": "防御力UP【大】",
+    "melodyEn": "Defense Up (L)"
+  },
+  {
+    "id": "MEL_0005",
+    "melodyZh": "攻擊＆防禦強化【小】",
+    "melodyJa": "攻撃＆防御強化【小】",
+    "melodyEn": "Attack/Defense Up (S)"
+  },
+  {
+    "id": "MEL_0006",
+    "melodyZh": "體力回復【小】",
+    "melodyJa": "体力回復【小】",
+    "melodyEn": "Health Recovery (S)"
+  },
+  {
+    "id": "MEL_0007",
+    "melodyZh": "體力回復【大】",
+    "melodyJa": "体力回復【大】",
+    "melodyEn": "Health Recovery (L)"
+  },
+  {
+    "id": "MEL_0008",
+    "melodyZh": "體力回復【中】＆解毒",
+    "melodyJa": "体力回復【中】＆解毒",
+    "melodyEn": "Health Rec. (M) + Antidote"
+  },
+  {
+    "id": "MEL_0009",
+    "melodyZh": "體力回復加速【小】",
+    "melodyJa": "体力回復加速【小】",
+    "melodyEn": "Recovery Speed (S)"
+  },
+  {
+    "id": "MEL_0010",
+    "melodyZh": "體力回復加速【大】",
+    "melodyJa": "体力回復加速【大】",
+    "melodyEn": "Recovery Speed (L)"
+  },
+  {
+    "id": "MEL_0011",
+    "melodyZh": "會心率上升＆體力回復",
+    "melodyJa": "会心率UP＆体力回復",
+    "melodyEn": "Affinity Up/Health Recovery"
+  },
+  {
+    "id": "MEL_0012",
+    "melodyZh": "節省耐力【長】",
+    "melodyJa": "スタミナ節約【長】",
+    "melodyEn": "Stamina Use Reduced (L)"
+  },
+  {
+    "id": "MEL_0013",
+    "melodyZh": "屬性攻擊力上升",
+    "melodyJa": "属性攻撃力UP",
+    "melodyEn": "Elem Attack Boost"
+  },
+  {
+    "id": "MEL_0014",
+    "melodyZh": "狀態異常攻擊上升",
+    "melodyJa": "状態異常攻撃力UP",
+    "melodyEn": "Status Attack Up"
+  },
+  {
+    "id": "MEL_0015",
+    "melodyZh": "火屬性防禦強化【大】",
+    "melodyJa": "火属性防御強化【大】",
+    "melodyEn": "Fire Res (L)"
+  },
+  {
+    "id": "MEL_0016",
+    "melodyZh": "雷屬性防禦強化【大】",
+    "melodyJa": "雷属性防御強化【大】",
+    "melodyEn": "Thunder Res (L)"
+  },
+  {
+    "id": "MEL_0017",
+    "melodyZh": "水屬性防禦強化【大】",
+    "melodyJa": "水属性防御強化【大】",
+    "melodyEn": "Water Res (L)"
+  },
+  {
+    "id": "MEL_0018",
+    "melodyZh": "冰屬性防禦強化【大】",
+    "melodyJa": "氷属性防御強化【大】",
+    "melodyEn": "Ice Res (L)"
+  },
+  {
+    "id": "MEL_0019",
+    "melodyZh": "龍屬性防禦強化【大】",
+    "melodyJa": "龍属性防御強化【大】",
+    "melodyEn": "Dragon Res (L)"
+  },
+  {
+    "id": "MEL_0020",
+    "melodyZh": "聽覺保護【小】",
+    "melodyJa": "聴覚保護【小】",
+    "melodyEn": "Earplugs (S)"
+  },
+  {
+    "id": "MEL_0021",
+    "melodyZh": "聽覺保護【大】",
+    "melodyJa": "聴覚保護【大】",
+    "melodyEn": "Earplugs (L)"
+  },
+  {
+    "id": "MEL_0022",
+    "melodyZh": "風壓無效",
+    "melodyJa": "風圧無効",
+    "melodyEn": "Wind Pressure Negated"
+  },
+  {
+    "id": "MEL_0023",
+    "melodyZh": "風壓完全無效",
+    "melodyJa": "風圧完全無効",
+    "melodyEn": "All Wind Pressure Negated"
+  },
+  {
+    "id": "MEL_0024",
+    "melodyZh": "震動無效",
+    "melodyJa": "振動無効",
+    "melodyEn": "Tremors Negated"
+  },
+  {
+    "id": "MEL_0025",
+    "melodyZh": "麻痺無效",
+    "melodyJa": "麻痺無効",
+    "melodyEn": "Paralysis Negated"
+  },
+  {
+    "id": "MEL_0026",
+    "melodyZh": "昏厥無效",
+    "melodyJa": "気絶無効",
+    "melodyEn": "Stun Negated"
+  },
+  {
+    "id": "MEL_0027",
+    "melodyZh": "全狀態異常無效",
+    "melodyJa": "全状態異常無効",
+    "melodyEn": "All Ailments Negated"
+  },
+  {
+    "id": "MEL_0028",
+    "melodyZh": "全屬性異常無效",
+    "melodyJa": "全属性やられ無効",
+    "melodyEn": "Blight Negated"
+  },
+  {
+    "id": "MEL_0029",
+    "melodyZh": "適應水域/油泥",
+    "melodyJa": "水場・油泥適応",
+    "melodyEn": "Aquatic/Oilsilt Mobility"
+  },
+  {
+    "id": "MEL_0030",
+    "melodyZh": "地形傷害無效",
+    "melodyJa": "地形ダメージ無効",
+    "melodyEn": "Envir. Damage Negated"
+  },
+  {
+    "id": "MEL_0031",
+    "melodyZh": "高周波",
+    "melodyJa": "高周波",
+    "melodyEn": "Sonic Waves"
+  },
+  {
+    "id": "MEL_0032",
+    "melodyZh": "精靈王加護",
+    "melodyJa": "精霊王の加護",
+    "melodyEn": "Divine Protection"
+  },
+  {
+    "id": "MEL_0033",
+    "melodyZh": "音之屏障",
+    "melodyJa": "音の防壁",
+    "melodyEn": "Sonic Barrier"
+  },
+  {
+    "id": "MEL_0034",
+    "melodyZh": "後仰無效",
+    "melodyJa": "のけぞり無効",
+    "melodyEn": "Knockback Negated"
+  },
+  {
+    "id": "MEL_0035",
+    "melodyZh": "延長全旋律效果",
+    "melodyJa": "全旋律効果延長",
+    "melodyEn": "Extend All Melodies"
+  },
+  {
+    "id": "MEL_0036",
+    "melodyZh": "銳利度回復",
+    "melodyJa": "斬れ味回復",
+    "melodyEn": "Restore Sharpness"
+  },
+  {
+    "id": "WAV_0001",
+    "melodyZh": "響周波【打】",
+    "melodyJa": "響周波【打】",
+    "melodyEn": "Echo Wave (Blunt)"
+  },
+  {
+    "id": "WAV_0002",
+    "melodyZh": "響周波【斬】",
+    "melodyJa": "響周波【斬】",
+    "melodyEn": "Echo Wave (Slash)"
+  },
+  {
+    "id": "WAV_0003",
+    "melodyZh": "響周波【火】",
+    "melodyJa": "響周波【火】",
+    "melodyEn": "Echo Wave (Fire)"
+  },
+  {
+    "id": "WAV_0004",
+    "melodyZh": "響周波【水】",
+    "melodyJa": "響周波【水】",
+    "melodyEn": "Echo Wave (Water)"
+  },
+  {
+    "id": "WAV_0005",
+    "melodyZh": "響周波【雷】",
+    "melodyJa": "響周波【雷】",
+    "melodyEn": "Echo Wave (Thunder)"
+  },
+  {
+    "id": "WAV_0006",
+    "melodyZh": "響周波【冰】",
+    "melodyJa": "響周波【氷】",
+    "melodyEn": "Echo Wave (Ice)"
+  },
+  {
+    "id": "WAV_0007",
+    "melodyZh": "響周波【龍】",
+    "melodyJa": "響周波【龍】",
+    "melodyEn": "Echo Wave (Dragon)"
+  },
+  {
+    "id": "WAV_0008",
+    "melodyZh": "響周波【麻痺】",
+    "melodyJa": "響周波【麻痺】",
+    "melodyEn": "Echo Wave (Paralysis)"
+  },
+  {
+    "id": "WAV_0009",
+    "melodyZh": "響周波【毒】",
+    "melodyJa": "響周波【毒】",
+    "melodyEn": "Echo Wave (Poison)"
+  },
+  {
+    "id": "WAV_0010",
+    "melodyZh": "響周波【爆破】",
+    "melodyJa": "響周波【爆破】",
+    "melodyEn": "Echo Wave (Blast)"
+  },
+  {
+    "id": "WAV_0011",
+    "melodyZh": "響周波【屬性】",
+    "melodyJa": "響周波【属性】",
+    "melodyEn": "Echo Wave [Element]"
+  },
+  {
+    "id": "WAV_0012",
+    "melodyZh": "響周波【異常】",
+    "melodyJa": "響周波【異常】",
+    "melodyEn": "Echo Wave [Status]"
+  },
+  {
+    "id": "ECH_0001",
+    "melodyZh": "迴避性能及移動速度上升",
+    "melodyJa": "回避性能＆移動速度UP",
+    "melodyEn": "Evasion & Movement Speed Up"
+  },
+  {
+    "id": "ECH_0002",
+    "melodyZh": "耐力持續回復",
+    "melodyJa": "スタミナ継続回復",
+    "melodyEn": "Stamina Regeneration"
+  },
+  {
+    "id": "ECH_0003",
+    "melodyZh": "狀態異常及屬性異常無效",
+    "melodyJa": "状態異常＆属性やられ無効",
+    "melodyEn": "Ailments/Blights Negated"
+  },
+  {
+    "id": "ECH_0004",
+    "melodyZh": "體力持續回復",
+    "melodyJa": "体力継続回復",
+    "melodyEn": "Health Regeneration"
+  },
+  {
+    "id": "ECH_0005",
+    "melodyZh": "防禦力及屬性耐性上升",
+    "melodyJa": "防御力＆属性耐性UP",
+    "melodyEn": "Defense & Elemental Res Up"
+  },
+  {
+    "id": "ECH_0006",
+    "melodyZh": "攻擊力及會心率上升",
+    "melodyJa": "攻撃力＆会心率UP",
+    "melodyEn": "Attack & Affinity Up"
+  },
+  {
+    "id": "ECH_0007",
+    "melodyZh": "按激化類別。攻擊激化:狀態異常及屬性異常無效;會心激化:耐力持續回復;屬性激化:防禦力及屬性耐性上升",
+    "melodyJa": "激化タイプ別 。",
+    "melodyEn": "By Amplification Type"
+  },
+  {
+    "id": "SPEC_001",
+    "melodyZh": "連消帶打之曲",
+    "melodyJa": "相殺の調べ",
+    "melodyEn": "Offset Melody"
+  },
+  {
+    "id": "SPEC_002",
+    "melodyZh": "響鳴之曲",
+    "melodyJa": "響鳴の調べ",
+    "melodyEn": "Resounding Melody"
+  },
+  {
+    "id": "SPEC_003",
+    "melodyZh": "生命之曲",
+    "melodyJa": "生命の調べ",
+    "melodyEn": "Melody of Life"
+  },
+  {
+    "id": "",
+    "melodyZh": "",
+    "melodyJa": "",
+    "melodyEn": ""
+  }
+]

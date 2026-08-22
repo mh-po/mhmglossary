@@ -1,0 +1,398 @@
+[
+  {
+    "recipe_id": "recipe_antidote_1",
+    "result_item": "antidote",
+    "yield": "1",
+    "materials": {"antidote_herb":1}
+  },
+  {
+    "recipe_id": "recipe_energy_drink_1",
+    "result_item": "energy_drink",
+    "yield": "1",
+    "materials": {"honey":1,"nitroshroom":1}
+  },
+  {
+    "recipe_id": "recipe_cool_drink_1",
+    "result_item": "cool_drink",
+    "yield": "1",
+    "materials": {"chillshroom":1}
+  },
+  {
+    "recipe_id": "recipe_hot_drink_1",
+    "result_item": "hot_drink",
+    "yield": "1",
+    "materials": {"hot_pepper":1}
+  },
+  {
+    "recipe_id": "recipe_cleanser_1",
+    "result_item": "cleanser",
+    "yield": "1",
+    "materials": {"godbug_essence":1,"fire_herb":1}
+  },
+  {
+    "recipe_id": "recipe_lifepowder_1",
+    "result_item": "lifepowder",
+    "yield": "1",
+    "materials": {"godbug_essence":1,"blue_mushroom":1}
+  },
+  {
+    "recipe_id": "recipe_barrel_bomb_1",
+    "result_item": "barrel_bomb",
+    "yield": "1",
+    "materials": {"fire_herb":1,"small_barrel":1}
+  },
+  {
+    "recipe_id": "recipe_large_barrel_bomb_1",
+    "result_item": "large_barrel_bomb",
+    "yield": "1",
+    "materials": {"gunpowder":1,"large_barrel":1}
+  },
+  {
+    "recipe_id": "recipe_flash_pod_1",
+    "result_item": "flash_pod",
+    "yield": "1",
+    "materials": {"flashbug_phosphor":1}
+  },
+  {
+    "recipe_id": "recipe_pitfall_trap_1",
+    "result_item": "pitfall_trap",
+    "yield": "1",
+    "materials": {"trap_tool":1,"net":1}
+  },
+  {
+    "recipe_id": "recipe_shock_trap_1",
+    "result_item": "shock_trap",
+    "yield": "1",
+    "materials": {"thunderbug_capacitor":1,"trap_tool":1}
+  },
+  {
+    "recipe_id": "recipe_dash_juice_1",
+    "result_item": "dash_juice",
+    "yield": "1",
+    "materials": {"dash_extract":1,"catalyst":1}
+  },
+  {
+    "recipe_id": "recipe_immunizer_1",
+    "result_item": "immunizer",
+    "yield": "1",
+    "materials": {"bitterbug_broth":1,"mandragora":1}
+  },
+  {
+    "recipe_id": "recipe_demondrug_1",
+    "result_item": "demondrug",
+    "yield": "1",
+    "materials": {"might_seed":1,"catalyst":1}
+  },
+  {
+    "recipe_id": "recipe_mega_demondrug_1",
+    "result_item": "mega_demondrug",
+    "yield": "1",
+    "materials": {"demondrug":1,"nourishing_extract":1}
+  },
+  {
+    "recipe_id": "recipe_armorskin_1",
+    "result_item": "armorskin",
+    "yield": "1",
+    "materials": {"adamant_seed":1,"catalyst":1}
+  },
+  {
+    "recipe_id": "recipe_mega_armorskin_1",
+    "result_item": "mega_armorskin",
+    "yield": "1",
+    "materials": {"armorskin":1,"nourishing_extract":1}
+  },
+  {
+    "recipe_id": "recipe_sticky_ammo_1",
+    "result_item": "sticky_ammo",
+    "yield": "1",
+    "materials": {"blastnut":1}
+  },
+  {
+    "recipe_id": "recipe_sticky_ammo_2",
+    "result_item": "sticky_ammo",
+    "yield": "3",
+    "materials": {"normal_ammo":1,"bomb_arowana_scale":1}
+  },
+  {
+    "recipe_id": "recipe_cluster_bomb_1",
+    "result_item": "cluster_bomb",
+    "yield": "1",
+    "materials": {"bomberry":1}
+  },
+  {
+    "recipe_id": "recipe_flaming_ammo_1",
+    "result_item": "flaming_ammo",
+    "yield": "6",
+    "materials": {"normal_ammo":1,"fire_herb":1}
+  },
+  {
+    "recipe_id": "recipe_water_ammo_1",
+    "result_item": "water_ammo",
+    "yield": "6",
+    "materials": {"normal_ammo":1,"flowfern":1}
+  },
+  {
+    "recipe_id": "recipe_thunder_ammo_1",
+    "result_item": "thunder_ammo",
+    "yield": "1",
+    "materials": {"thunderbug_capacitor":1,"normal_ammo":1}
+  },
+  {
+    "recipe_id": "recipe_freeze_ammo_1",
+    "result_item": "freeze_ammo",
+    "yield": "6",
+    "materials": {"normal_ammo":1,"snow_herb":1}
+  },
+  {
+    "recipe_id": "recipe_dragon_ammo_1",
+    "result_item": "dragon_ammo",
+    "yield": "2",
+    "materials": {"normal_ammo":1,"dragonfell_berry":1}
+  },
+  {
+    "recipe_id": "recipe_poison_ammo_1",
+    "result_item": "poison_ammo",
+    "yield": "2",
+    "materials": {"normal_ammo":1,"toadstool":1}
+  },
+  {
+    "recipe_id": "recipe_paralysis_ammo_1",
+    "result_item": "paralysis_ammo",
+    "yield": "2",
+    "materials": {"normal_ammo":1,"parashroom":1}
+  },
+  {
+    "recipe_id": "recipe_sleep_ammo_1",
+    "result_item": "sleep_ammo",
+    "yield": "2",
+    "materials": {"normal_ammo":1,"sleep_herb":1}
+  },
+  {
+    "recipe_id": "recipe_slicing_ammo_1",
+    "result_item": "slicing_ammo",
+    "yield": "1",
+    "materials": {"slashberry":1}
+  },
+  {
+    "recipe_id": "recipe_slicing_ammo_2",
+    "result_item": "slicing_ammo",
+    "yield": "3",
+    "materials": {"normal_ammo":1,"burst_arowana_scale":1}
+  },
+  {
+    "recipe_id": "recipe_dung_pod_1",
+    "result_item": "dung_pod",
+    "yield": "1",
+    "materials": {"dung":1}
+  },
+  {
+    "recipe_id": "recipe_dung_pod_2",
+    "result_item": "dung_pod",
+    "yield": "1",
+    "materials": {"rolled-up_dung":1}
+  },
+  {
+    "recipe_id": "recipe_farcaster_1",
+    "result_item": "farcaster",
+    "yield": "1",
+    "materials": {"exciteshroom":1,"smokenut":1}
+  },
+  {
+    "recipe_id": "recipe_tranq_blade_1",
+    "result_item": "tranq_blade",
+    "yield": "1",
+    "materials": {"tranq_bomb":1,"throwing_knife":1}
+  },
+  {
+    "recipe_id": "recipe_smoke_bomb_1",
+    "result_item": "smoke_bomb",
+    "yield": "1",
+    "materials": {"smokenut":1,"ivy":1}
+  },
+  {
+    "recipe_id": "recipe_wyvern_ammo_1",
+    "result_item": "wyvern_ammo",
+    "yield": "1",
+    "materials": {"dragonstrike_nut":1}
+  },
+  {
+    "recipe_id": "recipe_max_potion_1",
+    "result_item": "max_potion",
+    "yield": "1",
+    "materials": {"mandragora":1,"catalyst":1}
+  },
+  {
+    "recipe_id": "recipe_ancient_potion_1",
+    "result_item": "ancient_potion",
+    "yield": "1",
+    "materials": {"immunizer":1,"nourishing_extract":1}
+  },
+  {
+    "recipe_id": "recipe_might_pill_1",
+    "result_item": "might_pill",
+    "yield": "1",
+    "materials": {"might_seed":1,"immunizer":1}
+  },
+  {
+    "recipe_id": "recipe_adamant_pill_1",
+    "result_item": "adamant_pill",
+    "yield": "1",
+    "materials": {"adamant_seed":1,"immunizer":1}
+  },
+  {
+    "recipe_id": "recipe_herbal_medicine_1",
+    "result_item": "herbal_medicine",
+    "yield": "1",
+    "materials": {"antidote":1,"blue_mushroom":1}
+  },
+  {
+    "recipe_id": "recipe_herbal_powder_1",
+    "result_item": "herbal_powder",
+    "yield": "1",
+    "materials": {"godbug_essence":1,"herbal_medicine":1}
+  },
+  {
+    "recipe_id": "recipe_demon_powder_1",
+    "result_item": "demon_powder",
+    "yield": "1",
+    "materials": {"godbug_essence":1,"might_seed":1}
+  },
+  {
+    "recipe_id": "recipe_hardshell_powder_1",
+    "result_item": "hardshell_powder",
+    "yield": "1",
+    "materials": {"godbug_essence":1,"adamant_seed":1}
+  },
+  {
+    "recipe_id": "recipe_dust_of_life_1",
+    "result_item": "dust_of_life",
+    "yield": "1",
+    "materials": {"godbug_essence":1,"gloamgrass_bud":1}
+  },
+  {
+    "recipe_id": "recipe_poison_smoke_bomb_1",
+    "result_item": "poison_smoke_bomb",
+    "yield": "1",
+    "materials": {"smokenut":1,"toadstool":1}
+  },
+  {
+    "recipe_id": "recipe_tranq_bomb_1",
+    "result_item": "tranq_bomb",
+    "yield": "1",
+    "materials": {"parashroom":1,"sleep_herb":1}
+  },
+  {
+    "recipe_id": "recipe_drugged_meat_1",
+    "result_item": "drugged_meat",
+    "yield": "1",
+    "materials": {"raw_meat":1,"sleep_herb":1}
+  },
+  {
+    "recipe_id": "recipe_luring_pod_1",
+    "result_item": "luring_pod",
+    "yield": "1",
+    "materials": {"bitterbug_broth":1,"exciteshroom":1}
+  },
+  {
+    "recipe_id": "recipe_mega_barrel_bomb_1",
+    "result_item": "mega_barrel_bomb",
+    "yield": "1",
+    "materials": {"large_barrel_bomb":1,"devil's_blight":1}
+  },
+  {
+    "recipe_id": "recipe_mega_barrel_bomb_2",
+    "result_item": "mega_barrel_bomb",
+    "yield": "1",
+    "materials": {"large_barrel_bomb":1,"gunpowderfish_scale":1}
+  },
+  {
+    "recipe_id": "recipe_tinged_meat_1",
+    "result_item": "tinged_meat",
+    "yield": "1",
+    "materials": {"raw_meat":1,"parashroom":1}
+  },
+  {
+    "recipe_id": "recipe_poisoned_meat_1",
+    "result_item": "poisoned_meat",
+    "yield": "1",
+    "materials": {"raw_meat":1,"toadstool":1}
+  },
+  {
+    "recipe_id": "recipe_deodorant_1",
+    "result_item": "deodorant",
+    "yield": "1",
+    "materials": {"bitterbug_broth":1,"smokenut":1}
+  },
+  {
+    "recipe_id": "recipe_demon_ammo_1",
+    "result_item": "demon_ammo",
+    "yield": "1",
+    "materials": {"normal_ammo":1,"might_seed":1}
+  },
+  {
+    "recipe_id": "recipe_armor_ammo_1",
+    "result_item": "armor_ammo",
+    "yield": "1",
+    "materials": {"normal_ammo":1,"adamant_seed":1}
+  },
+  {
+    "recipe_id": "recipe_recover_ammo_1",
+    "result_item": "recover_ammo",
+    "yield": "2",
+    "materials": {"normal_ammo":1,"blue_mushroom":1}
+  },
+  {
+    "recipe_id": "recipe_tranq_ammo_1",
+    "result_item": "tranq_ammo",
+    "yield": "1",
+    "materials": {"normal_ammo":1,"tranq_bomb":1}
+  },
+  {
+    "recipe_id": "recipe_exhaust_ammo_1",
+    "result_item": "exhaust_ammo",
+    "yield": "2",
+    "materials": {"normal_ammo":1,"exciteshroom":1}
+  },
+  {
+    "recipe_id": "recipe_potion_1",
+    "result_item": "potion",
+    "yield": "1",
+    "materials": {"herb":1}
+  },
+  {
+    "recipe_id": "recipe_large_dung_pod_1",
+    "result_item": "large_dung_pod",
+    "yield": "1",
+    "materials": {"dung_pod":1,"nitroshroom":1}
+  },
+  {
+    "recipe_id": "recipe_mega_potion_1",
+    "result_item": "mega_potion",
+    "yield": "1",
+    "materials": {"potion":1,"honey":1}
+  },
+  {
+    "recipe_id": "recipe_first-aid_med+_1",
+    "result_item": "first-aid_med+",
+    "yield": "1",
+    "materials": {"honey":1,"first-aid_med":1}
+  },
+  {
+    "recipe_id": "recipe_catalyst_1",
+    "result_item": "catalyst",
+    "yield": "1",
+    "materials": {"honey":1,"bitterbug_broth":1}
+  },
+  {
+    "recipe_id": "recipe_gunpowder_1",
+    "result_item": "gunpowder",
+    "yield": "1",
+    "materials": {"fire_herb":1,"nitroshroom":1}
+  },
+  {
+    "recipe_id": "recipe_net_1",
+    "result_item": "net",
+    "yield": "1",
+    "materials": {"ivy":1,"spider_web":1}
+  }
+]

@@ -1,0 +1,58 @@
+ /* 可展開內容 */
+    .collapsible {
+      display: none;
+      margin-top: 4px;
+      padding: 8px;
+      border: 0px solid #ccc;
+      margin: 0;
+    padding: 0;
+    background-color: var(--bg-color); /* 修正：將背景色綁定變數 */
+    color: var(--text-main);           /* 修正：將文字顏色綁定變數 */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .collapsible.show {
+      display: block;
+    }
+
+    /* 每個小項目的開關按鈕（可選） */
+    .toggle-btn {
+      cursor: pointer;
+      user-select: none;
+      margin-top: 8px;
+    }
+
+    /* FAB 通用樣式 */
+    .fab {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(63, 80, 30, 0.671);
+      color: #fff;
+      font-family: "Material Symbols Outlined";
+      font-size: 28px;
+      line-height: 48px;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      user-select: none;
+      padding: 0;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .fab:hover {
+      background: #0057b3b4;
+    }
+
+    /* FAB 容器：右下角垂直排列 */
+    .fab-container {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 9999;
+    }

@@ -1,0 +1,1309 @@
+/* ==========================================================================
+   MH Database - Main Stylesheet (Mobile-First & Optimized)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. CSS 變數系統 (Dark / Light Theme)
+   -------------------------------------------------------------------------- */
+:root {
+    /* 預設夜間模式 (Dark Theme) */
+    --bg-color: #121418;
+    --card-bg: #1c2026;
+    --card-footer-bg: #06273dd5;
+    --card-border: #2e3540;
+    --text-main: #e2e8f0;
+    --text-muted: #94a3b8;
+    --text-color: #f0f0f0;
+    --border-color: #333336;
+    --border-color-subtle: #25292e;
+    
+    --primary-color: #0084d6;
+    --primary-tilte-color: #f2f6f8;
+    --primary-hover: #0284c7;
+    --accent-color: #f59e0b;
+    --heart-color: #ff4d4f;
+    --heart-hover-color: #ff7875;
+    --info-color: #17a2b8;
+    
+    --input-bg: #262c36;
+    --input-border: #3d4656;
+    --button-bg: #2a313d;
+    --button-active-bg: #0084d6;
+    --button-active-text: #ffffff;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    --bg-sidebar: #1e1e24;
+
+    /* Rare 稀有度色彩 */
+    --rare-1: #9e9e9e;
+    --rare-2: #81c784;
+    --rare-3: #64b5f6;
+    --rare-4: #ba68c8;
+    --rare-5: #ffb74d;
+    --rare-6: #e57373;
+    --rare-7: #f06292;
+    --rare-8: #ffd54f;
+    --rare-9: #4dd0e1;
+    --rare-10: #ff5252;
+}
+
+/* 日間模式 (Light Theme Override) */
+[data-theme="light"], body.light-theme {
+    --bg-color: #dfe7eb;
+    --card-bg: #f0f4ff;
+    --card-footer-bg: #0992ee9a;
+    --card-border: #3297da;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --text-color: #222222;
+    --border-color: #e0e0e0;
+    --border-color-subtle: #cbd5e1;
+    
+    --primary-color: #0084d6;
+    --primary-tilte-color: #162017;
+    --primary-hover: #378021;
+    --accent-color: #d97706;
+    
+    --input-bg: #f1f5f9;
+    --input-border: #cbd5e1;
+    --button-bg: #e2e8f0;
+    --button-active-bg: #0084d6;
+    --button-active-text: #ffffff;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --bg-sidebar: #dfe7eb;
+}
+
+/* --------------------------------------------------------------------------
+   2. 全域重置與防溢出安全設定 (Mobile Protection)
+   -------------------------------------------------------------------------- */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden; /* 防止手機橫向滑動與爆版 */
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+img, video, canvas, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 表格防擠爆：手機端支援橫向滑動 */
+table {
+    border-collapse: collapse;
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table td, table th {
+    border: 1px solid var(--border-color);
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--card-bg);
+}
+
+/* --------------------------------------------------------------------------
+   3. Layout: Sidebar + Main Content
+   -------------------------------------------------------------------------- */
+.app-layout {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.app-main, .main-container {
+    flex: 1;
+    min-width: 0; /* 防止 Table 或大圖擠爆 Grid */
+    padding: 16px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Sidebar / Drawer */
+.sidebar-drawer {
+    width: 260px;
+    background-color: var(--bg-sidebar);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-right: 1px solid var(--border-color);
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+.sidebar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 10px;
+}
+
+.sidebar-brand .logo-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 8px;
+    margin-right: auto;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.drawer-item {
+    color: var(--text-main);
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s;
+}
+
+.drawer-item:hover,
+.drawer-item.active {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+    border-left: 4px solid #10b981;
+    padding-left: 16px;
+}
+
+.mobile-topbar, .sidebar-overlay {
+    display: none;
+}
+
+/* --------------------------------------------------------------------------
+   4. Responsive (Mobile / Tablet RWD)
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .app-layout {
+        flex-direction: column;
+    }
+
+    .mobile-topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--card-bg);
+        border-bottom: 1px solid var(--card-border);
+        padding: 12px 16px;
+        color: var(--text-main);
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
+    
+    .nav-logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #10b981;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .nav-toggle {
+        background: none;
+        border: none;
+        color: var(--text-main);
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    .sidebar-drawer {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translateX(-100%);
+        box-shadow: 2px 0 8px rgba(0,0,0,0.5);
+        height: 100dvh;         /* 確保抽屜高度等於螢幕可視高度 (使用 dvh 避免手機瀏覽器網址列干擾) */
+        overflow-y: auto;       /* 內容超出時顯示垂直捲軸 */
+        background: var(--card-bg);
+    }
+
+    .sidebar-drawer.active {
+        transform: translateX(0);
+    }
+
+    .sidebar-brand {
+        display: none;
+    }
+
+    .sidebar-overlay.active {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 990;
+    }
+}
+
+@media (min-width: 769px) {
+    .mobile-topbar {
+        display: none !important;
+    }
+}
+
+
+
+/* --------------------------------------------------------------------------
+   5. 搜尋列與篩選控制元件
+   -------------------------------------------------------------------------- */
+.page-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-tilte-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.filter-section, .controls-section {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.search-box {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--input-border);
+    background-color: var(--input-bg);
+    color: var(--text-main);
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.search-box input {
+    background: transparent;
+    border: none;
+    color: var(--text-main);
+    outline: none;
+    width: 100%;
+}
+
+.search-box:focus-within {
+    border-color: var(--primary-color);
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.filter-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.btn-filter, .filter-btn {
+    background: var(--button-bg);
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    user-select: none;
+    touch-action: manipulation;
+    transition: all 0.2s ease;
+}
+
+.btn-filter:hover, .filter-btn:hover {
+    opacity: 0.9;
+    background-color: var(--border-color);
+}
+
+.btn-filter.active, .filter-btn.active {
+    background-color: var(--primary-color) !important;
+    color: var(--button-active-text) !important;
+    font-weight: 600;
+    border-color: var(--primary-color) !important;
+}
+
+/* 鎖定畫面上所有 data-value="ALL" 的篩選按鈕 (選中狀態) */
+.btn-filter[data-value="ALL"].active,.btn-filter[data-ver="ALL"].active, .btn-filter[data-type="ALL"].active, .btn-filter[data-dust="ALL"].active, .btn-filter[data-skill="ALL"].active, 
+.btn-filter[data-rare="ALL"].active, .btn-filter[data-species="ALL"].active, .btn-filter[data-echo="ALL"].active, .btn-filter[data-special="ALL"].active,
+.btn-filter[data-melody="ALL"].active,.btn-filter[data-elm="ALL"].active    {
+    background-color: #017579 !important; /* 例如改成翠綠色，代表這是一個「重置/全選」屬性的按鈕 */
+    border-color: #fff!important;
+    color: #ffffff !important;
+}
+
+
+/* 我的最愛按鈕高亮 */
+.btn-fav-filter.active, .fav-toggle-btn.active {
+    background-color: #fef2f2 !important;
+    border-color: #fca5a5 !important;
+    color: #ef4444 !important;
+}
+
+/* --------------------------------------------------------------------------
+   6. 卡片與網格系統 (Card Grid System)
+   -------------------------------------------------------------------------- */
+.result-stats {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .cards-grid {
+        grid-template-columns: 1fr; /* 超小螢幕自動縮為單欄 */
+    }
+}
+
+.card, .data-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.card:hover, .data-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.card-title, .title-group h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.card-subtitle, .en-title {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.card-body {
+    font-size: 0.9rem;
+    color: var(--text-main);
+}
+
+.card-body p {
+    margin-bottom: 6px;
+}
+
+/* 我的最愛 / 收藏按鈕 */
+.bookmark-btn, .fav-btn, .btn-fav {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-muted);
+    padding: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.bookmark-btn:hover, .fav-btn:hover, .btn-fav:hover {
+    transform: scale(1.15);
+    color: var(--heart-hover-color);
+}
+
+.bookmark-btn.active, .btn-fav.active {
+    color: var(--heart-color);
+}
+
+/* 複製按鈕 */
+.btn-copy, .copy-btn, .btn-icon-copy {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 2px 4px;
+    color: var(--text-muted);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.btn-copy:hover, .copy-btn:hover, .btn-icon-copy:hover {
+    color: var(--primary-color);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.btn-copy.copied {
+    color: #10b981 !important;
+}
+
+/* --------------------------------------------------------------------------
+   7. Badge 標籤 & 特殊區塊
+   -------------------------------------------------------------------------- */
+.badge, .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.badge-rare-HR { background-color: #f59e0b; color: #ffffff; border: 1px solid #d97706; }
+.badge-rare-MR { background-color: #ef4444; color: #ffffff; border: 1px solid #dc2626; }
+
+.badge-rare-1 { background-color: var(--rare-1); color: #000;}
+.badge-rare-2 { background-color: var(--rare-2); color: #333;}
+.badge-rare-3 { background-color: var(--rare-3); color: #333;}
+.badge-rare-4 { background-color: var(--rare-4); color: #333;}
+.badge-rare-5 { background-color: var(--rare-5); color: #333;}
+.badge-rare-6 { background-color: var(--rare-6); color: #333;}
+.badge-rare-7 { background-color: var(--rare-7); color: #333;}
+.badge-rare-8 { background-color: var(--rare-8); color: #333;}
+.badge-rare-9 { background-color: var(--rare-9); color: #333;}
+.badge-rare-10 { background-color: var(--rare-10); color: #333;}
+
+.weakness-火 { background: #e74c3c; color: #fff; }
+.weakness-水 { background: #3498db; color: #fff; }
+.weakness-雷 { background: #f1c40f; color: #000; }
+.weakness-冰 { background: #74b9ff; color: #000; }
+.weakness-龍 { background: #8e44ad; color: #fff; }
+
+.bg-dark-panel { background-color: var(--card-bg); }
+.bg-darker { background-color: var(--input-bg); border: 1px solid var(--border-color-subtle); }
+
+/* --------------------------------------------------------------------------
+   8. 分頁、主題切換 & Toast 通知
+   -------------------------------------------------------------------------- */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 24px;
+    padding: 12px 0;
+}
+
+.btn-page {
+    background: var(--button-bg);
+    color: var(--text-main);
+    border: 1px solid var(--card-border);
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.btn-page:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.theme-toggle-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: var(--text-main);
+}
+
+.toast-notification {
+    position: fixed;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: rgba(15, 23, 42, 0.92);
+    color: #ffffff;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 9999;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+}
+
+.toast-notification.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* --------------------------------------------------------------------------
+   9. 折疊選單 Details & 頁尾 (Footer)
+   -------------------------------------------------------------------------- */
+.fav-tips-details {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin: 16px 0;
+    overflow: hidden;
+}
+
+.fav-tips-summary {
+    padding: 12px 16px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--input-bg);
+    color: var(--text-main);
+    list-style: none;
+}
+
+.fav-tips-summary::-webkit-details-marker,
+.lv-details summary::-webkit-details-marker {
+    display: none;
+}
+
+.fav-tips-content {
+    padding: 16px;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.88rem;
+    line-height: 1.6;
+}
+
+.site-footer {
+    background-color: var(--card-footer-bg);
+    border-top: 1px solid var(--card-border);
+    padding: 20px 16px;
+    margin-top: 40px;
+}
+.footer-disclaimer,.footer-version { 
+    font-size: 0.75rem;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+@media (min-width: 640px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
+
+.smallnote {
+    font-size: 12px; 
+    text-align: left;
+    padding: 20px 10px 10px 10px;
+    color: var(--text-muted);
+}
+
+
+/* =========================================
+   7. 獵蟲三圍進度條 & Toast 複製元件
+   ========================================= */
+.stat-bar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: var(--input-bg);
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+.stat-bar-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+}
+
+.stat-label {
+    width: 36px;
+    font-weight: bold;
+    color: var(--text-main);
+}
+
+.stat-bar-bg {
+    flex: 1;
+    height: 8px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.stat-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.stat-bar-fill.power { background-color: #ef4444; }
+.stat-bar-fill.speed { background-color: #3b82f6; }
+.stat-bar-fill.heal  { background-color: #ffa704; }
+
+.tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: bold;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+.tag-type { background-color: #e2e8f0; color: #334155; }
+.tag-dust { background-color: #fef3c7; color: #92400e; }
+.tag-skill { background-color: #e0e7ff; color: #3730a3; }
+
+.btn-copy {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    margin-left: 2px;
+    opacity: 0.7;
+    transition: all 0.2s ease;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    color: var(--primary-color);
+}
+
+.btn-copy .material-symbols-outlined {
+    font-size: 16px;
+    line-height: 1;
+    color: inherit; /* 繼承父元素的文字顏色 */
+    vertical-align: middle;
+
+}
+
+.btn-copy:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-copy.copied {
+    color: #10b981 !important;
+}
+
+.toast-notification {
+    position: fixed;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: rgba(15, 23, 42, 0.92);
+    color: #ffffff;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 9999;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    white-space: nowrap;
+}
+
+.toast-notification.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+ /* Kinsects列表樣式 */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 1em 0;
+}
+
+ul li {
+    background: var(--card-bg);
+    color: var(--text-main);
+    margin: 6px 0;
+    padding: 10px 14px;
+    border: 2px dotted var(--border-color); /* dotted 邊框 */
+    border-radius: 6px;
+    position: relative;
+    list-style-position: inside;
+}
+
+  table {
+    border-collapse: collapse;
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+  }
+
+  table td {
+    border: 1px solid #ccc;
+    padding: 6px;
+  }
+
+  table tr:nth-child(even) {
+    background-color: var(--card-bg);
+  }
+
+  /* ==========================================
+   Jewels Cross-Reference Modal & Button
+   ========================================== */
+.btn-skill-ref {
+    width: 100%;
+    background: var(--input-bg);
+    border: 1px solid var(--border-color);
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+
+.btn-skill-ref:hover {
+    background: var(--border-color);
+    border-color: var(--primary-color);
+}
+
+/* Modal Overlay (暗色遮罩) */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Modal 內容框 (相容手機大小) */
+.modal-content {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    animation: modalPop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes modalPop {
+    from { opacity: 0; transform: scale(0.95) translateY(10px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.btn-close-modal:hover {
+    color: var(--heart-color) !important;
+}
+
+  /* ==========================================
+   獵人背包 Pouch.html
+   ========================================== */
+/* 基礎重置與變數 */
+
+
+
+/* 主容器：左右雙欄排版 */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* 手機版會自動換行 */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.panel {
+    background-color: var(--panel-bg);
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+}
+
+/* 左側佔 60%，右側佔 40% */
+#catalog-section {
+    flex: 3;
+    min-width: 300px;
+}
+
+#summary-section {
+    flex: 2;
+    min-width: 300px;
+}
+
+hr {
+    border-color: var(--border-color);
+    margin: 20px 0;
+}
+
+/* 狀態文字醒目顯示 */
+.slot-status {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+  /* ==========================================
+   FAB
+   ========================================== */
+
+/* 右下角 FAB 組 CSS */
+.fab {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(63, 80, 30, 0.671);
+  color: #fff;
+  /* 確保這裡的字體名稱與 Google 載入的名稱一致 */
+  font-family: "Material Symbols Outlined"; 
+  font-size: 28px;
+  line-height: 48px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  user-select: none;
+  padding: 0;
+  display: inline-block;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.fab:hover {
+  background: #0057b3b4;
+}
+
+.fab-container {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 9999;
+}
+ /* ==========================================
+   IMAGE
+   ========================================== */
+   /* Small image container */
+    .img-container img {
+      max-width: 100%;
+      cursor: pointer;
+    }
+
+    /* Modal background */
+    .modal {
+      display: none; /* hidden by default */
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    /* Modal content (large image) */
+    .modal-content {
+      display: block;
+      margin: 5% auto;
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    /* Close button */
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 35px;
+      color: #fff;
+      font-size: 40px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+     /* ==========================================
+     Crown 大小金
+   ========================================== */
+    /* Header 與按鈕區 */
+        .crown-tool-header { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; }
+        .action-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+        .action-buttons .btn-filter { display: flex; align-items: center; gap: 6px; font-size: 0.9rem; padding: 8px 16px; }
+
+        /* 版本切換區 */
+        .version-tabs { display: flex; gap: 8px; margin-top: 16px; margin-bottom: 8px; }
+        .version-tabs .btn-filter { padding: 8px 16px; font-weight: bold; }
+
+        /* 進度文字區 (成就感提示) */
+        .progress-stats-bar {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid #10b981;
+            color: var(--text-main);
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .progress-stats-bar.completed { background: rgba(245, 158, 11, 0.15); border-color: #f59e0b; font-weight: bold; }
+
+        /* 紀錄區塊排版 */
+        .tracker-section { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; border-top: 1px dashed var(--border-color); padding-top: 12px; }
+        .tracker-row { display: flex; align-items: center; justify-content: space-between; background: var(--input-bg); padding: 6px 10px; border-radius: 6px; gap: 8px; flex-wrap: wrap; }
+        .tracker-label { font-size: 0.85rem; font-weight: 600; color: var(--text-muted); min-width: 70px; }
+        .tracker-toggles { display: flex; gap: 6px; flex-wrap: wrap; flex: 1; }
+        
+        /* 雙金全選按鈕 */
+        .btn-toggle-both { background: var(--button-bg); border: 1px solid var(--border-color); color: var(--text-main); font-size: 0.8rem; padding: 4px 8px; border-radius: 4px; cursor: pointer; margin-left: auto; transition: 0.2s; white-space: nowrap; }
+        .btn-toggle-both:hover { background: var(--border-color); }
+
+        /* 大小金按鈕 */
+        .btn-crown-toggle { background: transparent; border: 1px solid var(--border-color); color: var(--text-muted); padding: 4px 10px; border-radius: 4px; cursor: pointer; display: inline-flex; align-items: center; gap: 4px; font-size: 0.85rem; transition: all 0.2s ease; }
+        .btn-crown-toggle:hover { background: rgba(255, 255, 255, 0.05); }
+        .btn-crown-toggle .material-symbols-outlined { font-size: 18px; }
+        .btn-crown-toggle.active.mini { color: #f59e0b; border-color: #f59e0b; background: rgba(245, 158, 11, 0.1); }
+        .btn-crown-toggle.active.giant { color: #ef4444; border-color: #ef4444; background: rgba(239, 68, 68, 0.1); }
+
+        .crown-search-bar { margin-bottom: 20px; }
+
+        /* Modal 客製化 */
+        .missing-list-box { background: var(--input-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 12px; max-height: 50vh; overflow-y: auto; }
+        .missing-list-text { white-space: pre-wrap; font-size: 0.95rem; color: var(--text-main); margin: 0; line-height: 1.6; font-family: inherit; }
+
+        hr.title {
+        border: 0;
+        height: 2px;
+        background: #2A7B9B;
+        background: linear-gradient(90deg, rgb(7, 130, 187) 0%, rgba(87, 199, 133, 1) 50%, rgb(51, 46, 0) 100%);
+         }
+
+        
+
+        /* 專屬於 events 頁面的微調樣式 */
+        .section-banner {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--accent-color);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-bottom: 12px;
+        }
+        .active-events-section {
+        background: var(--card-bg);
+        border: 1px solid var(--primary-color);
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 24px;
+        box-shadow: 0 0 12px rgba(0, 132, 214, 0.15);
+        }
+        .badge-new {
+        background-color: #ef4444;
+        color: #ffffff;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        vertical-align: middle;
+        margin-right: 4px;
+        display: inline-block;
+        }
+        .badge-active {
+        background-color: #10b981;
+        color: #ffffff;
+        }
+        .badge-permanent {
+        background-color: #64748b;
+        color: #ffffff;
+        }
+        .badge-ended {
+        background-color: #475569;
+        color: #94a3b8;
+        }
+        .quest-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        }
+        .quest-prop-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 6px;
+        font-size: 0.85rem;
+        margin-bottom: 4px;
+        line-height: 1.4;
+        }
+        .quest-prop-label {
+        color: var(--text-muted);
+        min-width: 68px;
+        flex-shrink: 0;
+        font-weight: 600;
+        }
+        .quest-prop-val {
+        color: var(--text-main);
+        flex: 1;
+        }
+        .remarks-box {
+        margin-top: 8px;
+        padding-top: 8px;
+        border-top: 1px dashed var(--border-color);
+        font-size: 0.85rem;
+        line-height: 1.5;
+        }
+        .zenny-text {
+        color: var(--accent-color);
+        font-weight: bold;
+        }
+        /* 也專屬於 events 頁面的微調樣式 */
+        .search-row {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        }
+        /* 也專屬於 events 頁面的微調樣式 */
+        .btn-reset {
+        background: var(--button-bg);
+        border: 1px solid var(--border-color);
+        color: var(--text-muted);
+        border-radius: 8px;
+        padding: 8px 12px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 0.85rem;
+        white-space: nowrap;
+        transition: all 0.2s;
+        }
+        /* 也專屬於 events 頁面的微調樣式 */
+        .btn-reset:hover {
+        color: var(--text-main);
+        background: var(--input-bg);
+        }
+        /* 首頁專屬樣式 (也可移至 main.css) */
+        .hero-section {
+        text-align: center;
+        padding: 60px 20px; /* 可適度增加高度讓背景更完整呈現 */
+        
+        /* 核心背景設定：半透明遮罩 + 背景圖片 */
+        background-image: 
+            linear-gradient(rgba(247, 236, 236, 0.45), rgba(0, 0, 0, 0.45)), /* 半透明遮罩，確保文字清晰 */
+            url('/siteicon/bannerbg.jpg'); /* 替換為圖片網址或檔案路徑 */
+        background-size: cover;          /* 等比例放大填滿 100% 區域，裁切多餘部分 */
+        background-position: center;     /* 保持圖片居中 */
+        background-repeat: no-repeat;    /* 禁止圖片重複拼貼 */
+        
+        /* 原有外框與陰影樣式 */
+        border-radius: 12px;
+        margin-bottom: 24px;
+        border: 0px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.562);
+        color: #ffffff; /* 確保文字在深色/圖片背景下為白色 */
+    }
+
+    /* 強化標題文字可讀性 */
+    .hero-title {
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero-subtitle {
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+    }
+        /* 首頁快捷導覽網格 */
+        .portal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        /* 首頁導覽卡片按鈕 */
+        .portal-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 10px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-main);
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 6px rgba(163, 155, 155, 0.1);
+        }
+
+        .portal-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-color);
+            box-shadow: 0 8px 15px rgba(16, 185, 129, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .portal-icon {
+            font-size: 2.5rem;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+        }
+
+        .portal-title {
+            font-weight: bold;
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }
+
+        .portal-desc {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        /* 首頁個別顏色點綴 */
+        .portal-card.monsters .portal-icon { color: #ef4444; }
+        .portal-card.skills .portal-icon { color: #f59e0b; }
+        .portal-card.jewels .portal-icon { color: #38bdf8; }
+        .portal-card.charms .portal-icon { color: #a855f7; }
+        .portal-card.mealskills .portal-icon { color: #fb923c; }
+        .portal-card.kinsects .portal-icon { color: #84cc16; }
+        .portal-card.huntinghorn .portal-icon { color: #10b981; }
+        .portal-card.general .portal-icon { color: #6366f1; }
+        .portal-card.favorite .portal-icon { color: #f43f5e; font-variation-settings: 'FILL' 1; }
+        .portal-card.pouch .portal-icon { color: #40195e; font-variation-settings: 'FILL' 1; }
+        .portal-card.crown .portal-icon { color: #ffdc16; font-variation-settings: 'FILL' 1; }
+        .portal-card.events .portal-icon { color: #056e9e; }
+        .portal-card.recipe .portal-icon { color: #059e8a; }
+
+        @media (max-width: 480px) {
+            .portal-grid {
+                grid-template-columns: repeat(2, 1fr); /* 手機版強制一排兩個，看起來像 App 桌面 */
+                gap: 12px;
+            }
+            .portal-card { padding: 16px 8px; }
+            .portal-icon { font-size: 2rem; margin-bottom: 8px; height: 40px; }
+            .hero-title { font-size: 1.5rem; }
+        }
+
+            /* CREDITS ABOUT.HTML語言切換按鈕基礎樣式 (可合併到 css/main.css) */
+    .lang-switcher {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .lang-btn {
+      padding: 6px 14px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 14px;
+      transition: all 0.2s ease;
+    }
+    .lang-btn.active {
+      background: #222;
+      color: #fff;
+      border-color: #222;
+      font-weight: bold;
+    }
+    .lang-content {
+      display: none;
+    }
+    .lang-content.active {
+      display: block;
+    }
+    .lang-btn:hover {
+  background: #0057b3b4;
+}

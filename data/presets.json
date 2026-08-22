@@ -1,0 +1,47 @@
+
+{
+  "presets": {
+
+        "basic": {
+      "icon": "⚔️",
+      "name_key": "preset_melee",
+      "items": { 
+        "powercharm": 1, 
+      "armorcharm": 1, 
+      "max_potion_max": true, 
+      "mega_potion": 10
+      
+    }
+    },
+
+    "mushroomancer": {
+      "icon": "🍄",
+      "name_key": "preset_mushroomancer",
+      "items": {
+        "powercharm": 1,
+        "armorcharm": 1,
+        "blue_mushroom": 10,
+        "toadstool": 10,
+        "parashroom": 10,
+        "nitroshroom": 20,
+        "mandragora": 10,
+        "max_potion_max": true
+      }
+    },
+    
+    "healer": {
+      "icon": "💖",
+      "name_key": "preset_healer",
+      "items": {
+        "powercharm": 1,
+        "armorcharm": 1,
+        "mega_potion": 10,
+        "lifepowder": 3,
+        "dust_of_life": 2,
+        "herbal_powder": 3,
+        "demon_powder": 3,
+        "hardshell_powder": 3
+      }
+    }
+  }
+}

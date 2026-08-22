@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>活動任務一覽 | MHWilds Mini Glossary 小詞庫</title>
+  
+  <!-- 引入 Google Material Symbols 與全站樣式 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/png" href="/siteicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="shortcut icon" href="/siteicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/siteicon/apple-touch-icon.png" />
+  <link rel="manifest" href="/siteicon/site.webmanifest" />
+</head>
+<body>
+
+  <div class="app-layout">
+    <!-- 左側選單預留容器 -->
+    <div id="nav-placeholder"></div>
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- 主要內容區 -->
+    <main class="app-main">
+      
+      <div class="page-title">
+        <span class="material-symbols-outlined">event_available</span>
+        <span>任務與活動一覽</span>
+        
+      </div>
+      <div>‼️<strong>本站佛系更新。</strong><br>
+        🚨注意﹕並未收錄遊戲內所有任務，資料亦可能有錯。<br>
+        📌詳細活動資訊，建議參考<strong>官方網站</strong>或<strong>其他攻略網站</strong>。</div>
+    <hr style="title">
+      <!-- 1. 頂部焦點區：現正開放中 -->
+      <section class="active-events-section" id="active-events-wrapper">
+        <div class="section-banner">
+          <span class="material-symbols-outlined">local_fire_department</span>
+          <span>🔥 現正開放中 (Active Events)</span>
+        </div>
+        <div class="cards-grid" id="active-events-grid">
+          <!-- JS 動態產生當期活動 -->
+        </div>
+      </section>
+
+      <!-- 2. 控制器區塊：搜尋、Rank、類型、難度、標籤、排序 -->
+      <section class="filter-section">
+        
+        <!-- 搜尋列與重設 -->
+        <div class="search-row">
+          <div class="search-box">
+            <input type="text" id="quest-search" placeholder="🔍 搜尋任務名 (中/日/英)、魔物、票券、裝備..." />
+          </div>
+          <button class="btn-reset" id="btn-reset-filters">
+            <span class="material-symbols-outlined" style="font-size: 16px;">restart_alt</span>
+            <span>重設</span>
+          </button>
+        </div>
+
+        <!-- Rank 階級 -->
+        <div class="filter-group">
+          <div class="filter-title">【階級 Rank】</div>
+          <div class="filter-buttons" id="filter-rank">
+            <button class="btn-filter active" data-group="rank" data-value="ALL">ALL</button>
+            <button class="btn-filter" data-group="rank" data-value="HR">HR</button>
+            </div>
+        </div>
+
+        <!-- 任務分類 -->
+        <div class="filter-group">
+          <div class="filter-title">【任務分類】</div>
+          <div class="filter-buttons" id="filter-questType">
+            <button class="btn-filter active" data-group="questType" data-value="ALL">全部</button>
+            <button class="btn-filter" data-group="questType" data-value="event">活動 (Event)</button>
+            <button class="btn-filter" data-group="questType" data-value="seasonal">祭典 (Festival)</button>
+            <button class="btn-filter" data-group="questType" data-value="arena">鬥技 (Arena)</button>
+            <button class="btn-filter" data-group="questType" data-value="main">主線 (Main)</button>
+            <button class="btn-filter" data-group="questType" data-value="side">支線 (Side)</button>
+          </div>
+        </div>
+
+        <!-- 難度等級 -->
+        <div class="filter-group">
+          <div class="filter-title">【難度等級】</div>
+          <div class="filter-buttons" id="filter-difficulty">
+            <button class="btn-filter active" data-group="difficulty" data-value="ALL">全部</button>
+            <button class="btn-filter" data-group="difficulty" data-value="★10">★10</button>
+            <button class="btn-filter" data-group="difficulty" data-value="★9">★9</button>
+            <button class="btn-filter" data-group="difficulty" data-value="★8">★8</button>
+            <button class="btn-filter" data-group="difficulty" data-value="★7">★7</button>
+            <button class="btn-filter" data-group="difficulty" data-value="★6">★6</button>
+            <button class="btn-filter" data-group="difficulty" data-value="★5">★5</button>
+            <button class="btn-filter" data-group="difficulty" data-value="★4-1">★4及以下</button>
+          </div>
+        </div>
+
+        <!-- 獎勵標籤 -->
+        <div class="filter-group">
+          <div class="filter-title">【主要標籤】</div>
+          <div class="filter-buttons" id="filter-rewardType">
+            <button class="btn-filter active" data-group="rewardType" data-value="ALL">全部</button>
+            <button class="btn-filter" data-group="rewardType" data-value="裝備">裝備</button>
+            <button class="btn-filter" data-group="rewardType" data-value="武器">武器</button>
+            <button class="btn-filter" data-group="rewardType" data-value="貓裝">貓裝</button>
+            <button class="btn-filter" data-group="rewardType" data-value="金冠">金冠</button>
+            <button class="btn-filter" data-group="rewardType" data-value="護石">護石</button>
+            <button class="btn-filter" data-group="rewardType" data-value="鎧玉">鎧玉</button>
+            <button class="btn-filter" data-group="rewardType" data-value="百證">百戰之證</button>
+            <button class="btn-filter" data-group="rewardType" data-value="金冠">金冠</button>
+            <button class="btn-filter" data-group="rewardType" data-value="萃取液">萃取液</button>
+          </div>
+        </div>
+
+        <!-- 排序方式 -->
+        <div class="filter-group">
+          <div class="filter-title">【排序方式】</div>
+          <div class="filter-buttons" id="sort-controls">
+            <button class="btn-filter active" data-sort="default">預設推薦</button>
+            <button class="btn-filter" data-sort="zenny">報酬金最高 ▼</button>
+            <button class="btn-filter" data-sort="difficulty">難度最高 ▼</button>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- 3. 搜尋結果與統計 -->
+      <div class="result-stats" id="quests-stats"></div>
+      
+      <!-- 4. 全任務卡片網格 -->
+      <div class="cards-grid" id="quests-grid"></div>
+
+      <!-- 5. 分頁器 -->
+      <div class="pagination-container" id="quests-pagination"></div>
+
+    </main>
+  </div>
+
+  <!-- 頁尾預留容器 -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Toast 提示容器 -->
+  <div id="toast-message" class="toast-notification"></div>
+
+  <!-- FAB 滾動按鈕組 -->
+  <div class="fab-container">
+    <button class="fab" onclick="scrollToTop()">arrow_upward</button>
+    <button class="fab" onclick="scrollToBottom()">arrow_downward</button>
+  </div>
+
+  <!-- 引入共用腳本與本頁邏輯 -->
+  <script src="script/common.js"></script>
+  <script src="script/events.js"></script>
+</body>
+</html>

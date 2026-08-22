@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MHWilds Mini Glossary 小詞庫</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/png" href="/siteicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="shortcut icon" href="/siteicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/siteicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/siteicon/site.webmanifest" />
+</head>
+<body>
+ <!-- 1. 手機版頂部導覽列 (電腦版自動隱藏) -->
+<div class="mobile-topbar">
+    <a href="index.html" class="nav-logo">
+        <span class="logo-text">MH Wilds小詞庫</span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="切換導覽選單">
+        <span class="material-symbols-outlined">menu</span>
+    </button>
+   </div>
+
+<!-- 2. 主導覽選單 (電腦版為固定左側側邊欄，手機版為滑出式抽屜) -->
+<nav class="sidebar-drawer" id="nav-drawer">
+     <!-- 電腦版標題 Logo區塊 -->
+      <img src="siteicon/favicon-96x96.png" style="width:96px; border-radius: 48px; margin: 15px;">
+    <div class="sidebar-brand">
+       <span class="logo-text">MHWilds小詞庫</span>
+    </div>
+    
+
+    <!-- 導向連結清單 -->
+       <!-- 主題切換按鈕 (採用 Google Material Symbols) -->
+        <div style="padding: 0px 15px;">
+        <button type="button" class="theme-toggle-btn" onclick="ThemeManager.toggle()" title="切換深色/淺色主題" aria-label="切換主題">
+        <span id="theme-toggle-icon" class="material-symbols-outlined">light_mode</span>
+        </button></div>
+    <div class="sidebar-links">
+         <a href="index.html" class="drawer-item">
+            <span class="material-symbols-outlined">home</span>
+            <span class="item-text">主頁</span>
+        </a>
+        <a href="general.html" class="drawer-item">
+            <span class="material-symbols-outlined">menu_book</span>
+            <span class="item-text">綜合詞彙</span>
+        </a>
+         <a href="events.html" class="drawer-item">
+            <span class="material-symbols-outlined">event_available</span>
+            <span class="item-text">活動任務</span>
+        </a>
+        <a href="skills.html" class="drawer-item">
+            <span class="material-symbols-outlined">swords</span>
+            <span class="item-text">技能資料</span>
+        </a>
+          <a href="jewels.html" class="drawer-item">
+            <span class="material-symbols-outlined">diamond</span>
+            <span class="item-text">飾珠資料</span>
+        </a>
+        <a href="huntinghorns.html" class="drawer-item">
+            <span class="material-symbols-outlined">music_cast</span>
+            <span class="item-text">狩獵笛</span>
+        </a>
+        <a href="monsters.html" class="drawer-item">
+            <span class="material-symbols-outlined">pets</span>
+            <span class="item-text">魔物資料</span>
+        </a>
+                <a href="kinsects.html" class="drawer-item">
+            <span class="material-symbols-outlined">bug_report</span>
+            <span class="item-text">獵蟲</span>
+        </a>
+        
+          <a href="mealskills.html" class="drawer-item">
+            <span class="material-symbols-outlined">award_meal</span>
+            <span class="item-text">貓飯技能</span>
+        </a>
+                  <a href="charms.html" class="drawer-item">
+            <span class="material-symbols-outlined">magic_button</span>
+            <span class="item-text">護石</span>
+        </a>
+      
+         <a href="recipe.html" class="drawer-item">
+            <span class="material-symbols-outlined">grocery</span>
+            <span class="item-text">調合配方</span>
+        </a>
+        <a href="pouch.html" class="drawer-item">
+            <span class="material-symbols-outlined">money_bag</span>
+            <span class="item-text">背包小幫手</span>
+        </a>
+         <a href="crown.html" class="drawer-item">
+            <span class="material-symbols-outlined">crown</span>
+            <span class="item-text">大小金記錄</span>
+        </a>
+        <a href="favorite.html" class="drawer-item">
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="item-text">管理書簽</span>
+        </a>
+           <a href="about.html" class="drawer-item">
+            <span class="material-symbols-outlined">database</span>
+            <span class="item-text">Readme</span>
+        </a>
+          
+        <div class="smallnote">
+            <p>遊戲版本﹕魔物獵人荒野</p> 
+        <p> Aug 2026 by Hunter Po<br>
+             Last update: Aug 2026</p>
+             </div>
+    </div>
+</nav>
+
+<!-- 3. 手機版選單打開時的點擊遮罩 (電腦版無效) -->
+<div class="sidebar-overlay" id="sidebar-overlay"></div>
+    <script src="script/common.js"></script>
+  </script>
+  
+</body>
+</html>
