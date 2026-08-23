@@ -71,6 +71,12 @@ window.toggleTypeSubFilter = function(type, event) {
         currentFilter.typeSub = 'ALL';
     } else {
         currentFilter.typeSub = type;
+        
+        // 💡 關鍵修正：當點擊標籤進行特定分類篩選時，自動清空搜尋關鍵字
+        // 確保能顯示該分類下的「所有」資料，而不會被殘留的文字卡住
+        currentFilter.keyword = '';
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) searchInput.value = '';
     }
     
     applyFiltersAndRender();
