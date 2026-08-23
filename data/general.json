@@ -1075,7 +1075,7 @@
     "generalZh": "蝕攻衣裝",
     "generalJa": "蝕攻の装衣",
     "generalEn": "Corrupted Mantle",
-    "genNote": "裝備時體力會逐漸減少，但會心率和各種武器性能會獲強化。滿足特定條 件後，攻擊力和會心率進一步上升。※需成功狩獵黑蝕龍。"
+    "genNote": "裝備時體力會逐漸減少，但會心率和各種武器性能會獲強化。滿足特定條件後，攻擊力和會心率進一步上升。※需成功狩獵黑蝕龍。"
   },
   {
     "id": "GLO_0099",
@@ -2659,7 +2659,7 @@
     "generalZh": "鬼人藥",
     "generalJa": "鬼人薬",
     "generalEn": "Demondrug",
-    "genNote": "於一段時間內提升攻擊力的藥。(攻+5, 30分鐘)"
+    "genNote": "於一段時間內提升攻擊力的藥。(據玩家測試﹕攻+5, 30分鐘)"
   },
   {
     "id": "ITE_0019",
@@ -2670,7 +2670,7 @@
     "generalZh": "鬼人藥・大",
     "generalJa": "鬼人薬グレート",
     "generalEn": "Mega Demondrug",
-    "genNote": "於一段時間內提升攻擊力的藥。(攻+7, 30分鐘)"
+    "genNote": "於一段時間內提升攻擊力的藥。(據玩家測試﹕攻+7, 30分鐘)"
   },
   {
     "id": "ITE_0020",
@@ -2681,7 +2681,7 @@
     "generalZh": "硬化藥",
     "generalJa": "硬化薬",
     "generalEn": "Armorskin",
-    "genNote": "於一段時間內提升防禦力的藥。(防+10, 30分鐘)"
+    "genNote": "於一段時間內提升防禦力的藥。(據玩家測試﹕防+10, 30分鐘)"
   },
   {
     "id": "ITE_0021",
@@ -2692,7 +2692,7 @@
     "generalZh": "硬化藥・大",
     "generalJa": "硬化薬グレート",
     "generalEn": "Mega Armorskin",
-    "genNote": "於一段時間內提升防禦力的藥。(防+25, 30分鐘)"
+    "genNote": "於一段時間內提升防禦力的藥。(據玩家測試﹕防+25, 30分鐘)"
   },
   {
     "id": "ITE_0022",
@@ -4848,7 +4848,7 @@
     "generalZh": "堅硬竹筴魚",
     "generalJa": "カンランアミア",
     "generalEn": "Whetfish",
-    "genNote": ""
+    "genNote": "能獲得堅硬竹筴魚的鰭和堅硬竹筴魚的上鯺，用來研磨武器，比砥石更優。※常出現在淺水區，可網釣，喜歡綠寶石擬餌。"
   },
   {
     "id": "AQU_0002",
@@ -4859,7 +4859,7 @@
     "generalZh": "刺身魚",
     "generalJa": "サシミウオ",
     "generalEn": "Sushifish",
-    "genNote": ""
+    "genNote": "能獲得刺身魚鱗片和大刺身魚鱗片，鱗片可食用後可回復體力和治療裂傷。※常出現在緋紅森林的各淺水區和天塹沙的綠洲。"
   },
   {
     "id": "AQU_0003",
@@ -4870,7 +4870,7 @@
     "generalZh": "黃金魚",
     "generalJa": "黄金魚",
     "generalEn": "Goldenfish",
-    "genNote": ""
+    "genNote": "釣到會有黃金鱗片，很賣錢，價格為1000Z ※魚兒在洞穴裡水域見到。"
   },
   {
     "id": "AQU_0004",
@@ -4881,7 +4881,7 @@
     "generalZh": "白金魚",
     "generalJa": "白金魚",
     "generalEn": "Platinumfish",
-    "genNote": ""
+    "genNote": "釣到會有白金鱗片很賣錢，很賣錢，價格為2000Z ※魚兒在洞穴裡的水域見到。"
   },
   {
     "id": "AQU_0005",
@@ -4892,7 +4892,7 @@
     "generalZh": "破裂龍魚",
     "generalJa": "ハレツアロワナ",
     "generalEn": "Burst Arowana",
-    "genNote": ""
+    "genNote": "釣到會有破裂鱗片。可以用來調合斬裂彈。"
   },
   {
     "id": "AQU_0006",
@@ -4903,7 +4903,7 @@
     "generalZh": "爆裂龍魚",
     "generalJa": "バクレツアロワナ",
     "generalEn": "Bomb Arowana",
-    "genNote": ""
+    "genNote": "釣到會有爆裂鱗片。可以用來調合徹甲榴彈。"
   },
   {
     "id": "AQU_0007",
@@ -4914,7 +4914,7 @@
     "generalZh": "小金魚",
     "generalJa": "小金魚",
     "generalEn": "Goldenfry",
-    "genNote": ""
+    "genNote": "釣到會有金色鱗片，價格為500Z ※魚兒在洞穴裡水域見到。"
   },
   {
     "id": "AQU_0008",
@@ -4925,7 +4925,7 @@
     "generalZh": "火藥金魚",
     "generalJa": "バクヤクデメキン",
     "generalEn": "Gunpowderfish",
-    "genNote": ""
+    "genNote": "釣到會有火藥金魚鱗片。可以用來調合大爆炸桶G。"
   },
   {
     "id": "AQU_0009",
@@ -4936,7 +4936,7 @@
     "generalZh": "帶卵弓鰭魚",
     "generalJa": "コモチアミア",
     "generalEn": "Gravid Bowfin",
-    "genNote": ""
+    "genNote": "※喜歡綠寶石擬餌，有機會在天塹沙原綠洲及緋紅森林淺水區，及其他地區出沒。"
   },
   {
     "id": "AQU_0010",
@@ -4947,7 +4947,7 @@
     "generalZh": "盾牌石螺",
     "generalJa": "エスカナイト",
     "generalEn": "Escunite",
-    "genNote": ""
+    "genNote": "※喜歡觸手擬餌，有機會在豐收期晚在緋紅森林17區出沒。"
   },
   {
     "id": "AQU_0011",
@@ -4958,7 +4958,7 @@
     "generalZh": "瑰麗盾牌石螺",
     "generalJa": "グランドエスカナイト",
     "generalEn": "Grand Escunite",
-    "genNote": ""
+    "genNote": "※喜歡觸手擬餌，有機會在豐收期晚在緋紅森林17區出沒。"
   },
   {
     "id": "AQU_0012",
@@ -4969,7 +4969,7 @@
     "generalZh": "化石湯釜",
     "generalJa": "カセキカンス",
     "generalEn": "Petricanths",
-    "genNote": ""
+    "genNote": "※喜歡星屑魚擬餌，可網捕，有機會在豐收期或異常天氣晚於緋紅森林16區遺跡內出沒。"
   },
   {
     "id": "AQU_0013",
@@ -4991,7 +4991,7 @@
     "generalZh": "盲鱸",
     "generalJa": "ブラインドパーチ",
     "generalEn": "Blind Perch",
-    "genNote": ""
+    "genNote": "※喜歡綠寶石擬餌。"
   },
   {
     "id": "AQU_0015",
@@ -5002,7 +5002,7 @@
     "generalZh": "大鰺鱸",
     "generalJa": "ドストレバリーパーチ",
     "generalEn": "Great Trevally",
-    "genNote": ""
+    "genNote": "遊戲中五種大魚的一種。※喜歡木製擬餌，有機會在豐收期日間緋紅森林第10、13和17區出沒。"
   },
   {
     "id": "AQU_0016",
@@ -5013,7 +5013,7 @@
     "generalZh": "咬魚",
     "generalJa": "ガライーバ",
     "generalEn": "Gajau",
-    "genNote": ""
+    "genNote": "遊戲中五種大魚的一種。※喜歡多節大擬餌/星屑魚擬餌，有機會在緋紅森林豐收期12區和荒廢期17區看到。"
   },
   {
     "id": "AQU_0017",
@@ -5024,7 +5024,7 @@
     "generalZh": "大王旗魚",
     "generalJa": "ダイオウカジキ",
     "generalEn": "Speartuna",
-    "genNote": ""
+    "genNote": "遊戲中五種大魚的一種。※喜歡多節大擬餌，有機會在荒廢期早上在緋紅森林第12、13和17區出沒。"
   },
   {
     "id": "AQU_0018",
@@ -5035,7 +5035,7 @@
     "generalZh": "貪吃鮪魚",
     "generalJa": "大食いマグロ",
     "generalEn": "Gastronome Tuna",
-    "genNote": ""
+    "genNote": "遊戲中五種大魚的一種。※喜歡多節大擬餌，有機會在豐收期早上在緋紅森林第12和17區出沒。"
   },
   {
     "id": "AQU_0019",
@@ -5046,7 +5046,7 @@
     "generalZh": "入道烏賊",
     "generalJa": "ニュウドウイカ",
     "generalEn": "Goliath Squid",
-    "genNote": ""
+    "genNote": "遊戲中五種大魚的一種。※喜歡觸手擬餌，有機會在豐收期晚在緋紅森林17區出沒。"
   },
   {
     "id": "STA_0001",
@@ -14331,5 +14331,555 @@
     "generalJa": "戦慄のヘルシャフェン",
     "generalEn": "Trembling Hels",
     "genNote": "(R8武器)"
+  },
+  {
+    "id": "WTRO_001",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "連接東西方的飛鳥",
+    "generalJa": "東西を繋ぐ鳥",
+    "generalEn": "Eastward Wings",
+    "genNote": "獲得所有勳章<br>※這是收集了49個勳章後的第五十個勳章——白金勳章。"
+  },
+  {
+    "id": "WTRO_002",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "天塹之地",
+    "generalJa": "隔ての地",
+    "generalEn": "Windward Lands",
+    "genNote": "完成使命「疾馳沙原」"
+  },
+  {
+    "id": "WTRO_003",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "豪雨中的身影",
+    "generalJa": "豪雨に現れし影",
+    "generalEn": "Shadow in the Downpour",
+    "genNote": "完成使命「滂沱大雨的彼端」"
+  },
+  {
+    "id": "WTRO_004",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "火窯守護者",
+    "generalJa": "火窯の守護者",
+    "generalEn": "Guardians of the Forge",
+    "genNote": "完成使命「上古火焰」"
+  },
+  {
+    "id": "WTRO_005",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "自然調和者",
+    "generalJa": "調和をもたらす者",
+    "generalEn": "Bringer of Harmony",
+    "genNote": "完成使命「魔物獵人」"
+  },
+  {
+    "id": "WTRO_006",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "全新的生態系",
+    "generalJa": "新たな生態系",
+    "generalEn": "New Ecosystems",
+    "genNote": "完成使命「全新的生態系」"
+  },
+  {
+    "id": "WTRO_007",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "熾烈的環境",
+    "generalJa": "熾烈な環境",
+    "generalEn": "A Bitter Environment",
+    "genNote": "完成使命「沉睡之龍與薔薇棘刺」"
+  },
+  {
+    "id": "WTRO_008",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "黑蝕龍的終焉",
+    "generalJa": "黒蝕の果てに",
+    "generalEn": "Beyond the Black Wings",
+    "genNote": "完成使命「狂界」"
+  },
+  {
+    "id": "WTRO_009",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "歸於世界",
+    "generalJa": "この世界の一部に",
+    "generalEn": "One Corner of the World",
+    "genNote": "完成使命「目的地」"
+  },
+  {
+    "id": "WTRO_010",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "獵人生活永無止境！",
+    "generalJa": "ハンターライフはとまらない！",
+    "generalEn": "A True Hunter Is Never Satisfied",
+    "genNote": "完成50次任務"
+  },
+  {
+    "id": "WTRO_011",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "繼續調查！",
+    "generalJa": "継続調査開始！",
+    "generalEn": "Let the Investigations Begin!",
+    "genNote": "第一次完成調查任務"
+  },
+  {
+    "id": "WTRO_012",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "原野狩獵！",
+    "generalJa": "フィールドハント！",
+    "generalEn": "The Hunt Is On!",
+    "genNote": "第一次完成實地調查任務"
+  },
+  {
+    "id": "WTRO_013",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "了解彼此的第一步",
+    "generalJa": "相互理解の第1歩",
+    "generalEn": "A Step Toward Mutual Understanding",
+    "genNote": "第一次完成次要使命"
+  },
+  {
+    "id": "WTRO_014",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "東奔西走的獵人",
+    "generalJa": "東奔西走の狩人",
+    "generalEn": "East to West, A Hunter Never Rests",
+    "genNote": "完成30個次要使命"
+  },
+  {
+    "id": "WTRO_015",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "第一次釣魚",
+    "generalJa": "はじめてのフィッシング",
+    "generalEn": "Angling for a Bite",
+    "genNote": "第一次成功釣魚"
+  },
+  {
+    "id": "WTRO_016",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "漂亮地烤好了！",
+    "generalJa": "上手に焼けました！",
+    "generalEn": "Mmm, So Tasty!",
+    "genNote": "第一次烤出全熟肉"
+  },
+  {
+    "id": "WTRO_017",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "做得好吃嗎？",
+    "generalJa": "美味しく作れた？",
+    "generalEn": "Was It a Meal to Remember?",
+    "genNote": "第一次烹調營火料理"
+  },
+  {
+    "id": "WTRO_018",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "倒下的巨大身軀",
+    "generalJa": "倒れる巨体",
+    "generalEn": "The Bigger They Are...",
+    "genNote": "第一次成功騎乘魔物"
+  },
+  {
+    "id": "WTRO_019",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "刺客獵人",
+    "generalJa": "アサシンハンター",
+    "generalEn": "Hunter-Assassin",
+    "genNote": "第一次成功發動突襲攻擊"
+  },
+  {
+    "id": "WTRO_020",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "精準狙擊",
+    "generalJa": "狙い討ち",
+    "generalEn": "Hit 'Em Where It Hurts!",
+    "genNote": "在集中模式成功對弱點或傷口攻擊50次"
+  },
+  {
+    "id": "WTRO_021",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "高舉雕幣之人",
+    "generalJa": "彫貨かかげるもの",
+    "generalEn": "A Prize Held High",
+    "genNote": "捕獲到帶著老舊龍雕幣的生物"
+  },
+  {
+    "id": "WTRO_022",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "抓到流星了！",
+    "generalJa": "流れ星つかまえた！",
+    "generalEn": "I Caught a Shooting Star!",
+    "genNote": "在沙漠捕獲到如流星般發光的生物"
+  },
+  {
+    "id": "WTRO_023",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "巨大烏賊獵人",
+    "generalJa": "モンスターイカハンター",
+    "generalEn": "Monster (Squid) Hunter",
+    "genNote": "釣起巨大烏賊"
+  },
+  {
+    "id": "WTRO_024",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "為釣大魚著迷",
+    "generalJa": "大物釣りに魅せられて",
+    "generalEn": "A-fish-ionado",
+    "genNote": "釣起30隻大魚※MHWILDS遊戲中有5種類大魚，包括﹕大鰺鱸、咬魚、吃鮪魚、大王旗魚、入道烏賊。"
+  },
+  {
+    "id": "WTRO_025",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "營地大師",
+    "generalJa": "キャンプマスター",
+    "generalEn": "Campmaster",
+    "genNote": "在10個地方設置簡易營地"
+  },
+  {
+    "id": "WTRO_026",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "講究的帳篷設計",
+    "generalJa": "こだわりのテントサイト",
+    "generalEn": "Glamper",
+    "genNote": "第一次自訂簡易營地設計"
+  },
+  {
+    "id": "WTRO_027",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "好眼力",
+    "generalJa": "観察眼",
+    "generalEn": "A Keen-eyed Observation",
+    "genNote": "用望遠鏡找到金冠尺寸的大型魔物"
+  },
+  {
+    "id": "WTRO_028",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "獨一無二的搭檔",
+    "generalJa": "オンリーワンの相棒",
+    "generalEn": "Ride-or-die Companion",
+    "genNote": "第一次自訂設計鷺鷹龍或變更鷺鷹龍裝飾"
+  },
+  {
+    "id": "WTRO_029",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "資深獵人",
+    "generalJa": "ベテランハンター",
+    "generalEn": "Established Hunter",
+    "genNote": "獵人等級達到100"
+  },
+  {
+    "id": "WTRO_030",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "鐵壁獵人",
+    "generalJa": "鉄壁のハンター",
+    "generalEn": "Impregnable Defense",
+    "genNote": "生產5種稀有度7或以上的防具"
+  },
+  {
+    "id": "WTRO_031",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "力量就是一切",
+    "generalJa": "力こそすべて",
+    "generalEn": "Power Is Everything",
+    "genNote": "生產5種稀有度7或以上的衍生武器"
+  },
+  {
+    "id": "WTRO_032",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "伴你走天涯",
+    "generalJa": "キミとならどこまでも",
+    "generalEn": "Someone Worth Following",
+    "genNote": "在隨從出擊的狀態下完成100次任務"
+  },
+  {
+    "id": "WTRO_033",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "修復好的遺產",
+    "generalJa": "復元された遺産",
+    "generalEn": "A Legacy Restored",
+    "genNote": "獲得稀有度8的機械武器"
+  },
+  {
+    "id": "WTRO_034",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "中產階級獵人",
+    "generalJa": "ブルジョワハンター",
+    "generalEn": "Bourgeois Hunter",
+    "genNote": "持有100萬Zenny"
+  },
+  {
+    "id": "WTRO_035",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "東部地區的探險家",
+    "generalJa": "東の地の探検家",
+    "generalEn": "Explorer of the Eastlands",
+    "genNote": "獲得10種稀有度6的特產品"
+  },
+  {
+    "id": "WTRO_036",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "魔物博士",
+    "generalJa": "モンスター博士",
+    "generalEn": "Monster Ph.D.",
+    "genNote": "狩獵許多大型魔物"
+  },
+  {
+    "id": "WTRO_037",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "身經百戰的獵人",
+    "generalJa": "歴戦のハンター",
+    "generalEn": "Seasoned Hunter",
+    "genNote": "狩獵50頭歷戰個體"
+  },
+  {
+    "id": "WTRO_038",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "迷你皇冠",
+    "generalJa": "ミニチュアクラウン",
+    "generalEn": "Miniature Crown",
+    "genNote": "第一次於狩獵紀錄中獲得魔物的最小冠"
+  },
+  {
+    "id": "WTRO_039",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "迷你皇冠收藏家",
+    "generalJa": "ミニチュアコレクタークラウン",
+    "generalEn": "Miniature Crown Collector",
+    "genNote": "於狩獵紀錄中獲得至少10頭魔物的最小冠"
+  },
+  {
+    "id": "WTRO_040",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "迷你皇冠大師",
+    "generalJa": "ミニチュアマスタークラウン",
+    "generalEn": "Miniature Crown Master",
+    "genNote": "於狩獵紀錄中獲得許多魔物的最小冠"
+  },
+  {
+    "id": "WTRO_041",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "巨大皇冠",
+    "generalJa": "ビッグクラウン",
+    "generalEn": "Giant Crown",
+    "genNote": "第一次於狩獵紀錄中獲得魔物的銀冠或金冠"
+  },
+  {
+    "id": "WTRO_042",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "巨大皇冠收藏家",
+    "generalJa": "ビッグコレクタークラウン",
+    "generalEn": "Giant Crown Collector",
+    "genNote": "於狩獵紀錄中獲得至少10頭魔物的金冠"
+  },
+  {
+    "id": "WTRO_043",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "巨大皇冠大師",
+    "generalJa": "ビッグマスタークラウン",
+    "generalEn": "Giant Crown Master",
+    "genNote": "於狩獵紀錄中獲得許多魔物的金冠"
+  },
+  {
+    "id": "WTRO_044",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "活捉的專家",
+    "generalJa": "生け捕りのプロ",
+    "generalEn": "Capture Pro",
+    "genNote": "捕獲50頭魔物"
+  },
+  {
+    "id": "WTRO_045",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "魔物剋星",
+    "generalJa": "モンスタースレイヤー",
+    "generalEn": "Monster Slayer",
+    "genNote": "狩獵100頭大型魔物"
+  },
+  {
+    "id": "WTRO_046",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "生態系頂點",
+    "generalJa": "生態系の頂点",
+    "generalEn": "Top of the Food Chain",
+    "genNote": "狩獵50頭君臨生態系頂點的大型魔物"
+  },
+  {
+    "id": "WTRO_047",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "和夥伴一起",
+    "generalJa": "仲間と共に",
+    "generalEn": "Hunters United",
+    "genNote": "以多人遊玩完成任務"
+  },
+  {
+    "id": "WTRO_048",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "永遠和夥伴在一起",
+    "generalJa": "仲間と共に、いつまでも",
+    "generalEn": "Hunters United Forever",
+    "genNote": "以多人遊玩完成100次任務"
+  },
+  {
+    "id": "WTRO_049",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "好奇的獵人",
+    "generalJa": "気になるハンター",
+    "generalEn": "Gossip Hunter",
+    "genNote": "確認至少30人的獵人簡介"
+  },
+  {
+    "id": "WTRO_050",
+    "gameVersion": "MHWilds",
+    "dataTyp": "trophy",
+    "typeZh": "勳章",
+    "typeSub": "勳章．荒野",
+    "generalZh": "情誼的開始",
+    "generalJa": "絆のはじまり",
+    "generalEn": "Newly Forged Bonds",
+    "genNote": "第一次以追蹤功能追蹤別人"
   }
 ]
