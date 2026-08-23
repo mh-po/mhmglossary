@@ -702,16 +702,5 @@
     "charmSkill": "隨機護石技能組合",
     "maxUpgrade": "1",
     "rare": "HR"
-  },
-  {
-    "id": "CHM_0065",
-    "gameVersion": "MHWilds, DLC",
-    "dataType": "Charm",
-    "charmZh": "新護石",
-    "charmJa": "新護石",
-    "charmEn": "new charm",
-    "charmSkill": "new",
-    "maxUpgrade": "1",
-    "rare": "MR"
   }
 ]
