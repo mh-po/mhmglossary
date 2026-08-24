@@ -228,7 +228,7 @@
     "generalZh": "力量之護符",
     "generalJa": "力の護符",
     "generalEn": "Powercharm",
-    "genNote": "提升攻擊力的護符。光是持有就可獲得如鬼人般的力量。"
+    "genNote": "提升攻擊力的護符。光是持有就可獲得如鬼人般的力量。※攻+6"
   },
   {
     "id": "GLO_0022",
@@ -239,7 +239,7 @@
     "generalZh": "守護之護符",
     "generalJa": "守りの護符",
     "generalEn": "Armorcharm",
-    "genNote": "提升防禦力的護符。光是持有就可使皮膚硬化得如岩石般堅硬。"
+    "genNote": "提升防禦力的護符。光是持有就可使皮膚硬化得如岩石般堅硬。※防+12"
   },
   {
     "id": "GLO_0023",
@@ -510,55 +510,55 @@
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "Farm",
+    "typeSub": "NPC",
     "generalZh": "穆塔巴",
     "generalJa": "ムタバ",
     "generalEn": "Murtabak",
-    "genNote": "天塹沙原裡庫納法村村民，完成4-2章節及支線「當心毒怪鳥」後會幫忙採集「天塹沙原」資源。"
+    "genNote": "天塹沙原裡庫納法村村民，完成4-2章節及支線「當心毒怪鳥」後會幫忙採集「天塹沙原」資源。<br>※「農場」NPC"
   },
   {
     "id": "GLO_0048",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "Farm",
+    "typeSub": "NPC",
     "generalZh": "桃圓",
     "generalJa": "モモムックリ",
     "generalEn": "Plumpeach",
-    "genNote": "緋紅森林裡莫利巴之家的獸人，完成4-2章節及支線「來交易吧！蓬鬆毛皮」後會幫忙採集「緋紅森林」資源。"
+    "genNote": "緋紅森林裡莫利巴之家的獸人，完成4-2章節及支線「來交易吧！蓬鬆毛皮」後會幫忙採集「緋紅森林」資源。<br>※「農場」NPC"
   },
   {
     "id": "GLO_0049",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "Farm",
+    "typeSub": "NPC",
     "generalZh": "蕯巴爾",
     "generalJa": "サバル",
     "generalEn": "Sabar",
-    "genNote": "湧油山谷裡阿茲茲居民，完成4-2章節及支線「阿伊達的憂慮」後會幫忙採集「湧油山谷」資源。"
+    "genNote": "湧油山谷裡阿茲茲居民，完成4-2章節及支線「阿伊達的憂慮」後會幫忙採集「湧油山谷」資源。<br>※「農場」NPC"
   },
   {
     "id": "GLO_0050",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "Farm",
+    "typeSub": "NPC",
     "generalZh": "阿帕爾",
     "generalJa": "アパル",
     "generalEn": "Apar",
-    "genNote": "交匯之峰蘇加的守衛，完成4-2章節及對話後，會幫忙採集「冰霧斷崖」的資源。"
+    "genNote": "交匯之峰蘇加的守衛，完成4-2章節及對話後，會幫忙採集「冰霧斷崖」的資源。<br>※「農場」NPC"
   },
   {
     "id": "GLO_0051",
     "gameVersion": "MHWilds",
     "dataTyp": "misc",
     "typeZh": "一般",
-    "typeSub": "Farm",
+    "typeSub": "NPC",
     "generalZh": "萊夏",
     "generalJa": "ライシャ",
     "generalEn": "Rysher",
-    "genNote": "龍都遺跡希爾德的居民。完成4-3章節及支線「適應的方式」後，會幫忙採集「龍都遺跡」資源。"
+    "genNote": "龍都遺跡希爾德的居民。完成4-3章節及支線「適應的方式」後，會幫忙採集「龍都遺跡」資源。<br>※「農場」NPC"
   },
   {
     "id": "GLO_0052",
@@ -789,7 +789,7 @@
     "generalZh": "軟糯糯庫納法料理",
     "generalJa": "もっちりクナファ料理",
     "generalEn": "Springy Kunafa Cuisine",
-    "genNote": "庫納法快遞餐券 /伊塞請客。"
+    "genNote": "庫納法快遞餐券 /伊塞請客。<br>體+50、耐力+150、防+10、屬耐+10<br>發動﹕<br>餐點幸運術<br>餐點生命保險<br>餐點加禦術大"
   },
   {
     "id": "GLO_0073",
@@ -800,7 +800,7 @@
     "generalZh": "熱騰騰阿茲茲料理",
     "generalJa": "あつあつアズズ料理",
     "generalEn": "Hot Azuz Cuisine",
-    "genNote": "阿茲茲快遞餐券/ 瑪奇請客。"
+    "genNote": "阿茲茲快遞餐券/ 瑪奇請客。<br>體+50、耐力+150、防+10、屬耐+10<br><br>發動﹕<br>餐點解體術<br>餐點生命保險<br>餐點迴避術大"
   },
   {
     "id": "GLO_0074",
@@ -811,7 +811,7 @@
     "generalZh": "新鮮現採希爾德料理",
     "generalJa": "とれたてシルド料理",
     "generalEn": "Fresh Sild Cuisine",
-    "genNote": "希爾德快遞餐券/ 塔辛請客。"
+    "genNote": "希爾德快遞餐券/ 塔辛請客。<br>體+50、耐力+150、防+10、屬耐+10<br><br>發動﹕<br>餐點捕獲好手<br>餐點生命保險<br>餐點毅力大"
   },
   {
     "id": "GLO_0075",
@@ -822,7 +822,7 @@
     "generalZh": "色彩繽紛蘇加料理",
     "generalJa": "いろどりスージャ料理",
     "generalEn": "Colorful Suja Cuisine",
-    "genNote": "蘇加快遞餐券 /長耳智者請客。"
+    "genNote": "蘇加快遞餐券 /長耳智者請客。<br>體+50、耐力+150、防+10、屬耐+10<br><br>發動﹕<br>餐點破壞好手<br>餐點生命保險<br>餐點飄忽術大"
   },
   {
     "id": "GLO_0076",
@@ -833,7 +833,7 @@
     "generalZh": "天然豚骨拉麵",
     "generalJa": "天然とんこつラーメン（創業以来）",
     "generalEn": "Classic Tonkotsu Raman",
-    "genNote": "使用【一蘭】點餐用紙(由集會所的艾路伊蘭派發)"
+    "genNote": "使用【一蘭】點餐用紙(由集會所的艾路伊蘭派發)<br>體+50、耐力+150、防+10、屬耐+10<br> <br>發動﹕<br>餐點加麵術<br>餐點赤紅秘製術【擊】<br>餐點發熱術"
   },
   {
     "id": "GLO_0077",
@@ -844,7 +844,7 @@
     "generalZh": "100%不含豚骨的拉麵",
     "generalJa": "100%とんこつ不使用ラーメン",
     "generalEn": "100% Tonkotsu-free Ramen",
-    "genNote": "使用【一蘭】點餐用紙(由集會所的艾路伊蘭派發)"
+    "genNote": "使用【一蘭】點餐用紙(由集會所的艾路伊蘭派發)<br>體+50、耐力+150、防+10、屬耐+10<br><br>發動﹕<br>餐點加麵術<br>餐點赤紅秘製術【耐】<br>餐點發熱"
   },
   {
     "id": "GLO_0078",
@@ -2824,7 +2824,7 @@
     "generalZh": "毒菇",
     "generalJa": "毒テングダケ",
     "generalEn": "Toadstool",
-    "genNote": "最愛菇類LV1時可食用，效果等於活力劑，時效5分鐘，也可當解毒劑。(可配合廣域化)"
+    "genNote": "最愛菇類LV1時可食用，效果等於活力劑，時效5分鐘，也可當解毒劑。(※可配合廣域化)"
   },
   {
     "id": "ITE_0034",
@@ -2835,7 +2835,7 @@
     "generalZh": "麻痺菇",
     "generalJa": "マヒダケ",
     "generalEn": "Parashroom",
-    "genNote": "最愛菇類LV2時可食用，效果等於硬化藥，時效30分鐘。(可配合廣域化)"
+    "genNote": "最愛菇類LV2時可食用，效果等於硬化藥，時效30分鐘。(※可配合廣域化)"
   },
   {
     "id": "ITE_0035",
@@ -2846,7 +2846,7 @@
     "generalZh": "爆炸菇",
     "generalJa": "ニトロダケ",
     "generalEn": "Nitroshroom",
-    "genNote": "最愛菇類LV2時可食用，效果等於鬼人藥，時效30分鐘。(可配合廣域化)"
+    "genNote": "最愛菇類LV2時可食用，效果等於鬼人藥，時效30分鐘。(※可配合廣域化)"
   },
   {
     "id": "ITE_0036",
@@ -2857,7 +2857,7 @@
     "generalZh": "鬼爆炸菇",
     "generalJa": "鬼ニトロダケ",
     "generalEn": "Devil's Blight",
-    "genNote": "最愛菇類LV2時可食用，效果等於強走藥，時效3分鐘。(可配合廣域化)"
+    "genNote": "最愛菇類LV2時可食用，效果等於強走藥，時效3分鐘。(※可配合廣域化)"
   },
   {
     "id": "ITE_0037",
@@ -2945,7 +2945,7 @@
     "generalZh": "怪力藥丸",
     "generalJa": "怪力の丸薬",
     "generalEn": "Might Pill",
-    "genNote": "強力的藥丸，進食後可暫時獲得如鬼神般的力量。"
+    "genNote": "強力的藥丸，進食後可暫時獲得如鬼神般的力量。※攻+25，有效20秒，可廣域化。"
   },
   {
     "id": "ITE_0045",
@@ -3165,7 +3165,7 @@
     "generalZh": "刺身魚鱗片",
     "generalJa": "サシミウロコ",
     "generalEn": "Sushifish Scale",
-    "genNote": "刺身魚的鱗片。吃下可回復少量體力，也能回復裂傷狀態。"
+    "genNote": "刺身魚的鱗片。吃下可回復少量體力，也能回復裂傷狀態。※可以廣域化"
   },
   {
     "id": "ITE_0065",
@@ -3264,7 +3264,7 @@
     "generalZh": "怪力種子",
     "generalJa": "怪力の種",
     "generalEn": "Might Seed",
-    "genNote": ""
+    "genNote": "※進食後，攻+10，有效3分鐘，可廣域化"
   },
   {
     "id": "ITE_0074",
@@ -3275,7 +3275,7 @@
     "generalZh": "忍耐種子",
     "generalJa": "忍耐の種",
     "generalEn": "Adamant Seed",
-    "genNote": ""
+    "genNote": "※進食後，防+20，有效3分鐘，可廣域化"
   },
   {
     "id": "ITE_0075",
@@ -3286,7 +3286,7 @@
     "generalZh": "隨身食物",
     "generalJa": "携帯食料",
     "generalEn": "Ration",
-    "genNote": ""
+    "genNote": "直接吃可以小幅增加耐力上限。※可以解除裂傷，不可廣域化。"
   },
   {
     "id": "ITE_0076",
@@ -3297,7 +3297,7 @@
     "generalZh": "全熟肉",
     "generalJa": "こんがり肉",
     "generalEn": "Well-done Steak",
-    "genNote": ""
+    "genNote": "提升體力上限至最大，回復體力，並增加耐力上限的食物。體力上限會在一段時間後恢復原狀。※不可廣域化。"
   },
   {
     "id": "ITE_0077",
@@ -3308,7 +3308,7 @@
     "generalZh": "半熟肉",
     "generalJa": "生焼け肉",
     "generalEn": "Rare Steak",
-    "genNote": ""
+    "genNote": "中幅提升體力上限，回復體力，並增加耐力上限的食物。體力上限會在一段時間後恢復原狀。※不可廣域化。"
   },
   {
     "id": "ITE_0078",
@@ -3319,7 +3319,7 @@
     "generalZh": "烤焦肉",
     "generalJa": "コゲ肉",
     "generalEn": "Burnt Meat",
-    "genNote": ""
+    "genNote": "增加體力上限的食物，但因為烤過頭，有時候可能沒有效果……※不可廣域化。"
   },
   {
     "id": "ITE_0079",
@@ -3330,7 +3330,7 @@
     "generalZh": "生肉",
     "generalJa": "生肉",
     "generalEn": "Raw Meat",
-    "genNote": ""
+    "genNote": "從魔物身上剝取的肉。可用於調合、烹調或陷阱，用途非常廣泛。"
   },
   {
     "id": "ITE_0080",
@@ -3385,7 +3385,7 @@
     "generalZh": "烤焦的壁虎",
     "generalJa": "ヤモリの黒焼き",
     "generalEn": "Charred Lizard",
-    "genNote": ""
+    "genNote": "可解除毒狀態，也能同時回復體力和增加耐力上限。※不可廣域化。"
   },
   {
     "id": "ITE_0085",
@@ -3396,7 +3396,7 @@
     "generalZh": "狂野肉乾",
     "generalJa": "ワイルドジャーキー",
     "generalEn": "Wild Jerky",
-    "genNote": ""
+    "genNote": "可提高自然回復力(回已減的紅色體力部份)，並治療裂傷狀態。※可以廣域化。"
   },
   {
     "id": "ITE_0086",
@@ -3473,7 +3473,7 @@
     "generalZh": "增強劑",
     "generalJa": "増強剤",
     "generalEn": "Catalyst",
-    "genNote": ""
+    "genNote": "可以將素材及藥品的效力發揮到最大極限的藥劑。無法單獨使用。"
   },
   {
     "id": "ITE_0093",
@@ -3594,7 +3594,7 @@
     "generalZh": "尖龍骨",
     "generalJa": "Monster Keenbone",
     "generalEn": "尖竜骨",
-    "genNote": "魔物素材骨頭 (Rare:6物品)"
+    "genNote": "魔物素材骨頭 (Rare:6物品)<br>※上位沙海龍、泡狐龍、護兇爪龍獲得。"
   },
   {
     "id": "DRO_0002",
@@ -3605,7 +3605,7 @@
     "generalZh": "堅龍骨",
     "generalJa": "Monster Hardbone",
     "generalEn": "堅竜骨",
-    "genNote": "魔物素材骨頭 (Rare:6物品)"
+    "genNote": "魔物素材骨頭 (Rare:6物品)<br>※上位海龍、鎖刃龍、千刃龍、煌雷龍獲得。"
   },
   {
     "id": "DRO_0003",
@@ -3616,7 +3616,7 @@
     "generalZh": "堅固的骨",
     "generalJa": "Stoutbone",
     "generalEn": "堅牢な骨",
-    "genNote": "魔物素材骨頭 (Rare:6物品)"
+    "genNote": "魔物素材骨頭 (Rare:6物品)<br>※上位桃毛獸王、纏蛙獲得。"
   },
   {
     "id": "DRO_0004",
@@ -3627,7 +3627,7 @@
     "generalZh": "堅固的巨骨",
     "generalJa": "Great Stoutbone",
     "generalEn": "堅牢な巨骨",
-    "genNote": "魔物素材骨頭 (Rare:6物品)"
+    "genNote": "魔物素材骨頭 (Rare:6物品)<br>※上位雪獅子王、闢獸、護闢獸獲得。"
   },
   {
     "id": "DRO_0005",
@@ -3638,7 +3638,7 @@
     "generalZh": "獸骨",
     "generalJa": "Brute Bone",
     "generalEn": "獣骨",
-    "genNote": "魔物素材骨頭 (Rare:4物品)"
+    "genNote": "魔物素材骨頭 (Rare:4物品)<br>※下位桃毛獸、雪獅子獲得。(王旁邊那些小怪)"
   },
   {
     "id": "DRO_0006",
@@ -3649,7 +3649,7 @@
     "generalZh": "粗獸骨",
     "generalJa": "Colossal Bone",
     "generalEn": "太い獣骨",
-    "genNote": "魔物素材骨頭 (Rare:6物品)"
+    "genNote": "魔物素材骨頭 (Rare:6物品)<br>※上位桃毛獸、雪獅子獲得。(王旁邊那些小怪)"
   },
   {
     "id": "DRO_0007",
@@ -3671,7 +3671,7 @@
     "generalZh": "歐米茄的透鏡",
     "generalJa": "Omega Lens",
     "generalEn": "オメガの透鏡",
-    "genNote": "魔物素材骨頭 (Rare:6物品)"
+    "genNote": "魔物素材 (Rare:6物品)"
   },
   {
     "id": "DRO_0009",
