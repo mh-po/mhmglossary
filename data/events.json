@@ -20,7 +20,7 @@
     "reward": "巨戟龍素材,變異武裝,身歷百戰之證,老舊護身符,名牌",
     "zenny": "60120",
     "rewardType": "裝備,護符,百證,變異",
-    "remarks": "",
+    "remarks": "活動難度很高，獨有報酬是名牌。要是為了刷素材零件，9星任務比較有勝算。",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -70,7 +70,7 @@
     "reward": "身歷百戰之證,老舊護身符,稱號",
     "zenny": "35640",
     "rewardType": "裝備,飾物,護符,百證",
-    "remarks": "",
+    "remarks": "官方把遊戲中最少被狩獵的魔物「沼噴龍」以★10的強力個體魅力登場。",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -95,7 +95,7 @@
     "reward": "身歷百戰之證,老舊護身符",
     "zenny": "40320",
     "rewardType": "裝備,護符,百證",
-    "remarks": "",
+    "remarks": "這是8星那隻歷戰王的強化版。沒有追加新的防具。",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -120,7 +120,7 @@
     "reward": "身歷百戰之證,老舊護身符",
     "zenny": "40320",
     "rewardType": "裝備,護符,百證",
-    "remarks": "",
+    "remarks": "這是8星那隻歷戰王的強化版。沒有追加新的防具。",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -145,7 +145,7 @@
     "reward": "身歷百戰之證,老舊護身符",
     "zenny": "40320",
     "rewardType": "裝備,護符,百證",
-    "remarks": "",
+    "remarks": "這是9星那隻歷戰王的強化版。沒有追加新的防具。",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -170,7 +170,7 @@
     "reward": "身歷百戰之證,老舊護身符",
     "zenny": "45000",
     "rewardType": "裝備,護符,百證",
-    "remarks": "",
+    "remarks": "這是9星那隻歷戰王的強化版。沒有追加新的防具。",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -745,7 +745,7 @@
     "reward": "吊飾,稱號,寶玉素材",
     "zenny": "58680",
     "rewardType": "裝備,武器,貓裝",
-    "remarks": "",
+    "remarks": "這個任務還較高機率出「海龍的蒼玉」吶。",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -770,7 +770,7 @@
     "reward": "歷戰狩獵之證",
     "zenny": "107280",
     "rewardType": "武器,飾物",
-    "remarks": "",
+    "remarks": "活動生產的武器和奬勵報酬飾品都是設計比賽的優勝作品。此外，任務的報酬和酬金都十分豐厚。",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -795,7 +795,7 @@
     "reward": "重鎧玉",
     "zenny": "47160",
     "rewardType": "鎧玉",
-    "remarks": "",
+    "remarks": "站長的話：要是缺鎧玉一定要打這個任務。",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -1095,7 +1095,7 @@
     "reward": "",
     "zenny": "16920",
     "rewardType": "裝備",
-    "remarks": "",
+    "remarks": "就是那個「忍」藏不了的中二披風⋯",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -1570,7 +1570,7 @@
     "reward": "鷺鷹龍裝飾,姿勢,名牌,背景,稱號等",
     "zenny": "",
     "rewardType": "慶典",
-    "remarks": "",
+    "remarks": "會發光的頭部裝備。",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -1695,7 +1695,7 @@
     "reward": "",
     "zenny": "",
     "rewardType": "",
-    "remarks": "",
+    "remarks": "前置：完成進度到達第7章,完成多個相關前置任務，先完成任務「晦暗不明的隱疾」和「侵蝕道路的不歸者」後對話交貨",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -1720,9 +1720,9 @@
     "reward": "食材,高級自選餐券,經驗值,鎧玉",
     "zenny": "23040",
     "rewardType": "鎧玉,餐券,食材",
-    "remarks": "",
+    "remarks": "這就是被水槍打到快滅絕的餐券龍。",
     "isPermanent": "FALSE",
-    "activePeriods": "2026-09-16T08:00+08:00~2026-11-04T07:59+08:00"
+    "activePeriods": "2026-07-16T08:00+08:00~2026-11-04T07:59+08:00"
   },
   {
     "id": "congalala-cravings",
@@ -1745,7 +1745,7 @@
     "reward": "垂涎蘑菇,盛宴蘑菇",
     "zenny": "13320",
     "rewardType": "食材",
-    "remarks": "",
+    "remarks": "桃毛獸掉落物﹕桃毛獸王松露",
     "isPermanent": "FALSE",
     "activePeriods": "2026-07-19T08:00+08:00~2026-08-26T07:59+08:00"
   },
@@ -1845,7 +1845,7 @@
     "reward": "鬥技王硬幣,重鎧玉,餐券,鬼人藥大,古老秘藥",
     "zenny": "43920",
     "rewardType": "硬幣",
-    "remarks": "",
+    "remarks": "時限﹕A:8分00秒<br>B:20分00秒<br>C:50分00秒",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -1870,7 +1870,7 @@
     "reward": "鬥技王硬幣,重鎧玉,餐券,鬼人藥大,古老秘藥",
     "zenny": "82800",
     "rewardType": "硬幣",
-    "remarks": "",
+    "remarks": "時限﹕A:12分00秒<br>B:20分00秒<br>C:50分00秒",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -1895,7 +1895,7 @@
     "reward": "鬥技王硬幣,堅鎧玉, 自選高級餐券,鬼人藥大,古老秘藥,硬化藥大",
     "zenny": "68040",
     "rewardType": "硬幣",
-    "remarks": "",
+    "remarks": "時限﹕A:14分00秒<br>B:20分00秒<br>C:50分00秒",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -1920,7 +1920,7 @@
     "reward": "鬥技王硬幣,堅鎧玉,東方蜂蜜,阿茲茲快遞餐券,鋼之錬金票",
     "zenny": "20160",
     "rewardType": "硬幣",
-    "remarks": "",
+    "remarks": "時限﹕A:5分30秒<br>B:10分00秒<br>C:50分00秒",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -1942,10 +1942,10 @@
     "weapon": "",
     "palicoArmor": "",
     "pendant": "",
-    "reward": "鬥技王硬幣,堅鎧玉,滋養萃,取液魔物辣椒,希爾德快遞餐券",
+    "reward": "鬥技王硬幣,堅鎧玉,滋養萃取液,魔物辣椒,希爾德快遞餐券",
     "zenny": "21600",
     "rewardType": "硬幣",
-    "remarks": "",
+    "remarks": "時限﹕A:6分00秒<br>B:10分00秒<br>C:50分00秒",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -1970,7 +1970,7 @@
     "reward": "鬥技王硬幣,堅鎧玉,滋養萃取液,寶石烏魚子,蘇加快遞餐券",
     "zenny": "21960",
     "rewardType": "硬幣",
-    "remarks": "",
+    "remarks": "時限﹕A:8分30秒<br>B:12分30秒<br>C:50分00秒",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -1995,7 +1995,7 @@
     "reward": "鬥技王硬幣,堅鎧玉,東方蜂蜜,阿茲茲快遞餐券,鋼之鍊金票",
     "zenny": "19080",
     "rewardType": "硬幣",
-    "remarks": "",
+    "remarks": "時限﹕A:5分00秒<br>B:10分00秒<br>C:50分00秒",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -2020,7 +2020,7 @@
     "reward": "鬥技王硬幣,上鎧玉,野生種子油,自選高級餐券",
     "zenny": "19080",
     "rewardType": "硬幣",
-    "remarks": "",
+    "remarks": "時限﹕A:5分00秒<br>B:10分00秒<br>C:50分00秒",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -2045,7 +2045,7 @@
     "reward": "鬥技王硬幣,上鎧玉,狂野香草,自選高級餐券",
     "zenny": "12240",
     "rewardType": "硬幣",
-    "remarks": "",
+    "remarks": "時限﹕A:3分00秒<br>B:7分00秒<br>C:50分00秒",
     "isPermanent": "TRUE",
     "activePeriods": ""
   },
@@ -2070,7 +2070,7 @@
     "reward": "鬥技王硬幣,上鎧玉,滋養萃取液,自選高級餐券,桃毛獸王松露,狂野香草",
     "zenny": "28440",
     "rewardType": "硬幣",
-    "remarks": "",
+    "remarks": "時限﹕A:5分00秒<br>B:10分00秒<br>C:50分00秒",
     "isPermanent": "TRUE",
     "activePeriods": ""
   }
