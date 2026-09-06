@@ -14881,5 +14881,71 @@
     "generalJa": "絆のはじまり",
     "generalEn": "Newly Forged Bonds",
     "genNote": "第一次以追蹤功能追蹤別人"
+  },
+  {
+    "id": "GLO_0179",
+    "gameVersion": "Ascendance",
+    "dataTyp": "misc",
+    "typeZh": "一般",
+    "typeSub": "地方",
+    "generalZh": "雲居遺跡群",
+    "generalJa": "雲居の遺跡群",
+    "generalEn": "Skybound Eyrie",
+    "genNote": ""
+  },
+  {
+    "id": "GLO_0180",
+    "gameVersion": "Ascendance",
+    "dataTyp": "misc",
+    "typeZh": "一般",
+    "typeSub": "其他",
+    "generalZh": "增威護腕",
+    "generalJa": "ブーストブレイサー",
+    "generalEn": "Boost Bracer",
+    "genNote": ""
+  },
+  {
+    "id": "GLO_0181",
+    "gameVersion": "Ascendance",
+    "dataTyp": "misc",
+    "typeZh": "一般",
+    "typeSub": "地方",
+    "generalZh": "圓居堡",
+    "generalJa": "マドイ",
+    "generalEn": "Madoi Stronghold",
+    "genNote": ""
+  },
+  {
+    "id": "GLO_0182",
+    "gameVersion": "Ascendance",
+    "dataTyp": "misc",
+    "typeZh": "一般",
+    "typeSub": "其他",
+    "generalZh": "增威狀態",
+    "generalJa": "ブースト状態",
+    "generalEn": "Boosted Mode",
+    "genNote": ""
+  },
+  {
+    "id": "GLO_0183",
+    "gameVersion": "Ascendance",
+    "dataTyp": "misc",
+    "typeZh": "一般",
+    "typeSub": "其他",
+    "generalZh": "大師等級",
+    "generalJa": "マスターランク",
+    "generalEn": "Master Rank",
+    "genNote": ""
+  },
+  {
+    "id": "GLO_0184",
+    "gameVersion": "Ascendance",
+    "dataTyp": "misc",
+    "typeZh": "一般",
+    "typeSub": "其他",
+    "generalZh": "增威起始動作",
+    "generalJa": "ブースト発動アクション",
+    "generalEn": "Boost Drivers",
+    "genNote": ""
   }
 ]
