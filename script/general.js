@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 async function loadGeneralData() {
     const container = document.getElementById('cardsContainer');
     try {
-        const response = await fetch('data/general.json');
+        const response = await fetch(`data/general.json?t=${Date.now()}`);
         if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
         
         allGeneralData = await response.json();
