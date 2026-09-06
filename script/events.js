@@ -24,7 +24,7 @@
   // 1. 初始化入口
   document.addEventListener('DOMContentLoaded', async () => {
     try {
-      const res = await fetch(JSON_URL);
+      const res = await fetch(`${JSON_URL}?t=${Date.now()}`);
       if (!res.ok) throw new Error('Network response was not ok');
       rawQuests = await res.json();
 
