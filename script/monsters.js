@@ -25,7 +25,7 @@ const FAV_STORAGE_KEY = 'mh_fav_monsters';
 async function loadData() {
     const container = document.getElementById('cardsContainer');
     try {
-        const res = await fetch('data/monsters.json');
+        const res = await fetch(`data/monsters.json?t=${Date.now()}`);
         if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
 
         rawMonsters = await res.json();
