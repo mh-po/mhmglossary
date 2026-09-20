@@ -387,14 +387,14 @@
     const sContainer = document.getElementById('group-wp-secondary');
     weaponsList.forEach(wp => {
       const pBtn = document.createElement('div');
-      pBtn.className = 'wp-picker-btn' + (wp.id === 'LS' ? ' active-p' : ''); 
+      pBtn.className = 'wp-picker-btn' + (wp.id === 'GS' ? ' active-p' : ''); 
       pBtn.dataset.id = wp.id;
       pBtn.innerHTML = `<img src="img/weapon_icon/${wp.id}.png" alt="${wp.name}"><span>${wp.name}</span>`;
       pBtn.onclick = () => { pBtn.classList.toggle('active-p'); updateProfile(); };
       pContainer.appendChild(pBtn);
 
       const sBtn = document.createElement('div');
-      sBtn.className = 'wp-picker-btn' + (wp.id === 'HH' ? ' active-s' : ''); 
+      sBtn.className = 'wp-picker-btn' + (wp.id === 'GS' ? ' active-s' : ''); 
       sBtn.dataset.id = wp.id;
       sBtn.innerHTML = `<img src="img/weapon_icon/${wp.id}.png" alt="${wp.name}"><span>${wp.name}</span>`;
       sBtn.onclick = () => { sBtn.classList.toggle('active-s'); updateProfile(); };
@@ -402,8 +402,8 @@
     });
 
     // 初始化雙時段 24 小時選擇器
-    const hrsWkSet = new Set([20, 21, 22, 23]);
-    const hrsWeSet = new Set([13, 14, 15, 16, 20, 21, 22, 23]);
+    const hrsWkSet = new Set();
+    const hrsWeSet = new Set();
     
     function initHourPicker(containerId, outId, activeSet, blockPrefix) {
       const picker = document.getElementById(containerId);
