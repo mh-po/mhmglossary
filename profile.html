@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>魔物獵人名片生成器 - 淺色高對比版</title>
+  <!-- 引入 html2canvas -->
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <style>
+    /* ================= 系統排版與變數 ================= */
+    :root {
+      --bg-dark: #121417;
+      --panel-bg: #1c2026;
+      --border-color: #3b4252;
+      
+      /* 名片專用淺色系 (高對比墨水風) */
+      --card-text-main: #2e1c0c;       /* 深棕色主文字 */
+      --card-text-muted: #6b5545;      /* 淺褐灰輔助字 */
+      --card-tag-bg: rgba(255,255,255,0.75);
+      --card-tag-border: rgba(139, 69, 19, 0.2);
+      --gold-accent: #b40909a9;          /* 深金棕強調色 */
+    }
+
+    body {
+      margin: 0; padding: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-dark); color: #eceff4;
+      display: flex; flex-wrap: wrap; gap: 32px; justify-content: center;
+    }
+
+    .editor-panel {
+      width: 440px; background: var(--panel-bg); padding: 20px;
+      border-radius: 8px; display: flex; flex-direction: column; gap: 14px;
+    }
+    
+    .preview-panel { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+
+    /* ================= 表單元件樣式 ================= */
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-row { display: flex; gap: 10px; }
+    .form-row > div { flex: 1; }
+    label { font-size: 13px; color: #9aa5b5; font-weight: bold; }
+    input[type="text"], textarea, select {
+      width: 100%; padding: 8px; background: #2e3440;
+      border: 1px solid var(--border-color); border-radius: 4px; color: #fff; font-size: 14px;
+      box-sizing: border-box;
+    }
+
+    /* 膠囊按鈕 */
+    .btn-group { display: flex; flex-wrap: wrap; gap: 6px; }
+    .btn-pill {
+      background: #2e3440; border: 1px solid var(--border-color);
+      color: #9aa5b5; padding: 4px 10px; font-size: 12px;
+      border-radius: 12px; cursor: pointer; user-select: none; transition: 0.1s;
+    }
+    .btn-pill.active { background: #dca54c; color: #111; font-weight: bold; border-color: #dca54c; }
+
+    /* 武器選擇按鈕 (包含圖片) */
+    .wp-picker-btn {
+      display: flex; align-items: center; gap: 4px;
+      background: #2e3440; border: 1px solid var(--border-color);
+      color: #9aa5b5; padding: 4px 8px; font-size: 11px;
+      border-radius: 6px; cursor: pointer; user-select: none;
+    }
+    .wp-picker-btn img { width: 18px; height: 18px; object-fit: contain; filter: invert(0.8); }
+    .wp-picker-btn.active-p { background: #dca54c; border-color: #dca54c; color: #111; font-weight: bold; }
+    .wp-picker-btn.active-p img { filter: invert(1); }
+    .wp-picker-btn.active-s { background: #5e81ac; border-color: #5e81ac; color: #fff; font-weight: bold; }
+    .wp-picker-btn.active-s img { filter: invert(1); }
+
+    /* ================= 名片本體 (淺色主題) ================= */
+      #card-container {
+      width: 420px; 
+      min-height: 600px;
+      background-color: #f7f3e8; 
+      background-size: cover; 
+      background-position: center;
+      border-radius: 10px; 
+      box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+      position: relative; 
+      overflow: hidden;
+      /* 加入以下兩行，並移除 padding */
+      display: flex; 
+      flex-direction: column;
+    }
+
+    /* 半透明過濾層 (確保背景花俏時文字依然清晰) */
+    .card-inner-overlay {
+      /* 移除原本的絕對定位 (position: absolute) */
+      flex: 1; 
+      width: 100%;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(1px);
+      padding: 24px; 
+      box-sizing: border-box;
+      display: flex; 
+      flex-direction: column; 
+      gap: 10px; /* 如果覺得太長，可以把原本的 12px 縮小到 8px 或 10px */
+      color: var(--card-text-main);
+    }
+
+    /* 頂部資訊區 */
+    .card-title { font-size: 18px; font-weight: 900; color: var(--gold-accent); border-bottom: 2px solid rgba(139, 69, 19, 0.3); padding-bottom: 6px; }
+    .card-header-info { display: flex; justify-content: space-between; align-items: baseline; }
+    .card-hunter-name { font-size: 24px; font-weight: bold; }
+    .card-rank { font-size: 13px; color: var(--gold-accent); font-weight: bold; }
+    
+    /* ID 字體放大並加粗 */
+    .card-id { font-size: 15px; font-weight: bold; color: var(--card-text-main); font-family: monospace; letter-spacing: 1px; }
+
+    /* 通用標籤 (淺色高對比) */
+    .card-badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+    .card-badge {
+      font-size: 11px; padding: 2px 6px; border-radius: 4px; font-weight: bold;
+      background: var(--card-tag-bg); color: var(--card-text-main);
+      border: 1px solid var(--card-tag-border);
+    }
+
+    .card-section-title { font-size: 11px; color: var(--gold-accent); font-weight: bold; margin-bottom: 4px; }
+
+    /* 武器展示區 */
+    .weapon-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+    .weapon-label { font-size: 11px; font-weight: bold; width: 32px; color: var(--card-text-muted); }
+    .weapon-list-view { display: flex; flex-wrap: wrap; gap: 6px; }
+    .wp-icon-box {
+      width: 28px; height: 28px; border-radius: 4px;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--card-tag-bg); border: 1px solid var(--card-tag-border);
+    }
+    .wp-icon-box img { max-width: 22px; max-height: 22px; object-fit: contain; filter: invert(0.8) sepia(1) hue-rotate(340deg) saturate(3) brightness(0.5); }
+    .wp-icon-box.p-style { border-color: #b45309; box-shadow: 0 0 4px rgba(180,83,9,0.3); }
+    .wp-icon-box.s-style { border-color: #1e3a8a; box-shadow: 0 0 4px rgba(30,58,138,0.3); }
+    .wp-icon-box.s-style img { filter: invert(0.8) sepia(1) hue-rotate(200deg) saturate(3) brightness(0.5); }
+
+    /* 雙時段矩陣 (平日 / 週末) */
+    .time-group { margin-bottom: 8px; }
+    .time-group-header { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+    .time-label { font-size: 11px; font-weight: bold; color: var(--card-text-muted); width: 60px; }
+    
+    .days-grid { display: flex; gap: 4px; }
+    .day-dot { 
+      width: 22px; height: 18px; border-radius: 3px; font-size: 10px; 
+      display: flex; align-items: center; justify-content: center; 
+      background: rgba(0,0,0,0.05); border: 1px solid rgba(0,0,0,0.15); color: var(--card-text-muted); 
+    }
+    .day-dot.active { background: var(--gold-accent); color: #fff; font-weight: bold; border-color: var(--gold-accent); }
+
+    .hours-scale { display: flex; justify-content: space-between; font-size: 9px; color: var(--card-text-muted); padding: 0 2px; }
+    .hours-grid { display: flex; gap: 2px; }
+    .hour-block { flex: 1; height: 12px; background: rgba(0,0,0,0.05); border-radius: 2px; }
+    .hour-block.active { background: var(--gold-accent); }
+
+    /* 熟練度 (淺色高對比修復) */
+    .proficiency-box { display: flex; border: 1px solid var(--card-tag-border); border-radius: 4px; overflow: hidden; margin-top: 4px; }
+    .prof-step { flex: 1; text-align: center; font-size: 11px; padding: 4px 0; background: var(--card-tag-bg); color: var(--card-text-muted); }
+    .prof-step.active { background: #3e2723; color: #fff; font-weight: bold; }
+
+    /* 留言 */
+    .card-comment { font-size: 14px; line-height: 1;  font-weight: bold; background: rgba(0,0,0,0.04); border-left: 3px solid var(--gold-accent); padding: 8px; border-radius: 0 4px 4px 0; color: var(--card-text-main); word-break: break-all; }
+
+    #btn-download { padding: 12px 24px; background: #dca54c; color: #111; font-size: 14px; font-weight: bold; border: none; border-radius: 4px; cursor: pointer; margin-top: 10px; }
+    #btn-download:hover { opacity: 0.9; }
+  </style>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="siteicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="shortcut icon" href="siteicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="siteicon/apple-touch-icon.png" />
+</head>
+<body>
+  <div id="nav-placeholder"></div>
+
+     
+  <!-- ================= 左側編輯區 ================= -->
+  <div class="editor-panel">
+    <div class="form-row">獵人名片製作器</div>
+    <div class="form-row">
+      <div style="flex: 2;">
+        <label>背景主題</label>
+        <select id="bg-selector" onchange="updateProfile()">
+          <option value="img/weapon_icon/plate_1.jpg" selected>羊皮卷(plate_1.jpg)</option>
+          <option value="img/weapon_icon/plate_2.jpg">春日櫻花(plate_2.jpg)</option>
+          <option value="img/weapon_icon/plate_3.jpg">蜻蜓流水(plate_3.jpg)</option>
+          <option value="img/weapon_icon/plate_4.jpg">獵蟲春秋(plate_4.jpg)</option>
+          <option value="none">純色淺卡紙(無背景)</option>
+        </select>
+      </div>
+      <div style="flex: 1;">
+        <label>Time Zone 時區</label>
+        <select id="tz-selector" onchange="updateProfile()">
+          <option value="UTC+8" selected>UTC+8 </option>
+          <option value="UTC+9">UTC+9 </option>
+          <option value="UTC+0">UTC+0 </option>
+          <option value="UTC-4">UTC-4 </option>
+          <option value="UTC-7">UTC-7 </option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div><label>獵人名稱</label><input type="text" id="in-name" value="飛鳥" /></div>
+      <div><label>遊戲ID(留空隱藏)</label><input type="text" id="in-id" value="#12345678" /></div>
+    </div>
+    <div class="form-row">
+      <div><label>HR (留空隱藏)</label><input type="text" id="in-hr" value="" /></div>
+      <div><label>MR (留空隱藏)</label><input type="text" id="in-mr" value="" /></div>
+    </div>
+
+    <div class="form-group">
+      <label>平台 & 連線偏好 (多選)</label>
+      <div class="btn-group" id="group-badges">
+        <span class="btn-pill active" data-val="PS5">PS5</span>
+        <span class="btn-pill" data-val="Steam">Steam</span>
+        <span class="btn-pill" data-val="Xbox">Xbox</span>
+        <span class="btn-pill" data-val="Switch 2">Switch 2</span>
+        <span class="btn-pill active" data-val="跨平台: 可">跨平台可</span>
+        <span class="btn-pill" data-val="跨平台: 否">跨平台否</span>
+        <span class="btn-pill active" data-val="語音: 可">語音: 可</span>
+        <span class="btn-pill" data-val="語音: 不可">語音: 不可</span>
+        <span class="btn-pill active" data-val="社區群: 可參加">社區群可</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>語言 (多選)</label>
+      <div class="btn-group" id="group-lang">
+        <span class="btn-pill active" data-val="Mandarin">中Mandarin</span>
+        <span class="btn-pill active" data-val="Cantonese">粵Cantonese</span>
+        <span class="btn-pill" data-val="English">英English</span>
+        <span class="btn-pill" data-val="Japanese">日Japanese</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>(主)</label>
+      <div class="btn-group" id="group-wp-primary"></div>
+    </div>
+    <div class="form-group">
+      <label>(副)</label>
+      <div class="btn-group" id="group-wp-secondary"></div>
+    </div>
+
+    <!-- 平日時間設定 -->
+    <div class="form-group" style="background: rgba(0,0,0,0.2); padding: 8px; border-radius: 6px;">
+      <label style="color:#dca54c;">平日 (一至五) 時段設定</label>
+      <div class="btn-group" id="group-days-wk">
+        <span class="btn-pill active" data-day="0">一</span><span class="btn-pill active" data-day="1">二</span>
+        <span class="btn-pill active" data-day="2">三</span><span class="btn-pill active" data-day="3">四</span><span class="btn-pill active" data-day="4">五</span>
+      </div>
+      <div class="btn-group" id="group-hours-wk" style="max-height: 40px; overflow-y: auto; margin-top:4px;"></div>
+    </div>
+
+    <!-- 週末時間設定 -->
+    <div class="form-group" style="background: rgba(0,0,0,0.2); padding: 8px; border-radius: 6px;">
+      <label style="color:#dca54c;">週末/假日 (六日休) 時段設定</label>
+      <div class="btn-group" id="group-days-we">
+        <span class="btn-pill active" data-day="5">六</span><span class="btn-pill active" data-day="6">日</span><span class="btn-pill" data-day="7">休</span>
+      </div>
+      <div class="btn-group" id="group-hours-we" style="max-height: 40px; overflow-y: auto; margin-top:4px;"></div>
+    </div>
+
+    <div class="form-group">
+      <label>遊玩風格 (多選)</label>
+      <div class="btn-group" id="group-style">
+        <span class="btn-pill active" data-val="一般">一般</span>
+        <span class="btn-pill active" data-val="休閒">休閒</span>
+        <span class="btn-pill" data-val="Farm">Farm</span>
+        <span class="btn-pill" data-val="粉絲">粉絲</span>
+        <span class="btn-pill" data-val="求Carry">求Carry</span>
+        <span class="btn-pill" data-val="時間競速">時間競速</span>
+        <span class="btn-pill" data-val="直播">直播</span>
+        <span class="btn-pill" data-val="間中直播">間中直播</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>熟練度 (單選)</label>
+      <div class="btn-group" id="group-prof">
+        <span class="btn-pill" data-val="新手">新手</span>
+        <span class="btn-pill active" data-val="有經驗">有經驗</span>
+        <span class="btn-pill" data-val="老手">老手</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>FREE COMMENT</label>
+      <textarea id="in-comment" maxlength="80">歡迎加好友！</textarea>
+    </div>
+  </div>
+
+  <!-- ================= 右側名片預覽 ================= -->
+  <div class="preview-panel">
+    <div id="card-container">
+      <div class="card-inner-overlay">
+        <div class="card-title">[MHWILDS] 魔物獵人卡片 </div>
+        <div class="card-header-info">
+          <div class="card-hunter-name" id="out-name">Hunter</div>
+          <div class="card-rank" id="out-rank">HR 999 / MR 999</div>
+        </div>
+        <!-- 放大的 ID -->
+        <div class="card-id" id="out-id">ID: #12345678</div>
+
+        <div class="card-badges" id="out-badges"></div>
+        
+        <div>
+          <div class="card-section-title">Languages</div>
+          <div class="card-badges" id="out-langs"></div>
+        </div>
+
+        <div>
+          <div class="card-section-title">Weapons</div>
+          <div class="weapon-row">
+            <span class="weapon-label">主武:</span>
+            <div class="weapon-list-view" id="out-wp-p"></div>
+          </div>
+          <div class="weapon-row">
+            <span class="weapon-label">其他:</span>
+            <div class="weapon-list-view" id="out-wp-s"></div>
+          </div>
+        </div>
+
+        <!-- 雙時段顯示區 -->
+        <div>
+          <div class="card-section-title" id="out-tz-title">ACTIVE TIME (UTC+8)</div>
+          
+          <!-- 平日組 -->
+          <div class="time-group">
+            <div class="time-group-header">
+              <span class="time-label">平日</span>
+              <div class="days-grid" id="out-days-wk"></div>
+            </div>
+            <div class="hours-scale"><span>0</span><span>3</span><span>6</span><span>9</span><span>12</span><span>15</span><span>18</span><span>21</span><span>24</span></div>
+            <div class="hours-grid" id="out-hours-wk"></div>
+          </div>
+
+          <!-- 週末組 -->
+          <div class="time-group">
+            <div class="time-group-header">
+              <span class="time-label">週末/假日</span>
+              <div class="days-grid" id="out-days-we"></div>
+            </div>
+            <div class="hours-scale"><span>0</span><span>3</span><span>6</span><span>9</span><span>12</span><span>15</span><span>18</span><span>21</span><span>24</span></div>
+            <div class="hours-grid" id="out-hours-we"></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card-section-title">Play Style</div>
+          <div class="card-badges" id="out-styles"></div>
+        </div>
+
+        <div>
+          <div class="card-section-title">Proficiency</div>
+          <div class="proficiency-box" id="out-prof">
+            <div class="prof-step" data-p="新手">新手</div>
+            <div class="prof-step" data-p="有經驗">有經驗</div>
+            <div class="prof-step" data-p="老手">老手</div>
+          </div>
+        </div>
+
+        <div class="card-comment" id="out-comment"></div>
+      </div>
+    </div>
+    <button id="btn-download">下載名片圖片 (PNG)</button>
+  </div>
+
+  <script>
+    // 武器清單
+    const weaponsList = [
+      { id: 'GS', name: '大劍' }, { id: 'LS', name: '太刀' }, { id: 'SnS', name: '單手劍' },
+      { id: 'DB', name: '雙劍' }, { id: 'HM', name: '大錘' }, { id: 'HH', name: '狩獵笛' },
+      { id: 'LN', name: '長槍' }, { id: 'GL', name: '銃槍' }, { id: 'SA', name: '斬斧' },
+      { id: 'CB', name: '充能斧' }, { id: 'IG', name: '操蟲棍' }, { id: 'LBG', name: '輕弩' },
+      { id: 'HBG', name: '重弩' }, { id: 'BOW', name: '弓箭' }
+    ];
+
+    // 初始化武器按鈕
+    const pContainer = document.getElementById('group-wp-primary');
+    const sContainer = document.getElementById('group-wp-secondary');
+    weaponsList.forEach(wp => {
+      const pBtn = document.createElement('div');
+      pBtn.className = 'wp-picker-btn' + (wp.id === 'LS' ? ' active-p' : ''); 
+      pBtn.dataset.id = wp.id;
+      pBtn.innerHTML = `<img src="img/weapon_icon/${wp.id}.png" alt="${wp.name}"><span>${wp.name}</span>`;
+      pBtn.onclick = () => { pBtn.classList.toggle('active-p'); updateProfile(); };
+      pContainer.appendChild(pBtn);
+
+      const sBtn = document.createElement('div');
+      sBtn.className = 'wp-picker-btn' + (wp.id === 'HH' ? ' active-s' : ''); 
+      sBtn.dataset.id = wp.id;
+      sBtn.innerHTML = `<img src="img/weapon_icon/${wp.id}.png" alt="${wp.name}"><span>${wp.name}</span>`;
+      sBtn.onclick = () => { sBtn.classList.toggle('active-s'); updateProfile(); };
+      sContainer.appendChild(sBtn);
+    });
+
+    // 初始化雙時段 24 小時選擇器
+    const hrsWkSet = new Set([20, 21, 22, 23]);
+    const hrsWeSet = new Set([13, 14, 15, 16, 20, 21, 22, 23]);
+    
+    function initHourPicker(containerId, outId, activeSet, blockPrefix) {
+      const picker = document.getElementById(containerId);
+      const out = document.getElementById(outId);
+      for(let i=0; i<24; i++) {
+        const hBtn = document.createElement('span');
+        hBtn.className = 'btn-pill' + (activeSet.has(i) ? ' active' : '');
+        hBtn.textContent = i;
+        hBtn.onclick = () => {
+          activeSet.has(i) ? activeSet.delete(i) : activeSet.add(i);
+          hBtn.classList.toggle('active'); updateProfile();
+        };
+        picker.appendChild(hBtn);
+        
+        const block = document.createElement('div');
+        block.className = 'hour-block';
+        block.id = `${blockPrefix}-${i}`;
+        out.appendChild(block);
+      }
+    }
+    initHourPicker('group-hours-wk', 'out-hours-wk', hrsWkSet, 'hk-wk');
+    initHourPicker('group-hours-we', 'out-hours-we', hrsWeSet, 'hk-we');
+
+    // 綁定通用標籤按鈕
+    function bindPillGroup(containerId, isMultiple) {
+      document.querySelectorAll(`#${containerId} .btn-pill`).forEach(btn => {
+        btn.onclick = () => {
+          if(!isMultiple) { document.querySelectorAll(`#${containerId} .btn-pill`).forEach(b => b.classList.remove('active')); btn.classList.add('active'); } 
+          else { btn.classList.toggle('active'); }
+          updateProfile();
+        };
+      });
+    }
+    bindPillGroup('group-badges', true);
+    bindPillGroup('group-lang', true);
+    bindPillGroup('group-days-wk', true);
+    bindPillGroup('group-days-we', true);
+    bindPillGroup('group-style', true);
+    bindPillGroup('group-prof', false);
+
+    ['in-name', 'in-id', 'in-hr', 'in-mr', 'in-comment'].forEach(id => {
+      document.getElementById(id).addEventListener('input', updateProfile);
+    });
+
+    function updateProfile() {
+      // 1. 背景更新
+      const bgSelect = document.getElementById('bg-selector').value;
+      const card = document.getElementById('card-container');
+      card.style.backgroundImage = bgSelect === 'none' ? 'none' : `url('${bgSelect}')`;
+
+      // 2. 文字欄位
+      document.getElementById('out-name').textContent = document.getElementById('in-name').value || 'HUNTER';
+      const idVal = document.getElementById('in-id').value.trim();
+      document.getElementById('out-id').style.display = idVal ? 'block' : 'none';
+      document.getElementById('out-id').textContent = 'ID: ' + idVal;
+
+      const hr = document.getElementById('in-hr').value.trim();
+      const mr = document.getElementById('in-mr').value.trim();
+      const rankParts = [];
+      if(hr) rankParts.push(`HR ${hr}`);
+      if(mr) rankParts.push(`MR ${mr}`);
+      document.getElementById('out-rank').textContent = rankParts.join(' / ');
+
+      // 3. 通用標籤
+      const renderBadges = (groupId, outId) => {
+        const out = document.getElementById(outId); out.innerHTML = '';
+        document.querySelectorAll(`#${groupId} .active`).forEach(b => {
+          const s = document.createElement('span'); s.className = 'card-badge'; s.textContent = b.dataset.val; out.appendChild(s);
+        });
+      };
+      renderBadges('group-badges', 'out-badges');
+      renderBadges('group-lang', 'out-langs');
+      renderBadges('group-style', 'out-styles');
+
+      // 4. 武器渲染
+      const pOut = document.getElementById('out-wp-p'); pOut.innerHTML = '';
+      document.querySelectorAll('#group-wp-primary .active-p').forEach(btn => {
+        const box = document.createElement('div'); box.className = 'wp-icon-box p-style';
+        box.innerHTML = `<img src="img/weapon_icon/${btn.dataset.id}.png">`; pOut.appendChild(box);
+      });
+      const sOut = document.getElementById('out-wp-s'); sOut.innerHTML = '';
+      document.querySelectorAll('#group-wp-secondary .active-s').forEach(btn => {
+        const box = document.createElement('div'); box.className = 'wp-icon-box s-style';
+        box.innerHTML = `<img src="img/weapon_icon/${btn.dataset.id}.png">`; sOut.appendChild(box);
+      });
+
+      // 5. 雙時區與時段
+      document.getElementById('out-tz-title').textContent = `ACTIVE TIME (${document.getElementById('tz-selector').value})`;
+      
+      const renderDays = (groupId, outId, labels) => {
+        const out = document.getElementById(outId); out.innerHTML = '';
+        document.querySelectorAll(`#${groupId} .btn-pill`).forEach((btn, i) => {
+          const dot = document.createElement('div');
+          dot.className = 'day-dot' + (btn.classList.contains('active') ? ' active' : '');
+          dot.textContent = labels[i]; out.appendChild(dot);
+        });
+      };
+      renderDays('group-days-wk', 'out-days-wk', ["一","二","三","四","五"]);
+      renderDays('group-days-we', 'out-days-we', ["六","日","休"]);
+
+      for(let i=0; i<24; i++) {
+        document.getElementById(`hk-wk-${i}`).className = 'hour-block' + (hrsWkSet.has(i) ? ' active' : '');
+        document.getElementById(`hk-we-${i}`).className = 'hour-block' + (hrsWeSet.has(i) ? ' active' : '');
+      }
+
+      // 6. 熟練度與留言
+      const profVal = document.querySelector('#group-prof .active')?.dataset.val;
+      document.querySelectorAll('#out-prof .prof-step').forEach(step => {
+        step.classList.toggle('active', step.dataset.p === profVal);
+      });
+
+      const commentVal = document.getElementById('in-comment').value.trim();
+      const commentEl = document.getElementById('out-comment');
+      if(commentVal) { commentEl.style.display = 'block'; commentEl.textContent = `“ ${commentVal} ”`; } 
+      else { commentEl.style.display = 'none'; }
+    }
+
+    // 下載圖片
+    document.getElementById('btn-download').addEventListener('click', () => {
+      html2canvas(document.getElementById('card-container'), { scale: 2, useCORS: true, backgroundColor: null })
+      .then(canvas => {
+        const link = document.createElement('a');
+        link.download = `Hunter_${document.getElementById('in-name').value || 'Card'}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      });
+    });
+
+    updateProfile();
+  </script>
+  <script src="script/common.js"></script>
+  
+</body>
+</html>
