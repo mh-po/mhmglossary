@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>魔物獵人名片生成器 - 淺色高對比版</title>
+  <title>魔物獵人名片生成器</title>
   <!-- 引入 html2canvas -->
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
   <style>
@@ -100,7 +100,7 @@
     }
 
     /* 頂部資訊區 */
-    .card-title { font-size: 18px; font-weight: 900; color: var(--gold-accent); border-bottom: 2px solid rgba(139, 69, 19, 0.3); padding-bottom: 6px; }
+    .card-title-profile { font-size: 18px; font-weight: 900; color: var(--gold-accent); border-bottom: 2px solid rgba(139, 69, 19, 0.3); padding-bottom: 6px; }
     .card-header-info { display: flex; justify-content: space-between; align-items: baseline; }
     .card-hunter-name { font-size: 24px; font-weight: bold; }
     .card-rank { font-size: 13px; color: var(--gold-accent); font-weight: bold; }
@@ -168,7 +168,10 @@
 </head>
 <body>
   <div id="nav-placeholder"></div>
-
+<div class="fab-container">
+    <button class="fab" onclick="scrollToTop()" title="去頂">keyboard_arrow_up</button>
+    <button class="fab" onclick="scrollToBottom()" title="去底">keyboard_arrow_down</button>
+  </div>
      
   <!-- ================= 左側編輯區 ================= -->
   <div class="editor-panel">
@@ -291,7 +294,7 @@
   <div class="preview-panel">
     <div id="card-container">
       <div class="card-inner-overlay">
-        <div class="card-title">[MHWILDS] 魔物獵人卡片 </div>
+        <div class="card-title-profile">[MHWILDS] 魔物獵人卡片 </div>
         <div class="card-header-info">
           <div class="card-hunter-name" id="out-name">Hunter</div>
           <div class="card-rank" id="out-rank">HR 999 / MR 999</div>
@@ -526,6 +529,6 @@
     updateProfile();
   </script>
   <script src="script/common.js"></script>
-  
+    
 </body>
 </html>
