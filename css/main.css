@@ -1263,6 +1263,7 @@ hr {
         .portal-card.kinsects .portal-icon { color: #84cc16; }
         .portal-card.huntinghorn .portal-icon { color: #10b981; }
         .portal-card.general .portal-icon { color: #6366f1; }
+        .portal-card.profile .portal-icon { color: #be0808; }
         .portal-card.favorite .portal-icon { color: #f43f5e; font-variation-settings: 'FILL' 1; }
         .portal-card.pouch .portal-icon { color: #40195e; font-variation-settings: 'FILL' 1; }
         .portal-card.crown .portal-icon { color: #ffdc16; font-variation-settings: 'FILL' 1; }
