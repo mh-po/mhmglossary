@@ -522,13 +522,52 @@
     }
 
     // 下載圖片
+    // 下載與手機分享功能
     document.getElementById('btn-download').addEventListener('click', () => {
-      html2canvas(document.getElementById('card-container'), { scale: 2, useCORS: true, backgroundColor: null })
-      .then(canvas => {
-        const link = document.createElement('a');
-        link.download = `Hunter_${document.getElementById('in-name').value || 'Card'}.png`;
-        link.href = canvas.toDataURL('image/png');
-        link.click();
+      const btn = document.getElementById('btn-download');
+      const originalText = btn.textContent;
+      btn.textContent = '圖片生成中...'; // 給玩家一點視覺回饋
+      btn.disabled = true;
+
+      html2canvas(document.getElementById('card-container'), { 
+        scale: 2, 
+        useCORS: true, 
+        backgroundColor: null 
+      }).then(canvas => {
+        btn.textContent = originalText;
+        btn.disabled = false;
+        
+        // 將 Canvas 轉換為 Blob 檔案格式
+        canvas.toBlob((blob) => {
+          const hunterName = document.getElementById('in-name').value.trim() || 'Card';
+          const fileName = `Hunter_${hunterName}.png`;
+          const file = new File([blob], fileName, { type: 'image/png' });
+
+          // 判斷瀏覽器是否支援「原生分享檔案」功能 (通常是手機端)
+          if (navigator.canShare && navigator.canShare({ files: [file] })) {
+            navigator.share({
+              files: [file],
+              title: 'MHWilds Hunter Profile',
+              text: '這是我的魔物獵人名片！'
+            }).then(() => {
+              console.log('分享成功');
+            }).catch((error) => {
+              console.log('分享取消或失敗', error);
+            });
+          } else {
+            // 如果是電腦版，或者不支援原生分享，則使用傳統下載方式
+            const link = document.createElement('a');
+            link.download = fileName;
+            link.href = URL.createObjectURL(blob);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(link.href);
+          }
+        }, 'image/png');
+      }).catch(err => {
+        btn.textContent = '生成失敗';
+        console.error('html2canvas 錯誤:', err);
       });
     });
 
